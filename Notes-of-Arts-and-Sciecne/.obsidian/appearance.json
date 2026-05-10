@@ -18,7 +18,7 @@
   "nativeMenus": false,
   "theme": "obsidian",
   "accentColor": "",
-  "textFontFamily": "Cambria Math,华文楷体",
+  "textFontFamily": "Cascadia Code,华文楷体",
   "baseFontSize": 20,
   "baseFontSizeAction": false
 }
