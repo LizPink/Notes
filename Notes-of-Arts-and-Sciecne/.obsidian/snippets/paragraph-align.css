@@ -1,0 +1,18 @@
+/* 默认：阅读模式正文段落两端对齐 */
+.markdown-preview-view p {
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-character;
+}
+
+/* 文件头标注 left-align 时：正文段落左对齐 */
+.markdown-preview-view.left-align p {
+  text-align: left;
+  text-align-last: left;
+}
+
+/* 文件头标注 right-align 时：正文段落右对齐 */
+.markdown-preview-view.right-align p {
+  text-align: right;
+  text-align-last: right;
+}

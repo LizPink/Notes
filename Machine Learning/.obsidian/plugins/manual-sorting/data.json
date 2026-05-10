@@ -1,0 +1,140 @@
+{
+  "customOrder": {
+    "/": {
+      "children": [
+        "Data Accessing",
+        "Data Modeling",
+        "Data Visualizing",
+        "Data Analysis Languages"
+      ],
+      "sortOrder": "custom"
+    },
+    "Data Accessing": {
+      "children": [
+        "Data Accessing/Data Accessing.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Data Analysis Languages": {
+      "children": [
+        "Data Analysis Languages/Python"
+      ],
+      "sortOrder": "custom"
+    },
+    "Data Analysis Languages/Python": {
+      "children": [
+        "Data Analysis Languages/Python/Numpy",
+        "Data Analysis Languages/Python/Pandas",
+        "Data Analysis Languages/Python/Sklearn",
+        "Data Analysis Languages/Python/Matplotlib"
+      ],
+      "sortOrder": "custom"
+    },
+    "Data Analysis Languages/Python/Matplotlib": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Data Analysis Languages/Python/Numpy": {
+      "children": [
+        "Data Analysis Languages/Python/Numpy/数据类型"
+      ],
+      "sortOrder": "custom"
+    },
+    "Data Analysis Languages/Python/Numpy/数据类型": {
+      "children": [
+        "Data Analysis Languages/Python/Numpy/数据类型/类型定义",
+        "Data Analysis Languages/Python/Numpy/数据类型/类型操作",
+        "Data Analysis Languages/Python/Numpy/数据类型/类型运算"
+      ],
+      "sortOrder": "custom"
+    },
+    "Data Analysis Languages/Python/Numpy/数据类型/类型操作": {
+      "children": [
+        "Data Analysis Languages/Python/Numpy/数据类型/类型操作/类型操作.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Data Analysis Languages/Python/Numpy/数据类型/类型定义": {
+      "children": [
+        "Data Analysis Languages/Python/Numpy/数据类型/类型定义/类型定义.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Data Analysis Languages/Python/Numpy/数据类型/类型运算": {
+      "children": [
+        "Data Analysis Languages/Python/Numpy/数据类型/类型运算/类型运算.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Data Analysis Languages/Python/Pandas": {
+      "children": [
+        "Data Analysis Languages/Python/Pandas/数据类型"
+      ],
+      "sortOrder": "custom"
+    },
+    "Data Analysis Languages/Python/Pandas/数据类型": {
+      "children": [
+        "Data Analysis Languages/Python/Pandas/数据类型/_TOC_.md",
+        "Data Analysis Languages/Python/Pandas/数据类型/类型定义",
+        "Data Analysis Languages/Python/Pandas/数据类型/类型操作",
+        "Data Analysis Languages/Python/Pandas/数据类型/类型运算"
+      ],
+      "sortOrder": "custom"
+    },
+    "Data Analysis Languages/Python/Pandas/数据类型/类型操作": {
+      "children": [
+        "Data Analysis Languages/Python/Pandas/数据类型/类型操作/类型操作.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Data Analysis Languages/Python/Pandas/数据类型/类型定义": {
+      "children": [
+        "Data Analysis Languages/Python/Pandas/数据类型/类型定义/类型定义.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Data Analysis Languages/Python/Pandas/数据类型/类型运算": {
+      "children": [
+        "Data Analysis Languages/Python/Pandas/数据类型/类型运算/类型运算.md",
+        "Data Analysis Languages/Python/Pandas/数据类型/类型运算/类型运算-典例.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Data Analysis Languages/Python/Sklearn": {
+      "children": [
+        "Data Analysis Languages/Python/Sklearn/数据准备",
+        "Data Analysis Languages/Python/Sklearn/数据建模",
+        "Data Analysis Languages/Python/Sklearn/数据评估",
+        "Data Analysis Languages/Python/Sklearn/数据工程"
+      ],
+      "sortOrder": "custom"
+    },
+    "Data Analysis Languages/Python/Sklearn/数据工程": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Data Analysis Languages/Python/Sklearn/数据建模": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Data Analysis Languages/Python/Sklearn/数据评估": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Data Analysis Languages/Python/Sklearn/数据准备": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Data Modeling": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Data Visualizing": {
+      "children": [],
+      "sortOrder": "custom"
+    }
+  },
+  "sortOrder": "custom",
+  "debugMode": false,
+  "newItemPlacement": "top"
+}

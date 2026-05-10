@@ -1,0 +1,456 @@
+{
+  "customOrder": {
+    "/": {
+      "children": [
+        "计算机科学",
+        "数学哲学",
+        "程序语言",
+        "数据科学",
+        "语言哲学",
+        "游戏科学"
+      ],
+      "sortOrder": "custom"
+    },
+    "程序语言": {
+      "children": [
+        "程序语言/C++",
+        "程序语言/Python"
+      ],
+      "sortOrder": "custom"
+    },
+    "程序语言/C++": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "程序语言/Python": {
+      "children": [
+        "程序语言/Python/基本类型",
+        "程序语言/Python/文件管理"
+      ],
+      "sortOrder": "custom"
+    },
+    "程序语言/Python/基本类型": {
+      "children": [
+        "程序语言/Python/基本类型/迭代类型"
+      ],
+      "sortOrder": "custom"
+    },
+    "程序语言/Python/基本类型/迭代类型": {
+      "children": [
+        "程序语言/Python/基本类型/迭代类型/迭代类型.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "程序语言/Python/文件管理": {
+      "children": [
+        "程序语言/Python/文件管理/OS"
+      ],
+      "sortOrder": "custom"
+    },
+    "程序语言/Python/文件管理/OS": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "计算机科学": {
+      "children": [
+        "计算机科学/计算机理论",
+        "计算机科学/计算机工程",
+        "计算机科学/计算机历史"
+      ],
+      "sortOrder": "custom"
+    },
+    "计算机科学/计算机工程": {
+      "children": [
+        "计算机科学/计算机工程/计算机系统"
+      ],
+      "sortOrder": "custom"
+    },
+    "计算机科学/计算机工程/计算机系统": {
+      "children": [
+        "计算机科学/计算机工程/计算机系统/软件系统"
+      ],
+      "sortOrder": "custom"
+    },
+    "计算机科学/计算机工程/计算机系统/软件系统": {
+      "children": [
+        "计算机科学/计算机工程/计算机系统/软件系统/软件系统.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "计算机科学/计算机理论": {
+      "children": [
+        "计算机科学/计算机理论/计算机系统",
+        "计算机科学/计算机理论/计算机网络"
+      ],
+      "sortOrder": "custom"
+    },
+    "计算机科学/计算机理论/计算机网络": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "计算机科学/计算机理论/计算机系统": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "计算机科学/计算机历史": {
+      "children": [
+        "计算机科学/计算机历史/计算机形态"
+      ],
+      "sortOrder": "custom"
+    },
+    "计算机科学/计算机历史/计算机形态": {
+      "children": [
+        "计算机科学/计算机历史/计算机形态/机械计算机",
+        "计算机科学/计算机历史/计算机形态/电子计算机"
+      ],
+      "sortOrder": "custom"
+    },
+    "计算机科学/计算机历史/计算机形态/电子计算机": {
+      "children": [
+        "计算机科学/计算机历史/计算机形态/电子计算机/电子计算机.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "计算机科学/计算机历史/计算机形态/机械计算机": {
+      "children": [
+        "计算机科学/计算机历史/计算机形态/机械计算机/机械计算机.md",
+        "计算机科学/计算机历史/计算机形态/机械计算机/CURTA 1.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学": {
+      "children": [
+        "数据科学/数据科学-工程",
+        "数据科学/数据科学-理论"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程": {
+      "children": [
+        "数据科学/数据科学-工程/Data Accessing",
+        "数据科学/数据科学-工程/Data Modeling",
+        "数据科学/数据科学-工程/Data Visualizing",
+        "数据科学/数据科学-工程/Data Analysis Languages"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Accessing": {
+      "children": [
+        "数据科学/数据科学-工程/Data Accessing/Data Accessing.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Analysis Languages": {
+      "children": [
+        "数据科学/数据科学-工程/Data Analysis Languages/Python"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Analysis Languages/Python": {
+      "children": [
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy",
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas",
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn",
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Skimage",
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Matplotlib"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Analysis Languages/Python/Matplotlib": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy": {
+      "children": [
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型": {
+      "children": [
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型/类型运算",
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型/类型定义",
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型/类型操作"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型/类型操作": {
+      "children": [
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型/类型操作/类型操作.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型/类型定义": {
+      "children": [
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型/类型定义/类型定义.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型/类型运算": {
+      "children": [
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型/类型运算/类型运算.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas": {
+      "children": [
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型": {
+      "children": [
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/类型运算",
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/类型操作",
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/类型定义",
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/_TOC_.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/类型操作": {
+      "children": [
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/类型操作/类型操作.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/类型定义": {
+      "children": [
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/类型定义/类型定义.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/类型运算": {
+      "children": [
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/类型运算/类型运算.md",
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/类型运算/类型运算-典例.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Analysis Languages/Python/Skimage": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn": {
+      "children": [
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn/数据工程",
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn/数据建模",
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn/数据评估",
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn/数据准备"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn/数据工程": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn/数据建模": {
+      "children": [
+        "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn/数据建模/数据建模.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn/数据评估": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn/数据准备": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Modeling": {
+      "children": [
+        "数据科学/数据科学-工程/Data Modeling/机器学习"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Modeling/机器学习": {
+      "children": [
+        "数据科学/数据科学-工程/Data Modeling/机器学习/降维模型",
+        "数据科学/数据科学-工程/Data Modeling/机器学习/聚类模型",
+        "数据科学/数据科学-工程/Data Modeling/机器学习/分类模型",
+        "数据科学/数据科学-工程/Data Modeling/机器学习/回归模型"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Modeling/机器学习/分类模型": {
+      "children": [
+        "数据科学/数据科学-工程/Data Modeling/机器学习/分类模型/KNN-Classifier"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Modeling/机器学习/分类模型/KNN-Classifier": {
+      "children": [
+        "数据科学/数据科学-工程/Data Modeling/机器学习/分类模型/KNN-Classifier/算法介绍.md",
+        "数据科学/数据科学-工程/Data Modeling/机器学习/分类模型/KNN-Classifier/KNN-FrameWork.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Modeling/机器学习/回归模型": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Modeling/机器学习/降维模型": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Modeling/机器学习/聚类模型": {
+      "children": [
+        "数据科学/数据科学-工程/Data Modeling/机器学习/聚类模型/K-Means-Clustering"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Modeling/机器学习/聚类模型/K-Means-Clustering": {
+      "children": [
+        "数据科学/数据科学-工程/Data Modeling/机器学习/聚类模型/K-Means-Clustering/算法介绍.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-工程/Data Visualizing": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-理论": {
+      "children": [
+        "数据科学/数据科学-理论/统计科学"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据科学-理论/统计科学": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "数学哲学": {
+      "children": [
+        "数学哲学/逻辑",
+        "数学哲学/集合",
+        "数学哲学/几何",
+        "数学哲学/代数",
+        "数学哲学/分析"
+      ],
+      "sortOrder": "custom"
+    },
+    "数学哲学/代数": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "数学哲学/分析": {
+      "children": [
+        "数学哲学/分析/实分析"
+      ],
+      "sortOrder": "custom"
+    },
+    "数学哲学/分析/实分析": {
+      "children": [
+        "数学哲学/分析/实分析/概率论"
+      ],
+      "sortOrder": "custom"
+    },
+    "数学哲学/分析/实分析/概率论": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "数学哲学/集合": {
+      "children": [
+        "数学哲学/集合/集合理论",
+        "数学哲学/集合/数论"
+      ],
+      "sortOrder": "custom"
+    },
+    "数学哲学/集合/集合理论": {
+      "children": [
+        "数学哲学/集合/集合理论/集合的基数"
+      ],
+      "sortOrder": "custom"
+    },
+    "数学哲学/集合/集合理论/集合的基数": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "数学哲学/集合/数论": {
+      "children": [
+        "数学哲学/集合/数论/算术理论"
+      ],
+      "sortOrder": "custom"
+    },
+    "数学哲学/集合/数论/算术理论": {
+      "children": [
+        "数学哲学/集合/数论/算术理论/计数原理"
+      ],
+      "sortOrder": "custom"
+    },
+    "数学哲学/集合/数论/算术理论/计数原理": {
+      "children": [
+        "数学哲学/集合/数论/算术理论/计数原理/计数原理.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数学哲学/几何": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "数学哲学/逻辑": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "游戏科学": {
+      "children": [
+        "游戏科学/文明系列"
+      ],
+      "sortOrder": "custom"
+    },
+    "游戏科学/文明系列": {
+      "children": [
+        "游戏科学/文明系列/文明VI"
+      ],
+      "sortOrder": "custom"
+    },
+    "游戏科学/文明系列/文明VI": {
+      "children": [
+        "游戏科学/文明系列/文明VI/市政系统",
+        "游戏科学/文明系列/文明VI/建筑系统",
+        "游戏科学/文明系列/文明VI/资源系统"
+      ],
+      "sortOrder": "custom"
+    },
+    "游戏科学/文明系列/文明VI/建筑系统": {
+      "children": [
+        "游戏科学/文明系列/文明VI/建筑系统/建筑系统.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "游戏科学/文明系列/文明VI/市政系统": {
+      "children": [
+        "游戏科学/文明系列/文明VI/市政系统/宜居度"
+      ],
+      "sortOrder": "custom"
+    },
+    "游戏科学/文明系列/文明VI/市政系统/宜居度": {
+      "children": [
+        "游戏科学/文明系列/文明VI/市政系统/宜居度/宜居度.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "游戏科学/文明系列/文明VI/资源系统": {
+      "children": [
+        "游戏科学/文明系列/文明VI/资源系统/资源系统.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学": {
+      "children": [
+        "语言哲学/英语"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/英语": {
+      "children": [
+        "语言哲学/英语/GRE Arugument Template.md",
+        "语言哲学/英语/Example.md"
+      ],
+      "sortOrder": "custom"
+    }
+  },
+  "sortOrder": "custom",
+  "debugMode": false,
+  "newItemPlacement": "top"
+}

@@ -1,0 +1,8 @@
+{
+  "promptDelete": false,
+  "newLinkFormat": "shortest",
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./",
+  "focusNewTab": true,
+  "alwaysUpdateLinks": true
+}

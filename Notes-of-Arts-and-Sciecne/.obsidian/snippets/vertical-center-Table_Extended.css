@@ -1,0 +1,46 @@
+/* @settings
+
+name: Table Extended Alignment
+id: table-extended-merged-cell-align
+settings:
+  -
+    id: tx-merged-text-align
+    title: 合并单元格：水平对齐
+    type: variable-select
+    default: center
+    options:
+      -
+        label: 左对齐
+        value: left
+      -
+        label: 居中
+        value: center
+      -
+        label: 右对齐
+        value: right
+  -
+    id: tx-merged-vertical-align
+    title: 合并单元格：垂直对齐
+    type: variable-select
+    default: middle
+    options:
+      -
+        label: 顶部对齐
+        value: top
+      -
+        label: 垂直居中
+        value: middle
+      -
+        label: 底部对齐
+        value: bottom
+
+*/
+
+/* Table Extended / HTML 表格：只控制合并后的单元格 */
+.markdown-rendered table td[colspan],
+.markdown-rendered table th[colspan],
+.markdown-rendered table td[rowspan],
+.markdown-rendered table th[rowspan] {
+  text-align: var(--tx-merged-text-align) !important;
+  vertical-align: var(--tx-merged-vertical-align) !important;
+}

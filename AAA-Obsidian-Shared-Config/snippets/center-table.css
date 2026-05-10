@@ -1,0 +1,9 @@
+/* Obsidian：让 Markdown 表格整体居中 */
+
+/* Reading view */
+.markdown-rendered table {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: auto !important;
+  max-width: 100% !important;
+}
