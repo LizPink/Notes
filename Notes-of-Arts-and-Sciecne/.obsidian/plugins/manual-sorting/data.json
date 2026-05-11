@@ -4,8 +4,8 @@
       "children": [
         "计算机科学",
         "数学哲学",
-        "程序语言",
         "数据科学",
+        "程序语言",
         "语言哲学",
         "游戏科学"
       ],
@@ -73,6 +73,7 @@
     },
     "计算机科学/计算机工程/计算机系统/软件系统": {
       "children": [
+        "计算机科学/计算机工程/计算机系统/软件系统/汇编.md",
         "计算机科学/计算机工程/计算机系统/软件系统/软件系统.md"
       ],
       "sortOrder": "custom"
@@ -120,202 +121,214 @@
     },
     "数据科学": {
       "children": [
-        "数据科学/数据科学-工程",
-        "数据科学/数据科学-理论"
+        "数据科学/Data Accessing",
+        "数据科学/Data Modeling",
+        "数据科学/Data Visualizing",
+        "数据科学/Data Analysis Languages"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/数据科学-工程": {
+    "数据科学/Data Accessing": {
       "children": [
-        "数据科学/数据科学-工程/Data Accessing",
-        "数据科学/数据科学-工程/Data Modeling",
-        "数据科学/数据科学-工程/Data Visualizing",
-        "数据科学/数据科学-工程/Data Analysis Languages"
+        "数据科学/Data Accessing/Data Accessing.md"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/数据科学-工程/Data Accessing": {
+    "数据科学/Data Analysis Languages": {
       "children": [
-        "数据科学/数据科学-工程/Data Accessing/Data Accessing.md"
+        "数据科学/Data Analysis Languages/Python"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/数据科学-工程/Data Analysis Languages": {
+    "数据科学/Data Analysis Languages/Python": {
       "children": [
-        "数据科学/数据科学-工程/Data Analysis Languages/Python"
+        "数据科学/Data Analysis Languages/Python/Numpy",
+        "数据科学/Data Analysis Languages/Python/Pandas",
+        "数据科学/Data Analysis Languages/Python/Scienpy",
+        "数据科学/Data Analysis Languages/Python/Sklearn",
+        "数据科学/Data Analysis Languages/Python/Skimage",
+        "数据科学/Data Analysis Languages/Python/Seaborn",
+        "数据科学/Data Analysis Languages/Python/Matplotlib"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/数据科学-工程/Data Analysis Languages/Python": {
+    "数据科学/Data Analysis Languages/Python/Matplotlib": {
       "children": [
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy",
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas",
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn",
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Skimage",
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Matplotlib"
+        "数据科学/Data Analysis Languages/Python/Matplotlib/数据类型",
+        "数据科学/Data Analysis Languages/Python/Matplotlib/类型操作"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/数据科学-工程/Data Analysis Languages/Python/Matplotlib": {
+    "数据科学/Data Analysis Languages/Python/Matplotlib/类型操作": {
+      "children": [
+        "数据科学/Data Analysis Languages/Python/Matplotlib/类型操作/类型操作.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/Data Analysis Languages/Python/Matplotlib/数据类型": {
+      "children": [
+        "数据科学/Data Analysis Languages/Python/Matplotlib/数据类型/类型定义"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/Data Analysis Languages/Python/Matplotlib/数据类型/类型定义": {
+      "children": [
+        "数据科学/Data Analysis Languages/Python/Matplotlib/数据类型/类型定义/类型定义.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/Data Analysis Languages/Python/Numpy": {
+      "children": [
+        "数据科学/Data Analysis Languages/Python/Numpy/数据类型"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/Data Analysis Languages/Python/Numpy/数据类型": {
+      "children": [
+        "数据科学/Data Analysis Languages/Python/Numpy/数据类型/类型运算",
+        "数据科学/Data Analysis Languages/Python/Numpy/数据类型/类型定义",
+        "数据科学/Data Analysis Languages/Python/Numpy/数据类型/类型操作"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/Data Analysis Languages/Python/Numpy/数据类型/类型操作": {
+      "children": [
+        "数据科学/Data Analysis Languages/Python/Numpy/数据类型/类型操作/类型操作.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/Data Analysis Languages/Python/Numpy/数据类型/类型定义": {
+      "children": [
+        "数据科学/Data Analysis Languages/Python/Numpy/数据类型/类型定义/类型定义.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/Data Analysis Languages/Python/Numpy/数据类型/类型运算": {
+      "children": [
+        "数据科学/Data Analysis Languages/Python/Numpy/数据类型/类型运算/类型运算.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/Data Analysis Languages/Python/Pandas": {
+      "children": [
+        "数据科学/Data Analysis Languages/Python/Pandas/数据类型"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/Data Analysis Languages/Python/Pandas/数据类型": {
+      "children": [
+        "数据科学/Data Analysis Languages/Python/Pandas/数据类型/类型定义",
+        "数据科学/Data Analysis Languages/Python/Pandas/数据类型/类型操作",
+        "数据科学/Data Analysis Languages/Python/Pandas/数据类型/类型运算",
+        "数据科学/Data Analysis Languages/Python/Pandas/数据类型/_TOC_.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/Data Analysis Languages/Python/Pandas/数据类型/类型操作": {
+      "children": [
+        "数据科学/Data Analysis Languages/Python/Pandas/数据类型/类型操作/类型操作.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/Data Analysis Languages/Python/Pandas/数据类型/类型定义": {
+      "children": [
+        "数据科学/Data Analysis Languages/Python/Pandas/数据类型/类型定义/类型定义.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/Data Analysis Languages/Python/Pandas/数据类型/类型运算": {
+      "children": [
+        "数据科学/Data Analysis Languages/Python/Pandas/数据类型/类型运算/类型运算.md",
+        "数据科学/Data Analysis Languages/Python/Pandas/数据类型/类型运算/类型运算-典例.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/Data Analysis Languages/Python/Scienpy": {
       "children": [],
       "sortOrder": "custom"
     },
-    "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy": {
-      "children": [
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型": {
-      "children": [
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型/类型运算",
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型/类型定义",
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型/类型操作"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型/类型操作": {
-      "children": [
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型/类型操作/类型操作.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型/类型定义": {
-      "children": [
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型/类型定义/类型定义.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型/类型运算": {
-      "children": [
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Numpy/数据类型/类型运算/类型运算.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas": {
-      "children": [
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型": {
-      "children": [
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/类型运算",
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/类型操作",
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/类型定义",
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/_TOC_.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/类型操作": {
-      "children": [
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/类型操作/类型操作.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/类型定义": {
-      "children": [
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/类型定义/类型定义.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/类型运算": {
-      "children": [
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/类型运算/类型运算.md",
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Pandas/数据类型/类型运算/类型运算-典例.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据科学-工程/Data Analysis Languages/Python/Skimage": {
+    "数据科学/Data Analysis Languages/Python/Seaborn": {
       "children": [],
       "sortOrder": "custom"
     },
-    "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn": {
-      "children": [
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn/数据工程",
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn/数据建模",
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn/数据评估",
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn/数据准备"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn/数据工程": {
+    "数据科学/Data Analysis Languages/Python/Skimage": {
       "children": [],
       "sortOrder": "custom"
     },
-    "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn/数据建模": {
+    "数据科学/Data Analysis Languages/Python/Sklearn": {
       "children": [
-        "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn/数据建模/数据建模.md"
+        "数据科学/Data Analysis Languages/Python/Sklearn/数据准备",
+        "数据科学/Data Analysis Languages/Python/Sklearn/数据建模",
+        "数据科学/Data Analysis Languages/Python/Sklearn/数据评估",
+        "数据科学/Data Analysis Languages/Python/Sklearn/数据工程"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn/数据评估": {
+    "数据科学/Data Analysis Languages/Python/Sklearn/数据工程": {
+      "children": [
+        "数据科学/Data Analysis Languages/Python/Sklearn/数据工程/数据工程.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/Data Analysis Languages/Python/Sklearn/数据建模": {
+      "children": [
+        "数据科学/Data Analysis Languages/Python/Sklearn/数据建模/数据建模.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/Data Analysis Languages/Python/Sklearn/数据评估": {
       "children": [],
       "sortOrder": "custom"
     },
-    "数据科学/数据科学-工程/Data Analysis Languages/Python/Sklearn/数据准备": {
+    "数据科学/Data Analysis Languages/Python/Sklearn/数据准备": {
+      "children": [
+        "数据科学/Data Analysis Languages/Python/Sklearn/数据准备/数据准备.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/Data Modeling": {
+      "children": [
+        "数据科学/Data Modeling/降维模型",
+        "数据科学/Data Modeling/聚类模型",
+        "数据科学/Data Modeling/分类模型",
+        "数据科学/Data Modeling/回归模型"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/Data Modeling/分类模型": {
+      "children": [
+        "数据科学/Data Modeling/分类模型/KNN-Classifier"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/Data Modeling/分类模型/KNN-Classifier": {
+      "children": [
+        "数据科学/Data Modeling/分类模型/KNN-Classifier/算法介绍.md",
+        "数据科学/Data Modeling/分类模型/KNN-Classifier/KNN-FrameWork.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/Data Modeling/回归模型": {
       "children": [],
       "sortOrder": "custom"
     },
-    "数据科学/数据科学-工程/Data Modeling": {
-      "children": [
-        "数据科学/数据科学-工程/Data Modeling/机器学习"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据科学-工程/Data Modeling/机器学习": {
-      "children": [
-        "数据科学/数据科学-工程/Data Modeling/机器学习/降维模型",
-        "数据科学/数据科学-工程/Data Modeling/机器学习/聚类模型",
-        "数据科学/数据科学-工程/Data Modeling/机器学习/分类模型",
-        "数据科学/数据科学-工程/Data Modeling/机器学习/回归模型"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据科学-工程/Data Modeling/机器学习/分类模型": {
-      "children": [
-        "数据科学/数据科学-工程/Data Modeling/机器学习/分类模型/KNN-Classifier"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据科学-工程/Data Modeling/机器学习/分类模型/KNN-Classifier": {
-      "children": [
-        "数据科学/数据科学-工程/Data Modeling/机器学习/分类模型/KNN-Classifier/算法介绍.md",
-        "数据科学/数据科学-工程/Data Modeling/机器学习/分类模型/KNN-Classifier/KNN-FrameWork.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据科学-工程/Data Modeling/机器学习/回归模型": {
+    "数据科学/Data Modeling/降维模型": {
       "children": [],
       "sortOrder": "custom"
     },
-    "数据科学/数据科学-工程/Data Modeling/机器学习/降维模型": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据科学-工程/Data Modeling/机器学习/聚类模型": {
+    "数据科学/Data Modeling/聚类模型": {
       "children": [
-        "数据科学/数据科学-工程/Data Modeling/机器学习/聚类模型/K-Means-Clustering"
+        "数据科学/Data Modeling/聚类模型/K-Means-Clustering"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/数据科学-工程/Data Modeling/机器学习/聚类模型/K-Means-Clustering": {
+    "数据科学/Data Modeling/聚类模型/K-Means-Clustering": {
       "children": [
-        "数据科学/数据科学-工程/Data Modeling/机器学习/聚类模型/K-Means-Clustering/算法介绍.md"
+        "数据科学/Data Modeling/聚类模型/K-Means-Clustering/算法介绍.md"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/数据科学-工程/Data Visualizing": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据科学-理论": {
-      "children": [
-        "数据科学/数据科学-理论/统计科学"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据科学-理论/统计科学": {
+    "数据科学/Data Visualizing": {
       "children": [],
       "sortOrder": "custom"
     },
