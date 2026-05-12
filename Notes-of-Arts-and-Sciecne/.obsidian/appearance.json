@@ -13,7 +13,8 @@
     "strong-highlight-Anu",
     "code-highlight-Anu",
     "picture-centering",
-    "paragraph-align"
+    "paragraph-align",
+    "inline-code"
   ],
   "nativeMenus": false,
   "theme": "obsidian",

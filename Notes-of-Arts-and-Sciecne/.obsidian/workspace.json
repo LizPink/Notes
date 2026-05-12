@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据工程/数据工程.md",
+                "file": "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据准备/数据准备.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "数据工程"
+              "title": "数据准备"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据准备/数据准备.md",
+                "file": "程序语言/C+/面向过程/基础设施/基础设施.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "数据准备"
+              "title": "基础设施"
             }
           }
         ],
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据准备/数据准备.md",
+                "file": "程序语言/C+/面向过程/基础设施/基础设施.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "数据准备 的大纲"
+              "title": "基础设施 的大纲"
             }
           }
         ]
@@ -265,26 +265,29 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "356fed687db4ec70",
+  "active": "6a9eccbff0870d56",
   "lastOpenFiles": [
-    "计算科学/信息理论",
+    "程序语言/C+/Modern C+/Modern C+.md",
+    "程序语言/C+/面向过程/基础设施/基础设施.md",
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据准备/数据准备.md",
+    "程序语言/Python/基础语法/基础类型",
+    "程序语言/C+/面向过程/基础设施",
+    "程序语言/C+/面向过程/基础语法/基础类型",
+    "程序语言/C+/面向过程/基础语法",
+    "程序语言/C+/面向模板",
+    "程序语言/C+/面向对象",
+    "程序语言/C+/面向过程",
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/数据建模.md",
+    "程序语言/C+/Modern C+",
+    "计算科学/计算机理论/数据与算法",
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/线性模型",
+    "数据科学/数据工程/Data Modeling/分类模型/KNN-Classifier/算法介绍.md",
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据工程/数据工程.md",
     "数学哲学/分析/实分析/概率论/概率分布/连续型分布/连续型分布.md",
-    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据准备/数据准备.md",
     "数据科学/数据理论/统计科学/统计模型/方差分析/方差分析.md",
     "数据科学/数据理论/统计科学/统计描述/统计描述.md",
-    "数据科学/数据理论/统计科学/统计模型/回归分析",
-    "数据科学/数据理论/统计科学/统计模型/方差分析",
     "数据科学/数据理论/统计科学/统计描述/统计分布.md",
-    "数学哲学/分析/实分析/概率论/概率分布/基本概念",
     "数学哲学/分析/实分析/概率论/概率分布/连续型分布/伽马分布/伽马分布.md",
-    "数学哲学/分析/实分析/概率论/概率分布/连续型分布/伽马分布",
-    "数学哲学/分析/实分析/概率论/概率分布/连续型分布",
-    "数学哲学/分析/实分析/概率论/概率分布/离散型分布",
-    "数学哲学/分析/实分析/概率论/概率过程",
-    "数学哲学/分析/实分析/概率论/概率映射",
-    "数学哲学/分析/实分析/概率论/概率分布",
-    "数学哲学/分析/实分析/概率论/概率空间",
     "数据科学/统计科学/统计描述/统计分布.md",
     "数据科学/数据工程/Data Analysis Languages/Python/Pandas/数据类型/类型定义/类型定义.md",
     "数据科学/数据工程/Data Analysis Languages/Python/Matplotlib/数据类型/类型定义/类型定义.md",
@@ -300,10 +303,7 @@
     "游戏科学/文明系列/文明VI/资源系统/资源系统.md",
     "语言哲学/英语/Example.md",
     "数据科学/数据工程/Data Analysis Languages/Python/Pandas/数据类型/类型运算/类型运算.md",
-    "数据科学/数据工程/Data Modeling/分类模型/KNN-Classifier/算法介绍.md",
     "数据科学/数据工程/Data Modeling/分类模型/KNN-Classifier/KNN-FrameWork.png",
-    "计算科学/计算机历史/计算机形态/机械计算机/机械计算机.md",
-    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/数据建模.md",
     "计算科学/计算机历史/计算机形态/机械计算机/CURTA 1.png"
   ]
 }
