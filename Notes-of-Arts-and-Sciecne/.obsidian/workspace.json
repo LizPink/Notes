@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "基础设施"
             }
+          },
+          {
+            "id": "d11594e7794c4c5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "程序语言/C+/面向过程/基础类型/算术类型/整数/整数类型/整数类型.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "整数类型"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -68,6 +92,7 @@
       {
         "id": "f1d4a39c8e9d75ac",
         "type": "tabs",
+        "dimension": 51.536885245901644,
         "children": [
           {
             "id": "356fed687db4ec70",
@@ -114,6 +139,7 @@
       {
         "id": "15743879bc1e83fc",
         "type": "tabs",
+        "dimension": 48.46311475409836,
         "children": [
           {
             "id": "754cb4eb10e87173",
@@ -121,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "程序语言/C+/面向过程/基础设施/基础设施.md",
+                "file": "程序语言/C+/面向过程/基础类型/算术类型/整数/整数类型/整数类型.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "基础设施 的大纲"
+              "title": "整数类型 的大纲"
             }
           }
         ]
@@ -265,22 +291,36 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "6a9eccbff0870d56",
+  "active": "d11594e7794c4c5d",
   "lastOpenFiles": [
-    "程序语言/C+/Modern C+/Modern C+.md",
     "程序语言/C+/面向过程/基础设施/基础设施.md",
+    "程序语言/C+/面向过程/基础类型/算术类型/整数/整数类型/整数类型.md",
+    "程序语言/C+/面向过程/基础类型/指针类型/指针类型",
+    "程序语言/C+/面向过程/基础类型/指针类型/引用类型",
+    "程序语言/C+/面向过程/基础类型/算术类型/整数/整数类型",
+    "程序语言/C+/面向过程/基础类型/算术类型/整数/布尔类型",
+    "程序语言/C+/面向过程/基础类型/算术类型/整数/字符类型",
+    "程序语言/C+/面向过程/基础类型/算术类型/分数",
+    "程序语言/Python/面向模板",
+    "程序语言/Python/面向对象",
+    "程序语言/Python/面向过程",
+    "程序语言/C+/面向过程/基础语法/语句",
+    "程序语言/C+/面向过程/基础设施/Excalidraw/Draw-编译流程.png",
+    "程序语言/C+/面向过程/基础设施/Excalidraw/Draw-编译流程.md",
+    "程序语言/C+/面向过程/基础设施/Pasted image 20260512221430.png",
+    "程序语言/C+/面向过程/基础设施/Pasted image 20260512215228.png",
+    "程序语言/C+/面向过程/基础设施/Pasted image 20260512221338.png",
+    "程序语言/C+/面向过程/基础设施/Pasted image 20260512215704.png",
+    "程序语言/C+/面向过程/基础设施/Pasted image 20260512215545.png",
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据准备/数据准备.md",
-    "程序语言/Python/基础语法/基础类型",
-    "程序语言/C+/面向过程/基础设施",
-    "程序语言/C+/面向过程/基础语法/基础类型",
-    "程序语言/C+/面向过程/基础语法",
-    "程序语言/C+/面向模板",
-    "程序语言/C+/面向对象",
-    "程序语言/C+/面向过程",
+    "程序语言/C+/面向过程/基础设施/Pasted image 20260512214436.png",
+    "程序语言/C+/面向过程/基础设施/Pasted image 20260512214405.png",
+    "程序语言/C+/面向过程/基础设施/Pasted image 20260512214318.png",
+    "程序语言/C+/面向过程/基础设施/Pasted image 20260512214646.png",
+    "Excalidraw/Scripts/Downloaded/Set Font Family.md",
+    "程序语言/C+/面向过程/基础设施/Drawing 2026-05-12 21.19.44.excalidraw.md",
+    "程序语言/C+/Modern C+/Modern C+.md",
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/数据建模.md",
-    "程序语言/C+/Modern C+",
-    "计算科学/计算机理论/数据与算法",
-    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/线性模型",
     "数据科学/数据工程/Data Modeling/分类模型/KNN-Classifier/算法介绍.md",
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据工程/数据工程.md",
     "数学哲学/分析/实分析/概率论/概率分布/连续型分布/连续型分布.md",
@@ -298,12 +338,6 @@
     "计算科学/计算机工程/计算机系统/软件系统/软件系统.md",
     "计算科学/计算机工程/计算机系统/软件系统/汇编.md",
     "语言哲学/英语/GRE Arugument Template.md",
-    "游戏科学/文明系列/文明VI/市政系统/宜居度/宜居度.md",
-    "游戏科学/文明系列/文明VI/建筑系统/建筑系统.md",
-    "游戏科学/文明系列/文明VI/资源系统/资源系统.md",
-    "语言哲学/英语/Example.md",
-    "数据科学/数据工程/Data Analysis Languages/Python/Pandas/数据类型/类型运算/类型运算.md",
-    "数据科学/数据工程/Data Modeling/分类模型/KNN-Classifier/KNN-FrameWork.png",
-    "计算科学/计算机历史/计算机形态/机械计算机/CURTA 1.png"
+    "游戏科学/文明系列/文明VI/市政系统/宜居度/宜居度.md"
   ]
 }
