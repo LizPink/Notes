@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据准备/数据准备.md",
+                "file": "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/线性模型/线性模型.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "线性模型"
+            }
+          },
+          {
+            "id": "6a9eccbff0870d56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/线性模型/正则线性模型.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,31 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "数据准备"
-            }
-          },
-          {
-            "id": "6a9eccbff0870d56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "程序语言/C+/面向过程/基础设施/基础设施.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "基础设施"
+              "title": "正则线性模型"
             }
           },
           {
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "程序语言/C+/面向过程/基础类型/算术类型/整数/整数类型/整数类型.md",
+                "file": "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/线性模型/线性模型.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "整数类型"
+              "title": "线性模型"
             }
           }
         ],
@@ -92,7 +92,7 @@
       {
         "id": "f1d4a39c8e9d75ac",
         "type": "tabs",
-        "dimension": 51.536885245901644,
+        "dimension": 51.53688524590164,
         "children": [
           {
             "id": "356fed687db4ec70",
@@ -147,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "程序语言/C+/面向过程/基础类型/算术类型/整数/整数类型/整数类型.md",
+                "file": "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/线性模型/线性模型.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "整数类型 的大纲"
+              "title": "线性模型 的大纲"
             }
           }
         ]
@@ -293,18 +293,26 @@
   },
   "active": "d11594e7794c4c5d",
   "lastOpenFiles": [
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN分类模型/KNN Classifier.md",
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/线性模型/正则线性模型.md",
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN回归模型",
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN分类模型",
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN",
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型",
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/线性模型/线性模型.md",
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据准备/数据准备.md",
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据工程/数据工程.md",
+    "程序语言/C+/面向过程/基础设施/文件读写/文件读写.md",
     "程序语言/C+/面向过程/基础设施/基础设施.md",
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/数据建模.md",
+    "程序语言/C+/面向过程/基础设施/文件读写",
+    "程序语言/C+/面向过程/基础语法/语句/循环控制语句/循环控制语句.md",
     "程序语言/C+/面向过程/基础类型/算术类型/整数/整数类型/整数类型.md",
+    "程序语言/C+/面向过程/基础语法/语句/循环控制语句/未命名",
+    "程序语言/C+/面向过程/基础语法/语句/循环控制语句",
     "程序语言/C+/面向过程/基础类型/指针类型/指针类型",
     "程序语言/C+/面向过程/基础类型/指针类型/引用类型",
     "程序语言/C+/面向过程/基础类型/算术类型/整数/整数类型",
-    "程序语言/C+/面向过程/基础类型/算术类型/整数/布尔类型",
-    "程序语言/C+/面向过程/基础类型/算术类型/整数/字符类型",
-    "程序语言/C+/面向过程/基础类型/算术类型/分数",
-    "程序语言/Python/面向模板",
-    "程序语言/Python/面向对象",
-    "程序语言/Python/面向过程",
-    "程序语言/C+/面向过程/基础语法/语句",
     "程序语言/C+/面向过程/基础设施/Excalidraw/Draw-编译流程.png",
     "程序语言/C+/面向过程/基础设施/Excalidraw/Draw-编译流程.md",
     "程序语言/C+/面向过程/基础设施/Pasted image 20260512221430.png",
@@ -312,7 +320,6 @@
     "程序语言/C+/面向过程/基础设施/Pasted image 20260512221338.png",
     "程序语言/C+/面向过程/基础设施/Pasted image 20260512215704.png",
     "程序语言/C+/面向过程/基础设施/Pasted image 20260512215545.png",
-    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据准备/数据准备.md",
     "程序语言/C+/面向过程/基础设施/Pasted image 20260512214436.png",
     "程序语言/C+/面向过程/基础设施/Pasted image 20260512214405.png",
     "程序语言/C+/面向过程/基础设施/Pasted image 20260512214318.png",
@@ -320,9 +327,7 @@
     "Excalidraw/Scripts/Downloaded/Set Font Family.md",
     "程序语言/C+/面向过程/基础设施/Drawing 2026-05-12 21.19.44.excalidraw.md",
     "程序语言/C+/Modern C+/Modern C+.md",
-    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/数据建模.md",
     "数据科学/数据工程/Data Modeling/分类模型/KNN-Classifier/算法介绍.md",
-    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据工程/数据工程.md",
     "数学哲学/分析/实分析/概率论/概率分布/连续型分布/连续型分布.md",
     "数据科学/数据理论/统计科学/统计模型/方差分析/方差分析.md",
     "数据科学/数据理论/统计科学/统计描述/统计描述.md",
@@ -333,11 +338,6 @@
     "数据科学/数据工程/Data Analysis Languages/Python/Matplotlib/数据类型/类型定义/类型定义.md",
     "数据科学/数据工程/Data Analysis Languages/Python/Matplotlib/类型操作/类型操作.md",
     "数据科学/数据工程/Data Analysis Languages/Python/Pandas/数据类型/类型操作/类型操作.md",
-    "数据科学/数据工程/Data Modeling/聚类模型/K-Means-Clustering/算法介绍.md",
-    "计算科学/计算机历史/计算机形态/电子计算机/电子计算机.md",
-    "计算科学/计算机工程/计算机系统/软件系统/软件系统.md",
-    "计算科学/计算机工程/计算机系统/软件系统/汇编.md",
-    "语言哲学/英语/GRE Arugument Template.md",
-    "游戏科学/文明系列/文明VI/市政系统/宜居度/宜居度.md"
+    "数据科学/数据工程/Data Modeling/聚类模型/K-Means-Clustering/算法介绍.md"
   ]
 }
