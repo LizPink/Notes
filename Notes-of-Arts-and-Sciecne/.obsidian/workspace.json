@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/线性模型/正则线性模型.md",
-                "mode": "preview",
+                "file": "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/树类模型/决策树/决策树模型.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "正则线性模型"
+              "title": "决策树模型"
             }
           },
           {
@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/线性模型/线性模型.md",
+                "file": "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/树类模型/决策树/决策树模型.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "线性模型 的大纲"
+              "title": "决策树模型 的大纲"
             }
           }
         ]
@@ -291,15 +291,21 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "d11594e7794c4c5d",
+  "active": "356fed687db4ec70",
   "lastOpenFiles": [
-    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN分类模型/KNN Classifier.md",
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/集成模型",
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/树类模型/随机森林",
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN/KNN Classifier.md",
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN回归模型/KNN Regressor.md",
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/树类模型/决策树/决策树模型.md",
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/树类模型/决策树",
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/树类模型",
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/线性模型/正则线性模型.md",
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/线性模型/线性模型.md",
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN回归模型",
-    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN分类模型",
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN",
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN",
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型",
-    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/线性模型/线性模型.md",
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据准备/数据准备.md",
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据工程/数据工程.md",
     "程序语言/C+/面向过程/基础设施/文件读写/文件读写.md",
@@ -310,9 +316,6 @@
     "程序语言/C+/面向过程/基础类型/算术类型/整数/整数类型/整数类型.md",
     "程序语言/C+/面向过程/基础语法/语句/循环控制语句/未命名",
     "程序语言/C+/面向过程/基础语法/语句/循环控制语句",
-    "程序语言/C+/面向过程/基础类型/指针类型/指针类型",
-    "程序语言/C+/面向过程/基础类型/指针类型/引用类型",
-    "程序语言/C+/面向过程/基础类型/算术类型/整数/整数类型",
     "程序语言/C+/面向过程/基础设施/Excalidraw/Draw-编译流程.png",
     "程序语言/C+/面向过程/基础设施/Excalidraw/Draw-编译流程.md",
     "程序语言/C+/面向过程/基础设施/Pasted image 20260512221430.png",
@@ -335,9 +338,6 @@
     "数学哲学/分析/实分析/概率论/概率分布/连续型分布/伽马分布/伽马分布.md",
     "数据科学/统计科学/统计描述/统计分布.md",
     "数据科学/数据工程/Data Analysis Languages/Python/Pandas/数据类型/类型定义/类型定义.md",
-    "数据科学/数据工程/Data Analysis Languages/Python/Matplotlib/数据类型/类型定义/类型定义.md",
-    "数据科学/数据工程/Data Analysis Languages/Python/Matplotlib/类型操作/类型操作.md",
-    "数据科学/数据工程/Data Analysis Languages/Python/Pandas/数据类型/类型操作/类型操作.md",
-    "数据科学/数据工程/Data Modeling/聚类模型/K-Means-Clustering/算法介绍.md"
+    "数据科学/数据工程/Data Analysis Languages/Python/Matplotlib/数据类型/类型定义/类型定义.md"
   ]
 }

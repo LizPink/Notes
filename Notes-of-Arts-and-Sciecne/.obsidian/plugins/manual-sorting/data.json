@@ -458,8 +458,49 @@
       "children": [
         "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/数据建模.md",
         "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/线性模型",
-        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型"
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型",
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/树类模型",
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/集成模型"
       ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型": {
+      "children": [
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN": {
+      "children": [
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN": {
+      "children": [
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN/KNN Classifier.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/集成模型": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/树类模型": {
+      "children": [
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/树类模型/决策树",
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/树类模型/随机森林"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/树类模型/决策树": {
+      "children": [
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/树类模型/决策树/决策树模型.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/树类模型/随机森林": {
+      "children": [],
       "sortOrder": "custom"
     },
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/线性模型": {
@@ -752,29 +793,6 @@
         "Excalidraw/Scripts/Downloaded/Set Font Family.svg",
         "Excalidraw/Scripts/Downloaded/Set Font Family.md"
       ],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型": {
-      "children": [
-        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN": {
-      "children": [
-        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN回归模型",
-        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN分类模型"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN分类模型": {
-      "children": [
-        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN分类模型/KNN Classifier.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN回归模型": {
-      "children": [],
       "sortOrder": "custom"
     }
   },
