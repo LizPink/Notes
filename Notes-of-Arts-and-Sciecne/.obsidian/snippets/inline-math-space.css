@@ -1,0 +1,11 @@
+/* 阅读模式：行内公式左右留白 */
+.markdown-preview-view .math-inline mjx-container {
+  margin-left: 0.18em !important;
+  margin-right: 0.18em !important;
+}
+
+/* 实时预览模式：行内公式左右留白 */
+.markdown-source-view.mod-cm6 .math-inline mjx-container {
+  margin-left: 0.16em !important;
+  margin-right: 0.16em !important;
+}

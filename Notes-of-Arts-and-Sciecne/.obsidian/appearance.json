@@ -14,7 +14,10 @@
     "code-highlight-Anu",
     "picture-centering",
     "paragraph-align",
-    "inline-code"
+    "inline-code",
+    "inline-math-space",
+    "picture-margin-top",
+    "CJK-latin-spacing"
   ],
   "nativeMenus": false,
   "theme": "obsidian",

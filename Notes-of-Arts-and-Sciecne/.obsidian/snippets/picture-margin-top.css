@@ -1,0 +1,11 @@
+/* Live Preview / 编辑模式中的图片嵌入 */
+.markdown-source-view.mod-cm6 .internal-embed.image-embed {
+  display: block;
+  margin-top: 1.2em;
+}
+/* 阅读模式 */
+.markdown-preview-view .internal-embed.image-embed,
+.markdown-rendered .internal-embed.image-embed {
+  display: block;
+  margin-top: 1.2em;
+}

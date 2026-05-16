@@ -1,0 +1,10 @@
+/* 阅读模式：中英文、中文数字之间自动留白 */
+.markdown-preview-view,
+.markdown-rendered {
+  text-autospace: normal;
+}
+
+/* 编辑模式 / 实时预览模式 */
+.markdown-source-view.mod-cm6 .cm-line {
+  text-autospace: normal;
+}

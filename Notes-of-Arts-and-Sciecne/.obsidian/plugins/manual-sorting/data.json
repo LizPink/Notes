@@ -220,6 +220,7 @@
     },
     "计算科学": {
       "children": [
+        "计算科学/优化理论",
         "计算科学/信息理论",
         "计算科学/计算机理论",
         "计算科学/计算机工程",
@@ -235,6 +236,7 @@
     },
     "计算科学/计算机工程/计算机系统": {
       "children": [
+        "计算科学/计算机工程/计算机系统/硬件系统",
         "计算科学/计算机工程/计算机系统/软件系统"
       ],
       "sortOrder": "custom"
@@ -244,6 +246,23 @@
         "计算科学/计算机工程/计算机系统/软件系统/汇编.md",
         "计算科学/计算机工程/计算机系统/软件系统/软件系统.md"
       ],
+      "sortOrder": "custom"
+    },
+    "计算科学/计算机工程/计算机系统/硬件系统": {
+      "children": [
+        "计算科学/计算机工程/计算机系统/硬件系统/绳索计算机",
+        "计算科学/计算机工程/计算机系统/硬件系统/尺规计算机"
+      ],
+      "sortOrder": "custom"
+    },
+    "计算科学/计算机工程/计算机系统/硬件系统/尺规计算机": {
+      "children": [
+        "计算科学/计算机工程/计算机系统/硬件系统/尺规计算机/尺规计算机.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "计算科学/计算机工程/计算机系统/硬件系统/绳索计算机": {
+      "children": [],
       "sortOrder": "custom"
     },
     "计算科学/计算机理论": {
@@ -263,6 +282,26 @@
       "sortOrder": "custom"
     },
     "计算科学/计算机理论/数据与算法": {
+      "children": [
+        "计算科学/计算机理论/数据与算法/数据结构",
+        "计算科学/计算机理论/数据与算法/算法理论"
+      ],
+      "sortOrder": "custom"
+    },
+    "计算科学/计算机理论/数据与算法/数据结构": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "计算科学/计算机理论/数据与算法/算法理论": {
+      "children": [
+        "计算科学/计算机理论/数据与算法/算法理论/算法理论.md",
+        "计算科学/计算机理论/数据与算法/算法理论/算法理论-典例.md",
+        "计算科学/计算机理论/数据与算法/算法理论/算法分析理论",
+        "计算科学/计算机理论/数据与算法/算法理论/Turing_Machine.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "计算科学/计算机理论/数据与算法/算法理论/算法分析理论": {
       "children": [],
       "sortOrder": "custom"
     },
@@ -293,6 +332,16 @@
       "sortOrder": "custom"
     },
     "计算科学/信息理论": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "计算科学/优化理论": {
+      "children": [
+        "计算科学/优化理论/凹凸优化理论"
+      ],
+      "sortOrder": "custom"
+    },
+    "计算科学/优化理论/凹凸优化理论": {
       "children": [],
       "sortOrder": "custom"
     },
@@ -460,30 +509,57 @@
         "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/线性模型",
         "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型",
         "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/树类模型",
-        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/集成模型"
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/集成模型",
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/概率模型",
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/聚类模型",
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/降维模型"
       ],
       "sortOrder": "custom"
     },
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型": {
       "children": [
-        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN"
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN",
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/SVM"
       ],
       "sortOrder": "custom"
     },
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN": {
       "children": [
-        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN"
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN.md"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN": {
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/SVM": {
       "children": [
-        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN/KNN Classifier.md"
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/SVM/SVM.md",
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/SVM/SVM.png",
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/SVM/SVM-Kernel.png",
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/SVM/SVM-Soft.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/概率模型": {
+      "children": [
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/概率模型/贝叶斯模型"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/概率模型/贝叶斯模型": {
+      "children": [
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/概率模型/贝叶斯模型/朴素贝叶斯模型.md"
       ],
       "sortOrder": "custom"
     },
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/集成模型": {
-      "children": [],
+      "children": [
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/集成模型/集成学习.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/聚类模型": {
+      "children": [
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/聚类模型/聚类模型.md"
+      ],
       "sortOrder": "custom"
     },
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/树类模型": {
@@ -500,7 +576,9 @@
       "sortOrder": "custom"
     },
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/树类模型/随机森林": {
-      "children": [],
+      "children": [
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/树类模型/随机森林/随机森林.md"
+      ],
       "sortOrder": "custom"
     },
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/线性模型": {
@@ -636,8 +714,8 @@
     "数学哲学/分析/实分析/概率论": {
       "children": [
         "数学哲学/分析/实分析/概率论/概率空间",
-        "数学哲学/分析/实分析/概率论/概率分布",
         "数学哲学/分析/实分析/概率论/概率映射",
+        "数学哲学/分析/实分析/概率论/概率分布",
         "数学哲学/分析/实分析/概率论/概率过程"
       ],
       "sortOrder": "custom"
@@ -701,7 +779,15 @@
     },
     "数学哲学/集合/数论/算术理论": {
       "children": [
-        "数学哲学/集合/数论/算术理论/计数原理"
+        "数学哲学/集合/数论/算术理论/计数原理",
+        "数学哲学/集合/数论/算术理论/估算理论"
+      ],
+      "sortOrder": "custom"
+    },
+    "数学哲学/集合/数论/算术理论/估算理论": {
+      "children": [
+        "数学哲学/集合/数论/算术理论/估算理论/估算理论.md",
+        "数学哲学/集合/数论/算术理论/估算理论/估算理论-典例.md"
       ],
       "sortOrder": "custom"
     },
@@ -792,6 +878,12 @@
       "children": [
         "Excalidraw/Scripts/Downloaded/Set Font Family.svg",
         "Excalidraw/Scripts/Downloaded/Set Font Family.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/降维模型": {
+      "children": [
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/降维模型/降维模型.md"
       ],
       "sortOrder": "custom"
     }
