@@ -376,8 +376,8 @@
     "数据科学/数据工程/Data Analysis Languages/Python": {
       "children": [
         "数据科学/数据工程/Data Analysis Languages/Python/Numpy",
-        "数据科学/数据工程/Data Analysis Languages/Python/Pandas",
         "数据科学/数据工程/Data Analysis Languages/Python/Scienpy",
+        "数据科学/数据工程/Data Analysis Languages/Python/Pandas",
         "数据科学/数据工程/Data Analysis Languages/Python/Sklearn",
         "数据科学/数据工程/Data Analysis Languages/Python/Skimage",
         "数据科学/数据工程/Data Analysis Languages/Python/Seaborn",
@@ -477,6 +477,17 @@
       "sortOrder": "custom"
     },
     "数据科学/数据工程/Data Analysis Languages/Python/Scienpy": {
+      "children": [
+        "数据科学/数据工程/Data Analysis Languages/Python/Scienpy/Algebra",
+        "数据科学/数据工程/Data Analysis Languages/Python/Scienpy/Analysis"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据工程/Data Analysis Languages/Python/Scienpy/Algebra": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据工程/Data Analysis Languages/Python/Scienpy/Analysis": {
       "children": [],
       "sortOrder": "custom"
     },
@@ -506,6 +517,7 @@
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模": {
       "children": [
         "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/数据建模.md",
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/模型选择",
         "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/线性模型",
         "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型",
         "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/树类模型",
@@ -556,9 +568,21 @@
       ],
       "sortOrder": "custom"
     },
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/降维模型": {
+      "children": [
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/降维模型/降维模型.md"
+      ],
+      "sortOrder": "custom"
+    },
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/聚类模型": {
       "children": [
         "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/聚类模型/聚类模型.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/模型选择": {
+      "children": [
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/模型选择/模型选择.md"
       ],
       "sortOrder": "custom"
     },
@@ -589,12 +613,30 @@
       "sortOrder": "custom"
     },
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据评估": {
-      "children": [],
+      "children": [
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据评估/分类任务评估",
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据评估/回归任务评估",
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据评估/模型拟合评估"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据评估/分类任务评估": {
+      "children": [
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据评估/分类任务评估/分类评估.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据评估/回归任务评估": {
+      "children": [
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据评估/回归任务评估/回归评估.md"
+      ],
       "sortOrder": "custom"
     },
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据准备": {
       "children": [
-        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据准备/数据准备.md"
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据准备/数据获取.md",
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据准备/数据处理.md",
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据准备/特征选择.md"
       ],
       "sortOrder": "custom"
     },
@@ -691,7 +733,8 @@
         "数学哲学/集合",
         "数学哲学/几何",
         "数学哲学/代数",
-        "数学哲学/分析"
+        "数学哲学/分析",
+        "数学哲学/数学工程"
       ],
       "sortOrder": "custom"
     },
@@ -805,6 +848,10 @@
       "children": [],
       "sortOrder": "custom"
     },
+    "数学哲学/数学工程": {
+      "children": [],
+      "sortOrder": "custom"
+    },
     "游戏科学": {
       "children": [
         "游戏科学/文明系列"
@@ -881,9 +928,9 @@
       ],
       "sortOrder": "custom"
     },
-    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/降维模型": {
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据评估/模型拟合评估": {
       "children": [
-        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/降维模型/降维模型.md"
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据评估/模型拟合评估/模型拟合评估.md"
       ],
       "sortOrder": "custom"
     }
