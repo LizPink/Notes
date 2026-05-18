@@ -8,36 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9fd4a92289b73dc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数据科学/数据工程/Data Modeling/降维模型/降维模型.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "降维模型"
-            }
-          },
-          {
             "id": "0061dfc2ddf17c80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数学哲学/分析/实分析/微分理论/多元函数微分/矩阵微分/矩阵微分.md",
+                "file": "数学哲学/分析/实分析/微分理论/多元微分理论/多元微分理论.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "多元微分理论"
+            }
+          },
+          {
+            "id": "9fd4a92289b73dc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数学哲学/分析/实分析/微分理论/多元微分理论/线性映射微分/线性映射微分.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "矩阵微分"
+              "title": "线性映射微分"
             }
           },
           {
@@ -79,8 +79,7 @@
               "title": "统计描述"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -147,13 +146,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学哲学/分析/实分析/微分理论/多元函数微分/矩阵微分/矩阵微分.md",
+                "file": "数学哲学/分析/实分析/微分理论/多元微分理论/多元微分理论.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "矩阵微分 的大纲"
+              "title": "多元微分理论 的大纲"
             }
           }
         ]
@@ -293,14 +292,17 @@
   },
   "active": "0061dfc2ddf17c80",
   "lastOpenFiles": [
+    "数学哲学/分析/实分析/微分理论/多元微分理论/线性映射微分/线性映射微分.md",
+    "数学哲学/分析/实分析/微分理论/一元微分理论/一元微分理论.md",
+    "数学哲学/分析/实分析/微分理论/多元微分理论/多元微分理论.md",
+    "数据科学/数据工程/Data Modeling/降维模型/降维模型.md",
+    "数学哲学/分析/实分析/微分理论/一元微分理论",
     "数学哲学/分析/实分析/概率论/概率映射/概率映射.md",
-    "数学哲学/分析/实分析/微分理论/多元函数微分/矩阵微分/矩阵微分.md",
-    "数学哲学/分析/实分析/微分理论/多元函数微分/矩阵微分",
-    "数学哲学/分析/实分析/微分理论/多元函数微分",
+    "数学哲学/分析/实分析/微分理论/多元微分理论/线性映射微分",
+    "数学哲学/分析/实分析/微分理论/多元微分理论",
     "数学哲学/分析/实分析/极限理论",
     "数学哲学/分析/实分析/积分理论",
     "数学哲学/分析/实分析/微分理论",
-    "数据科学/数据工程/Data Modeling/降维模型/降维模型.md",
     "数据科学/数据理论/统计科学/统计描述/统计描述.md",
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/SVM/SVM.md",
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/模型选择/模型选择.md",
@@ -309,7 +311,6 @@
     "数学哲学/代数/结构代数",
     "数学哲学/代数/线性代数/矩阵代数",
     "数学哲学/代数/线性代数/线性映射",
-    "数学哲学/代数/线性代数/线性空间",
     "Excalidraw/Scripts/Downloaded/Set Font Family.svg",
     "数据科学/数据工程/Data Analysis Languages/Python/Pandas/数据类型/类型定义/类型定义.md",
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据工程/数据工程.md",
@@ -329,8 +330,6 @@
     "数学哲学/集合/数论/算术理论/估算理论/估算理论-典例.md",
     "数学哲学/集合/数论/算术理论/估算理论/估算理论.md",
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/KNN/KNN.md",
-    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/概率模型/贝叶斯模型/朴素贝叶斯模型.md",
-    "计算科学/计算机工程/计算机系统/硬件系统/尺规计算机/尺规计算机.md",
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/SVM/SVM-Kernel.png",
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/SVM/SVM.png",
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据建模/度量模型/SVM/SVM-Soft.png",
