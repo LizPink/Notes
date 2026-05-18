@@ -2,225 +2,17 @@
   "customOrder": {
     "/": {
       "children": [
-        "Excalidraw",
         "计算科学",
         "数学哲学",
         "数据科学",
-        "程序语言",
         "语言哲学",
-        "游戏科学"
+        "游戏科学",
+        "Excalidraw"
       ],
-      "sortOrder": "custom"
-    },
-    "程序语言": {
-      "children": [
-        "程序语言/C+",
-        "程序语言/Python"
-      ],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+": {
-      "children": [
-        "程序语言/C+/面向过程",
-        "程序语言/C+/面向对象",
-        "程序语言/C+/面向模板"
-      ],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向对象": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程": {
-      "children": [
-        "程序语言/C+/面向过程/基础类型",
-        "程序语言/C+/面向过程/基础语法",
-        "程序语言/C+/面向过程/基础设施"
-      ],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础类型": {
-      "children": [
-        "程序语言/C+/面向过程/基础类型/算术类型",
-        "程序语言/C+/面向过程/基础类型/指针类型",
-        "程序语言/C+/面向过程/基础类型/容器类型",
-        "程序语言/C+/面向过程/基础类型/函数类型"
-      ],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础类型/函数类型": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础类型/容器类型": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础类型/算术类型": {
-      "children": [
-        "程序语言/C+/面向过程/基础类型/算术类型/整数",
-        "程序语言/C+/面向过程/基础类型/算术类型/分数"
-      ],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础类型/算术类型/分数": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础类型/算术类型/整数": {
-      "children": [
-        "程序语言/C+/面向过程/基础类型/算术类型/整数/布尔类型",
-        "程序语言/C+/面向过程/基础类型/算术类型/整数/字符类型",
-        "程序语言/C+/面向过程/基础类型/算术类型/整数/整数类型"
-      ],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础类型/算术类型/整数/布尔类型": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础类型/算术类型/整数/整数类型": {
-      "children": [
-        "程序语言/C+/面向过程/基础类型/算术类型/整数/整数类型/整数类型.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础类型/算术类型/整数/字符类型": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础类型/指针类型": {
-      "children": [
-        "程序语言/C+/面向过程/基础类型/指针类型/引用类型",
-        "程序语言/C+/面向过程/基础类型/指针类型/指针类型"
-      ],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础类型/指针类型/引用类型": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础类型/指针类型/指针类型": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础设施": {
-      "children": [
-        "程序语言/C+/面向过程/基础设施/基础设施.md",
-        "程序语言/C+/面向过程/基础设施/文件读写",
-        "程序语言/C+/面向过程/基础设施/Excalidraw"
-      ],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础设施/文件读写": {
-      "children": [
-        "程序语言/C+/面向过程/基础设施/文件读写/文件读写.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础设施/Excalidraw": {
-      "children": [
-        "程序语言/C+/面向过程/基础设施/Excalidraw/Draw-编译流程.png",
-        "程序语言/C+/面向过程/基础设施/Excalidraw/Draw-编译流程.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础语法": {
-      "children": [
-        "程序语言/C+/面向过程/基础语法/关键字",
-        "程序语言/C+/面向过程/基础语法/运算符",
-        "程序语言/C+/面向过程/基础语法/表达式",
-        "程序语言/C+/面向过程/基础语法/语句"
-      ],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础语法/表达式": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础语法/关键字": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础语法/语句": {
-      "children": [
-        "程序语言/C+/面向过程/基础语法/语句/循环控制语句"
-      ],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础语法/语句/循环控制语句": {
-      "children": [
-        "程序语言/C+/面向过程/基础语法/语句/循环控制语句/循环控制语句.md",
-        "程序语言/C+/面向过程/基础语法/语句/循环控制语句/未命名"
-      ],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础语法/语句/循环控制语句/未命名": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向过程/基础语法/运算符": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "程序语言/C+/面向模板": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "程序语言/Python": {
-      "children": [
-        "程序语言/Python/面向过程",
-        "程序语言/Python/面向模板",
-        "程序语言/Python/面向对象",
-        "程序语言/Python/文件管理"
-      ],
-      "sortOrder": "custom"
-    },
-    "程序语言/Python/面向对象": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "程序语言/Python/面向过程": {
-      "children": [
-        "程序语言/Python/面向过程/基础语法"
-      ],
-      "sortOrder": "custom"
-    },
-    "程序语言/Python/面向过程/基础语法": {
-      "children": [
-        "程序语言/Python/面向过程/基础语法/基础类型"
-      ],
-      "sortOrder": "custom"
-    },
-    "程序语言/Python/面向过程/基础语法/基础类型": {
-      "children": [
-        "程序语言/Python/面向过程/基础语法/基础类型/迭代类型"
-      ],
-      "sortOrder": "custom"
-    },
-    "程序语言/Python/面向过程/基础语法/基础类型/迭代类型": {
-      "children": [
-        "程序语言/Python/面向过程/基础语法/基础类型/迭代类型/迭代类型.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "程序语言/Python/面向模板": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "程序语言/Python/文件管理": {
-      "children": [
-        "程序语言/Python/文件管理/OS"
-      ],
-      "sortOrder": "custom"
-    },
-    "程序语言/Python/文件管理/OS": {
-      "children": [],
       "sortOrder": "custom"
     },
     "计算科学": {
       "children": [
-        "计算科学/优化理论",
         "计算科学/信息理论",
         "计算科学/计算机理论",
         "计算科学/计算机工程",
@@ -335,16 +127,6 @@
       "children": [],
       "sortOrder": "custom"
     },
-    "计算科学/优化理论": {
-      "children": [
-        "计算科学/优化理论/凹凸优化理论"
-      ],
-      "sortOrder": "custom"
-    },
-    "计算科学/优化理论/凹凸优化理论": {
-      "children": [],
-      "sortOrder": "custom"
-    },
     "数据科学": {
       "children": [
         "数据科学/数据工程",
@@ -450,10 +232,10 @@
     },
     "数据科学/数据工程/Data Analysis Languages/Python/Pandas/数据类型": {
       "children": [
+        "数据科学/数据工程/Data Analysis Languages/Python/Pandas/数据类型/_TOC_.md",
         "数据科学/数据工程/Data Analysis Languages/Python/Pandas/数据类型/类型定义",
         "数据科学/数据工程/Data Analysis Languages/Python/Pandas/数据类型/类型操作",
-        "数据科学/数据工程/Data Analysis Languages/Python/Pandas/数据类型/类型运算",
-        "数据科学/数据工程/Data Analysis Languages/Python/Pandas/数据类型/_TOC_.md"
+        "数据科学/数据工程/Data Analysis Languages/Python/Pandas/数据类型/类型运算"
       ],
       "sortOrder": "custom"
     },
@@ -632,6 +414,12 @@
       ],
       "sortOrder": "custom"
     },
+    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据评估/模型拟合评估": {
+      "children": [
+        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据评估/模型拟合评估/模型拟合评估.md"
+      ],
+      "sortOrder": "custom"
+    },
     "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据准备": {
       "children": [
         "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据准备/数据获取.md",
@@ -667,7 +455,9 @@
       "sortOrder": "custom"
     },
     "数据科学/数据工程/Data Modeling/降维模型": {
-      "children": [],
+      "children": [
+        "数据科学/数据工程/Data Modeling/降维模型/降维模型.md"
+      ],
       "sortOrder": "custom"
     },
     "数据科学/数据工程/Data Modeling/聚类模型": {
@@ -739,6 +529,33 @@
       "sortOrder": "custom"
     },
     "数学哲学/代数": {
+      "children": [
+        "数学哲学/代数/结构代数",
+        "数学哲学/代数/线性代数"
+      ],
+      "sortOrder": "custom"
+    },
+    "数学哲学/代数/结构代数": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "数学哲学/代数/线性代数": {
+      "children": [
+        "数学哲学/代数/线性代数/线性空间",
+        "数学哲学/代数/线性代数/线性映射",
+        "数学哲学/代数/线性代数/矩阵代数"
+      ],
+      "sortOrder": "custom"
+    },
+    "数学哲学/代数/线性代数/矩阵代数": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "数学哲学/代数/线性代数/线性空间": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "数学哲学/代数/线性代数/线性映射": {
       "children": [],
       "sortOrder": "custom"
     },
@@ -750,6 +567,9 @@
     },
     "数学哲学/分析/实分析": {
       "children": [
+        "数学哲学/分析/实分析/极限理论",
+        "数学哲学/分析/实分析/微分理论",
+        "数学哲学/分析/实分析/积分理论",
         "数学哲学/分析/实分析/概率论"
       ],
       "sortOrder": "custom"
@@ -794,13 +614,26 @@
       "sortOrder": "custom"
     },
     "数学哲学/分析/实分析/概率论/概率映射": {
+      "children": [
+        "数学哲学/分析/实分析/概率论/概率映射/概率映射.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数学哲学/分析/实分析/积分理论": {
       "children": [],
+      "sortOrder": "custom"
+    },
+    "数学哲学/分析/实分析/微分理论": {
+      "children": [
+        "数学哲学/分析/实分析/微分理论/多元函数微分"
+      ],
       "sortOrder": "custom"
     },
     "数学哲学/集合": {
       "children": [
+        "数学哲学/集合/数论",
         "数学哲学/集合/集合理论",
-        "数学哲学/集合/数论"
+        "数学哲学/集合/优化理论"
       ],
       "sortOrder": "custom"
     },
@@ -840,6 +673,16 @@
       ],
       "sortOrder": "custom"
     },
+    "数学哲学/集合/优化理论": {
+      "children": [
+        "数学哲学/集合/优化理论/凹凸优化理论"
+      ],
+      "sortOrder": "custom"
+    },
+    "数学哲学/集合/优化理论/凹凸优化理论": {
+      "children": [],
+      "sortOrder": "custom"
+    },
     "数学哲学/几何": {
       "children": [],
       "sortOrder": "custom"
@@ -849,6 +692,12 @@
       "sortOrder": "custom"
     },
     "数学哲学/数学工程": {
+      "children": [
+        "数学哲学/数学工程/代数工程"
+      ],
+      "sortOrder": "custom"
+    },
+    "数学哲学/数学工程/代数工程": {
       "children": [],
       "sortOrder": "custom"
     },
@@ -898,14 +747,227 @@
     },
     "语言哲学": {
       "children": [
-        "语言哲学/英语"
+        "语言哲学/自然语言",
+        "语言哲学/程序语言"
       ],
       "sortOrder": "custom"
     },
-    "语言哲学/英语": {
+    "语言哲学/程序语言": {
       "children": [
-        "语言哲学/英语/GRE Arugument Template.md",
-        "语言哲学/英语/Example.md"
+        "语言哲学/程序语言/C+",
+        "语言哲学/程序语言/Python"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+": {
+      "children": [
+        "语言哲学/程序语言/C+/面向过程",
+        "语言哲学/程序语言/C+/面向对象",
+        "语言哲学/程序语言/C+/面向模板"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向对象": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程": {
+      "children": [
+        "语言哲学/程序语言/C+/面向过程/基础类型",
+        "语言哲学/程序语言/C+/面向过程/基础语法",
+        "语言哲学/程序语言/C+/面向过程/基础设施"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础类型": {
+      "children": [
+        "语言哲学/程序语言/C+/面向过程/基础类型/算术类型",
+        "语言哲学/程序语言/C+/面向过程/基础类型/指针类型",
+        "语言哲学/程序语言/C+/面向过程/基础类型/容器类型",
+        "语言哲学/程序语言/C+/面向过程/基础类型/函数类型"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础类型/函数类型": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础类型/容器类型": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础类型/算术类型": {
+      "children": [
+        "语言哲学/程序语言/C+/面向过程/基础类型/算术类型/整数",
+        "语言哲学/程序语言/C+/面向过程/基础类型/算术类型/分数"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础类型/算术类型/分数": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础类型/算术类型/整数": {
+      "children": [
+        "语言哲学/程序语言/C+/面向过程/基础类型/算术类型/整数/布尔类型",
+        "语言哲学/程序语言/C+/面向过程/基础类型/算术类型/整数/字符类型",
+        "语言哲学/程序语言/C+/面向过程/基础类型/算术类型/整数/整数类型"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础类型/算术类型/整数/布尔类型": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础类型/算术类型/整数/整数类型": {
+      "children": [
+        "语言哲学/程序语言/C+/面向过程/基础类型/算术类型/整数/整数类型/整数类型.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础类型/算术类型/整数/字符类型": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础类型/指针类型": {
+      "children": [
+        "语言哲学/程序语言/C+/面向过程/基础类型/指针类型/引用类型",
+        "语言哲学/程序语言/C+/面向过程/基础类型/指针类型/指针类型"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础类型/指针类型/引用类型": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础类型/指针类型/指针类型": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础设施": {
+      "children": [
+        "语言哲学/程序语言/C+/面向过程/基础设施/基础设施.md",
+        "语言哲学/程序语言/C+/面向过程/基础设施/文件读写",
+        "语言哲学/程序语言/C+/面向过程/基础设施/Excalidraw"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础设施/文件读写": {
+      "children": [
+        "语言哲学/程序语言/C+/面向过程/基础设施/文件读写/文件读写.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础设施/Excalidraw": {
+      "children": [
+        "语言哲学/程序语言/C+/面向过程/基础设施/Excalidraw/Draw-编译流程.png",
+        "语言哲学/程序语言/C+/面向过程/基础设施/Excalidraw/Draw-编译流程.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础语法": {
+      "children": [
+        "语言哲学/程序语言/C+/面向过程/基础语法/关键字",
+        "语言哲学/程序语言/C+/面向过程/基础语法/运算符",
+        "语言哲学/程序语言/C+/面向过程/基础语法/表达式",
+        "语言哲学/程序语言/C+/面向过程/基础语法/语句"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础语法/表达式": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础语法/关键字": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础语法/语句": {
+      "children": [
+        "语言哲学/程序语言/C+/面向过程/基础语法/语句/循环控制语句"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础语法/语句/循环控制语句": {
+      "children": [
+        "语言哲学/程序语言/C+/面向过程/基础语法/语句/循环控制语句/循环控制语句.md",
+        "语言哲学/程序语言/C+/面向过程/基础语法/语句/循环控制语句/未命名"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础语法/语句/循环控制语句/未命名": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向过程/基础语法/运算符": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/C+/面向模板": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python": {
+      "children": [
+        "语言哲学/程序语言/Python/面向过程",
+        "语言哲学/程序语言/Python/面向模板",
+        "语言哲学/程序语言/Python/面向对象",
+        "语言哲学/程序语言/Python/文件管理"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/面向对象": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/面向过程": {
+      "children": [
+        "语言哲学/程序语言/Python/面向过程/基础语法"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/面向过程/基础语法": {
+      "children": [
+        "语言哲学/程序语言/Python/面向过程/基础语法/基础类型"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/面向过程/基础语法/基础类型": {
+      "children": [
+        "语言哲学/程序语言/Python/面向过程/基础语法/基础类型/迭代类型"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/面向过程/基础语法/基础类型/迭代类型": {
+      "children": [
+        "语言哲学/程序语言/Python/面向过程/基础语法/基础类型/迭代类型/迭代类型.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/面向模板": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/文件管理": {
+      "children": [
+        "语言哲学/程序语言/Python/文件管理/OS"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/文件管理/OS": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "语言哲学/自然语言": {
+      "children": [
+        "语言哲学/自然语言/英语"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/自然语言/英语": {
+      "children": [
+        "语言哲学/自然语言/英语/GRE Arugument Template.md",
+        "语言哲学/自然语言/英语/Example.md"
       ],
       "sortOrder": "custom"
     },
@@ -928,9 +990,19 @@
       ],
       "sortOrder": "custom"
     },
-    "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据评估/模型拟合评估": {
+    "数学哲学/分析/实分析/极限理论": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "数学哲学/分析/实分析/微分理论/多元函数微分": {
       "children": [
-        "数据科学/数据工程/Data Analysis Languages/Python/Sklearn/数据评估/模型拟合评估/模型拟合评估.md"
+        "数学哲学/分析/实分析/微分理论/多元函数微分/矩阵微分"
+      ],
+      "sortOrder": "custom"
+    },
+    "数学哲学/分析/实分析/微分理论/多元函数微分/矩阵微分": {
+      "children": [
+        "数学哲学/分析/实分析/微分理论/多元函数微分/矩阵微分/矩阵微分.md"
       ],
       "sortOrder": "custom"
     }
