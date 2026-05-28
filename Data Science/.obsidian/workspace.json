@@ -61,8 +61,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Analysis Languages/Python/Numpy/数据类型/类型运算/类型运算.md",
-                "mode": "source",
+                "file": "Data Analysis Languages/Python/Numpy/数据类型/类型定义/类型定义.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "类型运算"
+              "title": "类型定义"
             }
           }
         ],
@@ -145,13 +145,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Analysis Languages/Python/Numpy/数据类型/类型运算/类型运算.md",
+                "file": "Data Analysis Languages/Python/Numpy/数据类型/类型定义/类型定义.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "类型运算 的大纲"
+              "title": "类型定义 的大纲"
             }
           }
         ]
@@ -257,10 +257,12 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "2d15e8814617d59f",
+  "active": "937006c841a8a555",
   "lastOpenFiles": [
-    "Data Analysis Languages/Python/Numpy/数据类型/类型运算/未命名.md",
+    "Data Accessing/Data Accessing.md",
+    "Data Analysis Languages/Python/Pandas/数据类型/类型定义/类型定义.md",
     "Data Analysis Languages/Python/Numpy/数据类型/类型运算/类型运算.md",
+    "Data Analysis Languages/Python/Numpy/数据类型/类型运算/未命名.md",
     "Data Analysis Languages/Python/Pandas/数据类型/类型运算/类型运算.md",
     "Data Analysis Languages/Python/Pandas/数据类型/类型运算/类型运算-典例.md",
     "Data Analysis Languages/Python/Numpy/数据类型/类型操作/类型操作.md",
@@ -273,12 +275,10 @@
     "Data Analysis Languages/Python/未命名.md",
     "Data Analysis Languages/Python/Numpy/数据类型/类型定义/类型定义.md",
     "Data Analysis Languages/Python/Sklearn",
-    "Data Analysis Languages/Python/Pandas/数据类型/类型定义/类型定义.md",
     "Data Analysis Languages/Python/Numpy/数据类型/类型运算",
     "Data Analysis Languages/Python/Numpy/数据类型/类型操作",
     "Data Analysis Languages/Python/Numpy/数据类型/类型定义",
     "Data Analysis Languages/Python/Numpy/数据类型",
-    "Data Accessing/Data Accessing.md",
     "Data Analysis Languages/Python/Pandas/数据类型/_TOC_.md",
     "Data Analysis Languages/Python/Pandas/数据类型/类型定义/生成定义/对象DataFrame定义.md",
     "Data Analysis Languages/Python/Pandas/数据类型/类型定义/生成定义/对象Series定义.md",

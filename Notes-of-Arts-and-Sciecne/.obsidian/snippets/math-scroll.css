@@ -1,0 +1,15 @@
+/* 长公式横向滚动：阅读模式 + Live Preview */
+.markdown-preview-view mjx-container[display="true"],
+.markdown-source-view.mod-cm6 mjx-container[display="true"] {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 0.35em;
+}
+
+/* 防止公式本身被压缩 */
+.markdown-preview-view mjx-container[display="true"] > mjx-math,
+.markdown-source-view.mod-cm6 mjx-container[display="true"] > mjx-math {
+  min-width: max-content;
+}

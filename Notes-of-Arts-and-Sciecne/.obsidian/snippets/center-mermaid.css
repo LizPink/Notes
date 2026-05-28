@@ -1,0 +1,12 @@
+/* Mermaid 图居中：阅读模式 + Live Preview */
+.markdown-rendered .mermaid {
+  display: flex;
+  justify-content: center;
+}
+
+/* 保险：让 SVG 本身也居中 */
+.markdown-rendered .mermaid svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

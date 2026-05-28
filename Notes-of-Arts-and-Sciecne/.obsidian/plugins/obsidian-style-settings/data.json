@@ -22,5 +22,7 @@
   "anuppuccin-theme-settings@@anp-table-width": false,
   "anuppuccin-theme-settings@@anp-table-auto": false,
   "table-extended-merged-cell-align@@tx-merged-text-align": "left",
-  "table-extended-merged-cell-align@@tx-merged-vertical-align": "middle"
+  "table-extended-merged-cell-align@@tx-merged-vertical-align": "middle",
+  "anuppuccin-theme-settings@@anp-table-toggle": true,
+  "anuppuccin-theme-settings@@anp-table-highlight-opacity": 0.5
 }
