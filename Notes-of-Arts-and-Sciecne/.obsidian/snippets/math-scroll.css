@@ -4,7 +4,12 @@
   display: block;
   max-width: 100%;
   overflow-x: auto;
-  overflow-y: hidden;
+
+  /* 不要裁掉中文 */
+  overflow-y: visible;
+
+  /* 给中文和分式留出上下空间 */
+  padding-top: 0.35em;
   padding-bottom: 0.35em;
 }
 
