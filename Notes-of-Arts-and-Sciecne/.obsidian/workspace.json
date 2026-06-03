@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "25a81a8f154bf9ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数学哲学/分析/实分析/实分析/微分理论/矩阵微分/矩阵微分.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "矩阵微分"
-            }
-          },
-          {
             "id": "21800a723f73fb06",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据科学/Data Reasoning/因果推断/因果推断概念/因果推断概念.md",
+                "file": "数学哲学/分析/实分析/概率论/概率概念/概率分布/概率分布的概念/连续型分布/连续型分布.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "因果推断概念"
+              "title": "连续型分布"
             }
           },
           {
@@ -61,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据科学/Data Analysis Languages/Python/Pandas/数据类型/类型操作/类型操作.md",
-                "mode": "preview",
+                "file": "数学哲学/分析/实分析/统计学/统计模型/线性模型/线性模型.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -76,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "类型操作"
+              "title": "线性模型"
             }
           }
         ],
@@ -147,13 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据科学/Data Reasoning/因果推断/因果推断概念/因果推断概念.md",
+                "file": "数学哲学/分析/实分析/统计学/统计模型/线性模型/线性模型.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "因果推断概念 的大纲"
+              "title": "线性模型 的大纲"
             }
           }
         ]
@@ -291,51 +267,52 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "21800a723f73fb06",
+  "active": "9b1578b24677ca87",
   "lastOpenFiles": [
-    "数学哲学/分析/实分析/实分析/微分理论/矩阵微分/矩阵微分.md",
-    "数学哲学/分析/实分析/实分析/微分理论/多元微分理论/多元微分理论.md",
-    "数据科学/Data Reasoning/因果推断/因果推断方法/线性模型/线性模型.md",
+    "数学哲学/分析/实分析/统计学/统计推断/统计推断.md",
+    "数学哲学/分析/实分析/概率论/概率概念/概率分布/概率分布的概念/连续型分布/连续型分布.md",
+    "数学哲学/分析/实分析/统计学/统计模型/线性模型/线性模型.md",
+    "数据科学/Data Analysis Languages/Python/Pandas/数据类型/类型操作/类型操作.md",
+    "数学哲学/分析/实分析/概率论/概率概念/概率映射/概率映射的分布/概率映射的分布.md",
+    "数学哲学/分析/实分析/概率论/概率概念/概率分布/概率分布的概念/连续型分布/T Density.png",
+    "数学哲学/分析/实分析/概率论/概率概念/概率分布/概率分布的概念/连续型分布/Chi Square Density.png",
+    "数学哲学/分析/实分析/概率论/概率概念/概率分布/概率分布的概念/连续型分布/Chi Square Density.png",
+    "数学哲学/分析/实分析/概率论/概率概念/概率映射/概率映射.md",
+    "数学哲学/分析/实分析/概率论/概率概念/概率分布/概率分布的特征/概率分布的特征.md",
+    "数学哲学/分析/实分析/统计学/统计描述/统计数据/统计数据.md",
+    "数学哲学/分析/实分析/统计学/统计描述/统计描述.md",
+    "数据科学/Data Reasoning/因果推断/因果推断方法/双重差分/双重差分.md",
+    "数学哲学/分析/实分析/统计学/统计模型/方差分析/方差分析.md",
     "数据科学/Data Reasoning/因果推断/因果推断概念/因果推断概念.md",
-    "数据科学/Data Reasoning/因果推断/因果推断方法/线性模型",
-    "数据科学/Data Reasoning/因果推断/因果推断概念/有向图模型/有向图模型.md",
+    "数学哲学/分析/实分析/统计学/统计描述/统计分布/统计分布.md",
+    "数学哲学/分析/实分析/统计学/统计描述/统计分布",
+    "数学哲学/分析/实分析/概率论/概率概念/概率分布/概率分布的概念/概率分布.md",
+    "数学哲学/分析/实分析/概率论/概率概念/概率空间/概率的概念/概率空间.md",
+    "数学哲学/分析/实分析/概率论/概率概念/概率空间/概率的运算/概率的运算.md",
     "数据科学/数据科学.md",
     "数据科学/Data Accessing/Data Accessing.md",
+    "数据科学/Data Reasoning/因果推断/因果推断概念/有向图模型/有向图模型.md",
+    "数学哲学/分析/实分析/实分析/微分理论/矩阵微分/矩阵微分.md",
+    "数据科学/Data Reasoning/因果推断/因果推断方法/线性模型/线性模型.md",
+    "数据科学/Data Reasoning/因果推断/因果推断方法/双重差分",
+    "数学哲学/分析/实分析/实分析/微分理论/多元微分理论/多元微分理论.md",
+    "数据科学/Data Reasoning/因果推断/因果推断方法/线性模型",
     "数据科学/Data Accessing/数据指标/数据指标体系.md",
     "数据科学/Data Analysis Languages/Python/Pandas/数据类型/类型定义/类型定义.md",
     "数据科学/Data Analysis Languages/Python/Pandas/数据类型/类型运算/类型运算.md",
-    "数据科学/Data Analysis Languages/Python/Pandas/数据类型/类型操作/类型操作.md",
-    "数据科学/Data Analysis Languages/Python/Pandas/数据类型/类型运算/类型运算-典例.md",
-    "数据科学/Data Analysis Languages/Python/Sklearn/数据准备/数据处理.md",
-    "数据科学/Data Analysis Languages/Python/Sklearn/数据准备/数据获取.md",
     "数学哲学/分析/实分析/统计学",
-    "数据科学/Data Accessing/数据指标/数据指标建设.md",
-    "数学哲学/分析/实分析/统计学/统计描述/统计数据/统计数据.md",
     "数据科学/Data Reasoning",
     "数据科学/Data Analysis Languages/SQL",
-    "数学哲学/分析/实分析/概率论/概率概念/概率空间/概率的概念/概率空间.md",
-    "数学哲学/分析/实分析/概率论/概率概念/概率空间/概率的运算/概率的运算.md",
     "数据科学/Data Accessing/数据指标",
     "数学哲学/分析/实分析/概率论/概率概念",
-    "数学哲学/分析/实分析/概率论/概率概念/概率映射/概率映射.md",
     "数学哲学/分析/实分析/概率论/概率运算",
-    "数学哲学/分析/实分析/概率论/概率概念/概率分布/概率分布的概念/概率分布.md",
-    "数学哲学/分析/实分析/概率论/概率概念/概率分布/概率分布的特征/概率分布的特征.md",
-    "数学哲学/分析/实分析/概率论/概率概念/概率分布/概率分布的概念/连续型分布/连续型分布.md",
     "数学哲学/分析/实分析/概率论/概率概念/概率分布/概率分布的运算",
-    "数学哲学/分析/实分析/概率论/概率概念/概率映射/概率映射的关系",
-    "数学哲学/分析/实分析/概率论/概率概念/概率映射/概率映射的分布",
-    "数学哲学/分析/实分析/概率论/概率映射/未命名.md",
-    "数学哲学/分析/实分析/实分析/微分理论/一元微分理论/一元微分理论.md",
-    "数据科学/Data Reasoning/因果推断/因果推断概念/有向图模型/Structure.md",
     "数据科学/Data Reasoning/因果推断/因果推断概念/有向图模型/Chain.png",
     "数据科学/Data Reasoning/因果推断/因果推断概念/有向图模型/Collide.png",
     "数据科学/Data Reasoning/因果推断/因果推断概念/有向图模型/Fork.png",
     "数据科学/数据理论/统计科学/统计推断/因果推断/因果推断概念/Pasted image 20260521121041.png",
     "数据科学/数据理论/统计科学/统计推断/因果推断/因果推断概念/Chain-Structure.png",
-    "数据科学/数据理论/统计科学/统计推断/因果推断/因果推断概念/Drawing 2026-05-21 12.07.15.excalidraw.md",
     "数据科学/数据理论/统计科学/统计推断/因果推断/因果推断概念/Pasted image 20260521120635.png",
-    "数据科学/Data Modeling/分类模型/KNN-Classifier/KNN-FrameWork.png",
-    "数据科学/数据理论/统计科学/统计推断/因果推断/因果推断概念/Drawing 2026-05-21 11.45.07.excalidraw.png"
+    "数据科学/Data Modeling/分类模型/KNN-Classifier/KNN-FrameWork.png"
   ]
 }
