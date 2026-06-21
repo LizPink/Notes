@@ -137,453 +137,483 @@
     "数据科学": {
       "children": [
         "数据科学/数据科学.md",
-        "数据科学/Data Accessing",
-        "数据科学/Data Modeling",
-        "数据科学/Data Reasoning",
-        "数据科学/Data Analysis Tools",
-        "数据科学/Data Analysis Application"
+        "数据科学/数据建设",
+        "数据科学/数据建模",
+        "数据科学/数据推断",
+        "数据科学/数分工具",
+        "数据科学/数分项目"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/Data Accessing": {
+    "数据科学/数分工具": {
       "children": [
-        "数据科学/Data Accessing/Data Accessing.md",
-        "数据科学/Data Accessing/数据指标"
+        "数据科学/数分工具/SQL",
+        "数据科学/数分工具/Python"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/Data Accessing/数据指标": {
+    "数据科学/数分工具/Python": {
       "children": [
-        "数据科学/Data Accessing/数据指标/数据指标.md"
+        "数据科学/数分工具/Python/Numpy",
+        "数据科学/数分工具/Python/Scienpy",
+        "数据科学/数分工具/Python/Pandas",
+        "数据科学/数分工具/Python/Sklearn",
+        "数据科学/数分工具/Python/Skimage",
+        "数据科学/数分工具/Python/Seaborn",
+        "数据科学/数分工具/Python/Matplotlib"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/Data Analysis Application": {
+    "数据科学/数分工具/Python/Matplotlib": {
       "children": [
-        "数据科学/Data Analysis Application/商业化-数据分析"
+        "数据科学/数分工具/Python/Matplotlib/数据类型",
+        "数据科学/数分工具/Python/Matplotlib/类型操作"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/Data Analysis Application/商业化-数据分析": {
+    "数据科学/数分工具/Python/Matplotlib/类型操作": {
+      "children": [
+        "数据科学/数分工具/Python/Matplotlib/类型操作/类型操作.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Matplotlib/数据类型": {
+      "children": [
+        "数据科学/数分工具/Python/Matplotlib/数据类型/类型定义"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Matplotlib/数据类型/类型定义": {
+      "children": [
+        "数据科学/数分工具/Python/Matplotlib/数据类型/类型定义/类型定义.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Numpy": {
+      "children": [
+        "数据科学/数分工具/Python/Numpy/数据类型"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Numpy/数据类型": {
+      "children": [
+        "数据科学/数分工具/Python/Numpy/数据类型/类型运算",
+        "数据科学/数分工具/Python/Numpy/数据类型/类型定义",
+        "数据科学/数分工具/Python/Numpy/数据类型/类型操作"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Numpy/数据类型/类型操作": {
+      "children": [
+        "数据科学/数分工具/Python/Numpy/数据类型/类型操作/类型操作.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Numpy/数据类型/类型定义": {
+      "children": [
+        "数据科学/数分工具/Python/Numpy/数据类型/类型定义/类型定义.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Numpy/数据类型/类型运算": {
+      "children": [
+        "数据科学/数分工具/Python/Numpy/数据类型/类型运算/类型运算.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Pandas": {
+      "children": [
+        "数据科学/数分工具/Python/Pandas/数据类型"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Pandas/数据类型": {
+      "children": [
+        "数据科学/数分工具/Python/Pandas/数据类型/_TOC_.md",
+        "数据科学/数分工具/Python/Pandas/数据类型/类型定义",
+        "数据科学/数分工具/Python/Pandas/数据类型/类型操作",
+        "数据科学/数分工具/Python/Pandas/数据类型/类型运算"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Pandas/数据类型/类型操作": {
+      "children": [
+        "数据科学/数分工具/Python/Pandas/数据类型/类型操作/类型操作.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Pandas/数据类型/类型定义": {
+      "children": [
+        "数据科学/数分工具/Python/Pandas/数据类型/类型定义/类型定义.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Pandas/数据类型/类型运算": {
+      "children": [
+        "数据科学/数分工具/Python/Pandas/数据类型/类型运算/类型运算.md",
+        "数据科学/数分工具/Python/Pandas/数据类型/类型运算/类型运算-典例.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Scienpy": {
+      "children": [
+        "数据科学/数分工具/Python/Scienpy/Algebra",
+        "数据科学/数分工具/Python/Scienpy/Analysis"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Scienpy/Algebra": {
       "children": [],
       "sortOrder": "custom"
     },
-    "数据科学/Data Analysis Tools": {
-      "children": [
-        "数据科学/Data Analysis Tools/SQL",
-        "数据科学/Data Analysis Tools/Python"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Numpy",
-        "数据科学/Data Analysis Tools/Python/Scienpy",
-        "数据科学/Data Analysis Tools/Python/Pandas",
-        "数据科学/Data Analysis Tools/Python/Sklearn",
-        "数据科学/Data Analysis Tools/Python/Skimage",
-        "数据科学/Data Analysis Tools/Python/Seaborn",
-        "数据科学/Data Analysis Tools/Python/Matplotlib"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Matplotlib": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Matplotlib/数据类型",
-        "数据科学/Data Analysis Tools/Python/Matplotlib/类型操作"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Matplotlib/类型操作": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Matplotlib/类型操作/类型操作.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Matplotlib/数据类型": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Matplotlib/数据类型/类型定义"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Matplotlib/数据类型/类型定义": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Matplotlib/数据类型/类型定义/类型定义.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Numpy": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Numpy/数据类型"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Numpy/数据类型": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Numpy/数据类型/类型运算",
-        "数据科学/Data Analysis Tools/Python/Numpy/数据类型/类型定义",
-        "数据科学/Data Analysis Tools/Python/Numpy/数据类型/类型操作"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Numpy/数据类型/类型操作": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Numpy/数据类型/类型操作/类型操作.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Numpy/数据类型/类型定义": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Numpy/数据类型/类型定义/类型定义.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Numpy/数据类型/类型运算": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Numpy/数据类型/类型运算/类型运算.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Pandas": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Pandas/数据类型"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Pandas/数据类型": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Pandas/数据类型/_TOC_.md",
-        "数据科学/Data Analysis Tools/Python/Pandas/数据类型/类型定义",
-        "数据科学/Data Analysis Tools/Python/Pandas/数据类型/类型操作",
-        "数据科学/Data Analysis Tools/Python/Pandas/数据类型/类型运算"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Pandas/数据类型/类型操作": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Pandas/数据类型/类型操作/类型操作.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Pandas/数据类型/类型定义": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Pandas/数据类型/类型定义/类型定义.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Pandas/数据类型/类型运算": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Pandas/数据类型/类型运算/类型运算.md",
-        "数据科学/Data Analysis Tools/Python/Pandas/数据类型/类型运算/类型运算-典例.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Scienpy": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Scienpy/Algebra",
-        "数据科学/Data Analysis Tools/Python/Scienpy/Analysis"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Scienpy/Algebra": {
+    "数据科学/数分工具/Python/Scienpy/Analysis": {
       "children": [],
       "sortOrder": "custom"
     },
-    "数据科学/Data Analysis Tools/Python/Scienpy/Analysis": {
+    "数据科学/数分工具/Python/Seaborn": {
       "children": [],
       "sortOrder": "custom"
     },
-    "数据科学/Data Analysis Tools/Python/Seaborn": {
+    "数据科学/数分工具/Python/Skimage": {
       "children": [],
       "sortOrder": "custom"
     },
-    "数据科学/Data Analysis Tools/Python/Skimage": {
+    "数据科学/数分工具/Python/Sklearn": {
+      "children": [
+        "数据科学/数分工具/Python/Sklearn/数据准备",
+        "数据科学/数分工具/Python/Sklearn/数据建模",
+        "数据科学/数分工具/Python/Sklearn/数据评估",
+        "数据科学/数分工具/Python/Sklearn/数据工程"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Sklearn/数据工程": {
+      "children": [
+        "数据科学/数分工具/Python/Sklearn/数据工程/数据工程.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Sklearn/数据建模": {
+      "children": [
+        "数据科学/数分工具/Python/Sklearn/数据建模/数据建模.md",
+        "数据科学/数分工具/Python/Sklearn/数据建模/模型选择",
+        "数据科学/数分工具/Python/Sklearn/数据建模/线性模型",
+        "数据科学/数分工具/Python/Sklearn/数据建模/度量模型",
+        "数据科学/数分工具/Python/Sklearn/数据建模/树类模型",
+        "数据科学/数分工具/Python/Sklearn/数据建模/集成模型",
+        "数据科学/数分工具/Python/Sklearn/数据建模/概率模型",
+        "数据科学/数分工具/Python/Sklearn/数据建模/聚类模型",
+        "数据科学/数分工具/Python/Sklearn/数据建模/降维模型"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Sklearn/数据建模/度量模型": {
+      "children": [
+        "数据科学/数分工具/Python/Sklearn/数据建模/度量模型/KNN",
+        "数据科学/数分工具/Python/Sklearn/数据建模/度量模型/SVM"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Sklearn/数据建模/度量模型/KNN": {
+      "children": [
+        "数据科学/数分工具/Python/Sklearn/数据建模/度量模型/KNN/KNN.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Sklearn/数据建模/度量模型/SVM": {
+      "children": [
+        "数据科学/数分工具/Python/Sklearn/数据建模/度量模型/SVM/SVM.md",
+        "数据科学/数分工具/Python/Sklearn/数据建模/度量模型/SVM/SVM.png",
+        "数据科学/数分工具/Python/Sklearn/数据建模/度量模型/SVM/SVM-Kernel.png",
+        "数据科学/数分工具/Python/Sklearn/数据建模/度量模型/SVM/SVM-Soft.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Sklearn/数据建模/概率模型": {
+      "children": [
+        "数据科学/数分工具/Python/Sklearn/数据建模/概率模型/贝叶斯模型"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Sklearn/数据建模/概率模型/贝叶斯模型": {
+      "children": [
+        "数据科学/数分工具/Python/Sklearn/数据建模/概率模型/贝叶斯模型/朴素贝叶斯模型.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Sklearn/数据建模/集成模型": {
+      "children": [
+        "数据科学/数分工具/Python/Sklearn/数据建模/集成模型/集成学习.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Sklearn/数据建模/降维模型": {
+      "children": [
+        "数据科学/数分工具/Python/Sklearn/数据建模/降维模型/降维模型.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Sklearn/数据建模/聚类模型": {
+      "children": [
+        "数据科学/数分工具/Python/Sklearn/数据建模/聚类模型/聚类模型.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Sklearn/数据建模/模型选择": {
+      "children": [
+        "数据科学/数分工具/Python/Sklearn/数据建模/模型选择/模型选择.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Sklearn/数据建模/树类模型": {
+      "children": [
+        "数据科学/数分工具/Python/Sklearn/数据建模/树类模型/决策树",
+        "数据科学/数分工具/Python/Sklearn/数据建模/树类模型/随机森林"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Sklearn/数据建模/树类模型/决策树": {
+      "children": [
+        "数据科学/数分工具/Python/Sklearn/数据建模/树类模型/决策树/决策树模型.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Sklearn/数据建模/树类模型/随机森林": {
+      "children": [
+        "数据科学/数分工具/Python/Sklearn/数据建模/树类模型/随机森林/随机森林.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Sklearn/数据建模/线性模型": {
+      "children": [
+        "数据科学/数分工具/Python/Sklearn/数据建模/线性模型/线性模型.md",
+        "数据科学/数分工具/Python/Sklearn/数据建模/线性模型/正则线性模型.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Sklearn/数据评估": {
+      "children": [
+        "数据科学/数分工具/Python/Sklearn/数据评估/分类任务评估",
+        "数据科学/数分工具/Python/Sklearn/数据评估/回归任务评估",
+        "数据科学/数分工具/Python/Sklearn/数据评估/模型拟合评估"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Sklearn/数据评估/分类任务评估": {
+      "children": [
+        "数据科学/数分工具/Python/Sklearn/数据评估/分类任务评估/分类评估.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Sklearn/数据评估/回归任务评估": {
+      "children": [
+        "数据科学/数分工具/Python/Sklearn/数据评估/回归任务评估/回归评估.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Sklearn/数据评估/模型拟合评估": {
+      "children": [
+        "数据科学/数分工具/Python/Sklearn/数据评估/模型拟合评估/模型拟合评估.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/Sklearn/数据准备": {
+      "children": [
+        "数据科学/数分工具/Python/Sklearn/数据准备/数据获取.md",
+        "数据科学/数分工具/Python/Sklearn/数据准备/数据处理.md",
+        "数据科学/数分工具/Python/Sklearn/数据准备/特征选择.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/SQL": {
+      "children": [
+        "数据科学/数分工具/SQL/DDL",
+        "数据科学/数分工具/SQL/DML",
+        "数据科学/数分工具/SQL/DQL",
+        "数据科学/数分工具/SQL/DCL"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/SQL/DCL": {
       "children": [],
       "sortOrder": "custom"
     },
-    "数据科学/Data Analysis Tools/Python/Sklearn": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据准备",
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模",
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据评估",
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据工程"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Sklearn/数据工程": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据工程/数据工程.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Sklearn/数据建模": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/数据建模.md",
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/模型选择",
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/线性模型",
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/度量模型",
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/树类模型",
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/集成模型",
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/概率模型",
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/聚类模型",
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/降维模型"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/度量模型": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/度量模型/KNN",
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/度量模型/SVM"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/度量模型/KNN": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/度量模型/KNN/KNN.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/度量模型/SVM": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/度量模型/SVM/SVM.md",
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/度量模型/SVM/SVM.png",
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/度量模型/SVM/SVM-Kernel.png",
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/度量模型/SVM/SVM-Soft.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/概率模型": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/概率模型/贝叶斯模型"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/概率模型/贝叶斯模型": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/概率模型/贝叶斯模型/朴素贝叶斯模型.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/集成模型": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/集成模型/集成学习.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/降维模型": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/降维模型/降维模型.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/聚类模型": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/聚类模型/聚类模型.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/模型选择": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/模型选择/模型选择.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/树类模型": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/树类模型/决策树",
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/树类模型/随机森林"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/树类模型/决策树": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/树类模型/决策树/决策树模型.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/树类模型/随机森林": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/树类模型/随机森林/随机森林.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/线性模型": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/线性模型/线性模型.md",
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据建模/线性模型/正则线性模型.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Sklearn/数据评估": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据评估/分类任务评估",
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据评估/回归任务评估",
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据评估/模型拟合评估"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Sklearn/数据评估/分类任务评估": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据评估/分类任务评估/分类评估.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Sklearn/数据评估/回归任务评估": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据评估/回归任务评估/回归评估.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Sklearn/数据评估/模型拟合评估": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据评估/模型拟合评估/模型拟合评估.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/Python/Sklearn/数据准备": {
-      "children": [
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据准备/数据获取.md",
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据准备/数据处理.md",
-        "数据科学/Data Analysis Tools/Python/Sklearn/数据准备/特征选择.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/SQL": {
-      "children": [
-        "数据科学/Data Analysis Tools/SQL/DDL",
-        "数据科学/Data Analysis Tools/SQL/DML",
-        "数据科学/Data Analysis Tools/SQL/DQL",
-        "数据科学/Data Analysis Tools/SQL/DCL"
-      ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/SQL/DDL": {
+    "数据科学/数分工具/SQL/DDL": {
       "children": [],
       "sortOrder": "custom"
     },
-    "数据科学/Data Analysis Tools/SQL/DML": {
+    "数据科学/数分工具/SQL/DML": {
       "children": [],
       "sortOrder": "custom"
     },
-    "数据科学/Data Analysis Tools/SQL/DQL": {
+    "数据科学/数分工具/SQL/DQL": {
+      "children": [
+        "数据科学/数分工具/SQL/DQL/查询函数.md",
+        "数据科学/数分工具/SQL/DQL/聚合查询"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/SQL/DQL/聚合查询": {
+      "children": [
+        "数据科学/数分工具/SQL/DQL/聚合查询/聚合查询.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分项目": {
+      "children": [
+        "数据科学/数分项目/数据建设",
+        "数据科学/数分项目/经典荟萃"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分项目/经典荟萃": {
       "children": [],
       "sortOrder": "custom"
     },
-    "数据科学/Data Modeling": {
+    "数据科学/数分项目/数据建设": {
       "children": [
-        "数据科学/Data Modeling/降维模型",
-        "数据科学/Data Modeling/聚类模型",
-        "数据科学/Data Modeling/分类模型",
-        "数据科学/Data Modeling/回归模型"
+        "数据科学/数分项目/数据建设/数据建设.md"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/Data Modeling/分类模型": {
+    "数据科学/数据建模": {
       "children": [
-        "数据科学/Data Modeling/分类模型/KNN-Classifier"
+        "数据科学/数据建模/降维模型",
+        "数据科学/数据建模/聚类模型",
+        "数据科学/数据建模/分类模型",
+        "数据科学/数据建模/回归模型"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/Data Modeling/分类模型/KNN-Classifier": {
+    "数据科学/数据建模/分类模型": {
       "children": [
-        "数据科学/Data Modeling/分类模型/KNN-Classifier/算法介绍.md",
-        "数据科学/Data Modeling/分类模型/KNN-Classifier/KNN-FrameWork.png"
+        "数据科学/数据建模/分类模型/KNN-Classifier"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/Data Modeling/回归模型": {
+    "数据科学/数据建模/分类模型/KNN-Classifier": {
+      "children": [
+        "数据科学/数据建模/分类模型/KNN-Classifier/算法介绍.md",
+        "数据科学/数据建模/分类模型/KNN-Classifier/KNN-FrameWork.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据建模/回归模型": {
       "children": [],
       "sortOrder": "custom"
     },
-    "数据科学/Data Modeling/降维模型": {
+    "数据科学/数据建模/降维模型": {
       "children": [
-        "数据科学/Data Modeling/降维模型/降维模型.md"
+        "数据科学/数据建模/降维模型/降维模型.md"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/Data Modeling/聚类模型": {
+    "数据科学/数据建模/聚类模型": {
       "children": [
-        "数据科学/Data Modeling/聚类模型/K-Means-Clustering"
+        "数据科学/数据建模/聚类模型/K-Means-Clustering"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/Data Modeling/聚类模型/K-Means-Clustering": {
+    "数据科学/数据建模/聚类模型/K-Means-Clustering": {
       "children": [
-        "数据科学/Data Modeling/聚类模型/K-Means-Clustering/算法介绍.md"
+        "数据科学/数据建模/聚类模型/K-Means-Clustering/算法介绍.md"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/Data Reasoning": {
+    "数据科学/数据建设": {
       "children": [
-        "数据科学/Data Reasoning/因果推断"
+        "数据科学/数据建设/Data Accessing.md",
+        "数据科学/数据建设/数据指标"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/Data Reasoning/因果推断": {
+    "数据科学/数据建设/数据指标": {
       "children": [
-        "数据科学/Data Reasoning/因果推断/因果推断概念",
-        "数据科学/Data Reasoning/因果推断/因果推断方法"
+        "数据科学/数据建设/数据指标/数据指标.md"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/Data Reasoning/因果推断/因果推断方法": {
+    "数据科学/数据推断": {
       "children": [
-        "数据科学/Data Reasoning/因果推断/因果推断方法/因果推断方法.md",
-        "数据科学/Data Reasoning/因果推断/因果推断方法/工具变量",
-        "数据科学/Data Reasoning/因果推断/因果推断方法/倾向匹配",
-        "数据科学/Data Reasoning/因果推断/因果推断方法/断点回归",
-        "数据科学/Data Reasoning/因果推断/因果推断方法/双重差分",
-        "数据科学/Data Reasoning/因果推断/因果推断方法/合成控制",
-        "数据科学/Data Reasoning/因果推断/因果推断方法/回归控制"
+        "数据科学/数据推断/理论-因果推断",
+        "数据科学/数据推断/业务-异动分析",
+        "数据科学/数据推断/业务-实验测试"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/Data Reasoning/因果推断/因果推断方法/断点回归": {
+    "数据科学/数据推断/理论-因果推断": {
+      "children": [
+        "数据科学/数据推断/理论-因果推断/因果推断概念",
+        "数据科学/数据推断/理论-因果推断/因果推断方法"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据推断/理论-因果推断/因果推断方法": {
+      "children": [
+        "数据科学/数据推断/理论-因果推断/因果推断方法/因果推断方法.md",
+        "数据科学/数据推断/理论-因果推断/因果推断方法/工具变量",
+        "数据科学/数据推断/理论-因果推断/因果推断方法/倾向匹配",
+        "数据科学/数据推断/理论-因果推断/因果推断方法/断点回归",
+        "数据科学/数据推断/理论-因果推断/因果推断方法/双重差分",
+        "数据科学/数据推断/理论-因果推断/因果推断方法/合成控制",
+        "数据科学/数据推断/理论-因果推断/因果推断方法/回归控制"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据推断/理论-因果推断/因果推断方法/断点回归": {
       "children": [],
       "sortOrder": "custom"
     },
-    "数据科学/Data Reasoning/因果推断/因果推断方法/工具变量": {
+    "数据科学/数据推断/理论-因果推断/因果推断方法/工具变量": {
       "children": [],
       "sortOrder": "custom"
     },
-    "数据科学/Data Reasoning/因果推断/因果推断方法/合成控制": {
+    "数据科学/数据推断/理论-因果推断/因果推断方法/合成控制": {
       "children": [],
       "sortOrder": "custom"
     },
-    "数据科学/Data Reasoning/因果推断/因果推断方法/回归控制": {
+    "数据科学/数据推断/理论-因果推断/因果推断方法/回归控制": {
       "children": [],
       "sortOrder": "custom"
     },
-    "数据科学/Data Reasoning/因果推断/因果推断方法/倾向匹配": {
+    "数据科学/数据推断/理论-因果推断/因果推断方法/倾向匹配": {
       "children": [],
       "sortOrder": "custom"
     },
-    "数据科学/Data Reasoning/因果推断/因果推断方法/双重差分": {
+    "数据科学/数据推断/理论-因果推断/因果推断方法/双重差分": {
       "children": [
-        "数据科学/Data Reasoning/因果推断/因果推断方法/双重差分/双重差分.md"
+        "数据科学/数据推断/理论-因果推断/因果推断方法/双重差分/双重差分.md"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/Data Reasoning/因果推断/因果推断概念": {
+    "数据科学/数据推断/理论-因果推断/因果推断概念": {
       "children": [
-        "数据科学/Data Reasoning/因果推断/因果推断概念/因果推断概念.md",
-        "数据科学/Data Reasoning/因果推断/因果推断概念/有向的图模型",
-        "数据科学/Data Reasoning/因果推断/因果推断概念/潜在产出模型"
+        "数据科学/数据推断/理论-因果推断/因果推断概念/因果推断概念.md",
+        "数据科学/数据推断/理论-因果推断/因果推断概念/有向的图模型",
+        "数据科学/数据推断/理论-因果推断/因果推断概念/潜在产出模型"
       ],
       "sortOrder": "custom"
     },
-    "数据科学/Data Reasoning/因果推断/因果推断概念/潜在产出模型": {
+    "数据科学/数据推断/理论-因果推断/因果推断概念/潜在产出模型": {
       "children": [],
       "sortOrder": "custom"
     },
-    "数据科学/Data Reasoning/因果推断/因果推断概念/有向的图模型": {
+    "数据科学/数据推断/理论-因果推断/因果推断概念/有向的图模型": {
       "children": [
-        "数据科学/Data Reasoning/因果推断/因果推断概念/有向的图模型/有向图模型.md",
-        "数据科学/Data Reasoning/因果推断/因果推断概念/有向的图模型/Structure.md",
-        "数据科学/Data Reasoning/因果推断/因果推断概念/有向的图模型/Chain.png",
-        "数据科学/Data Reasoning/因果推断/因果推断概念/有向的图模型/Fork.png",
-        "数据科学/Data Reasoning/因果推断/因果推断概念/有向的图模型/Collide.png"
+        "数据科学/数据推断/理论-因果推断/因果推断概念/有向的图模型/有向图模型.md",
+        "数据科学/数据推断/理论-因果推断/因果推断概念/有向的图模型/Structure.md",
+        "数据科学/数据推断/理论-因果推断/因果推断概念/有向的图模型/Chain.png",
+        "数据科学/数据推断/理论-因果推断/因果推断概念/有向的图模型/Fork.png",
+        "数据科学/数据推断/理论-因果推断/因果推断概念/有向的图模型/Collide.png"
       ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据推断/业务-实验测试": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "数据科学/数据推断/业务-异动分析": {
+      "children": [],
       "sortOrder": "custom"
     },
     "数学哲学": {
@@ -746,6 +776,19 @@
       "sortOrder": "custom"
     },
     "数学哲学/分析/实分析/概率论/概率运算": {
+      "children": [
+        "数学哲学/分析/实分析/概率论/概率运算/概率收敛"
+      ],
+      "sortOrder": "custom"
+    },
+    "数学哲学/分析/实分析/概率论/概率运算/概率收敛": {
+      "children": [
+        "数学哲学/分析/实分析/概率论/概率运算/概率收敛/概率收敛.md",
+        "数学哲学/分析/实分析/概率论/概率运算/概率收敛/概率基本定理"
+      ],
+      "sortOrder": "custom"
+    },
+    "数学哲学/分析/实分析/概率论/概率运算/概率收敛/概率基本定理": {
       "children": [],
       "sortOrder": "custom"
     },
@@ -839,18 +882,14 @@
     },
     "数学哲学/分析/实分析/统计学/统计模型/线性模型": {
       "children": [
-        "数学哲学/分析/实分析/统计学/统计模型/线性模型/线性模型.md",
-        "数学哲学/分析/实分析/统计学/统计模型/线性模型/时序模型",
-        "数学哲学/分析/实分析/统计学/统计模型/线性模型/面板模型"
+        "数学哲学/分析/实分析/统计学/统计模型/线性模型/截面线性模型"
       ],
       "sortOrder": "custom"
     },
-    "数学哲学/分析/实分析/统计学/统计模型/线性模型/面板模型": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "数学哲学/分析/实分析/统计学/统计模型/线性模型/时序模型": {
-      "children": [],
+    "数学哲学/分析/实分析/统计学/统计模型/线性模型/截面线性模型": {
+      "children": [
+        "数学哲学/分析/实分析/统计学/统计模型/线性模型/截面线性模型/截面线性模型.md"
+      ],
       "sortOrder": "custom"
     },
     "数学哲学/分析/实分析/统计学/统计推断": {
@@ -1218,10 +1257,6 @@
         "Excalidraw/Scripts/Downloaded/Set Font Family.svg",
         "Excalidraw/Scripts/Downloaded/Set Font Family.md"
       ],
-      "sortOrder": "custom"
-    },
-    "数据科学/Data Analysis Tools/SQL/DCL": {
-      "children": [],
       "sortOrder": "custom"
     }
   },
