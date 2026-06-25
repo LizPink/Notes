@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "21800a723f73fb06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数学哲学/分析/实分析/概率论/概率运算/概率收敛/概率收敛.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": true,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "概率收敛"
-            }
-          },
-          {
             "id": "fbb12b410af27054",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数学哲学/分析/实分析/统计学/统计模型/线性模型/截面线性模型/截面线性模型.md",
+                "file": "数学哲学/代数/线性代数/线性空间/线性空间.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +28,34 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "截面线性模型"
+              "title": "线性空间"
+            }
+          },
+          {
+            "id": "21800a723f73fb06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据科学/数分工具/Python/Pandas/数据类型/类型运算/类型运算-典例.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": true,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "类型运算-典例"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,13 +122,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学哲学/分析/实分析/统计学/统计模型/线性模型/截面线性模型/截面线性模型.md",
+                "file": "数学哲学/代数/线性代数/线性空间/线性空间.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "截面线性模型 的大纲"
+              "title": "线性空间 的大纲"
             }
           }
         ]
@@ -267,12 +266,18 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "fbb12b410af27054",
+  "active": "6195fe7989386917",
   "lastOpenFiles": [
+    "数据科学/数分项目/数据建设/数据建设.md",
+    "数学哲学/代数/线性代数/线性空间/线性空间.md",
+    "数据科学/数据建设/数据指标/数据指标.md",
+    "数据科学/数据建设/Data Accessing.md",
+    "数学哲学/分析/实分析/统计学/统计模型/线性模型/截面线性模型/截面线性模型.md",
+    "数据科学/数分工具/Python/Pandas/数据类型/类型运算/类型运算-典例.md",
+    "数据科学/数分工具/Python/Pandas/数据类型/类型运算/类型运算.md",
     "数学哲学/分析/实分析/概率论/概率运算/概率收敛/概率收敛.md",
     "数学哲学/分析/实分析/概率论/概率过程/概率过程的收敛/随机序列的收敛.md",
     "数据科学/数据推断/理论-因果推断/因果推断概念/因果推断概念.md",
-    "数学哲学/分析/实分析/统计学/统计模型/线性模型/截面线性模型/截面线性模型.md",
     "数学哲学/分析/实分析/统计学/统计模型/线性模型/截面线性模型",
     "数据科学/数分项目/Flood-It-Analysis/00.DATA_PROFILE/Data Profile.md",
     "数据科学/数分项目/Flood-It-Analysis/Flood-It.md",
@@ -287,11 +292,8 @@
     "数据科学/数分工具/SQL/DQL/查询函数.md",
     "数据科学/数分工具/SQL/DQL/聚合查询",
     "数据科学/数分工具/SQL/DQL/聚合查询",
-    "数据科学/数分项目/数据建设/数据建设.md",
     "数据科学/数分项目/Flood-It-Analysis/00.DATA_PROFILE/Pasted image 20260614134334.png",
-    "数据科学/数据建设/数据指标/数据指标.md",
     "数据科学/Data Accessing/数据指标/数据指标建设.md",
-    "数据科学/数据建设/Data Accessing.md",
     "数据科学/数据科学.md",
     "数学哲学/分析/实分析/统计学/统计模型/概率模型/二元模型/二元模型.md",
     "数据科学/数据推断/理论-因果推断/因果推断方法/因果推断方法.md",
@@ -306,8 +308,6 @@
     "数学哲学/分析/实分析/概率论/概率概念/概率分布/概率分布的概念/连续型分布/T Density.png",
     "数学哲学/分析/实分析/概率论/概率概念/概率分布/概率分布的概念/连续型分布/F Density.png",
     "数学哲学/分析/实分析/概率论/概率概念/概率分布/概率分布的概念/连续型分布/Chi Square Density.png",
-    "数学哲学/分析/实分析/统计学/统计推断/统计推断.md",
-    "数据科学/Data Reasoning/因果推断/因果推断方法/线性计量法/先行计量法.md",
     "数据科学/数据推断/理论-因果推断/因果推断概念/有向的图模型/Chain.png",
     "数据科学/数据推断/理论-因果推断/因果推断概念/有向的图模型/Collide.png",
     "数据科学/数据推断/理论-因果推断/因果推断概念/有向的图模型/Fork.png",
