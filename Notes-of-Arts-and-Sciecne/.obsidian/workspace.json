@@ -8,12 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fbb12b410af27054",
+            "id": "b8a222463a591254",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/容器类型/序列类型/序列类型.md",
+                "file": "语言哲学/程序语言/Python/Python.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Python"
+            }
+          },
+          {
+            "id": "35d090923e23d074",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算科学/计算机理论/计算机网络/计算机网络.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,31 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "序列类型"
-            }
-          },
-          {
-            "id": "21800a723f73fb06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数据科学/数分工具/Python/Pandas/数据类型/类型运算/类型运算.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": true,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "类型运算"
+              "title": "计算机网络"
             }
           }
         ]
@@ -122,20 +122,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/容器类型/序列类型/序列类型.md",
+                "file": "语言哲学/程序语言/Python/Python.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "序列类型 的大纲"
+              "title": "Python 的大纲"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 289.5
   },
   "right": {
     "id": "32ab03ea53cee96c",
@@ -266,53 +266,52 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "fbb12b410af27054",
+  "active": "b8a222463a591254",
   "lastOpenFiles": [
-    "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/容器类型/序列类型/序列类型的结构.png",
-    "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/数字类型/数字类型.md",
-    "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/容器类型/序列类型/序列类型.md",
-    "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/容器类型",
-    "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/容器类型/序列容器",
-    "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/容器类型/序列类型",
-    "数据科学/数分工具/Python/Pandas/数据类型/类型运算/类型运算.md",
-    "数据科学/数分工具/Python/Pandas/数据类型/类型运算/类型运算-典例.md",
-    "数学哲学/代数/线性代数/线性空间/线性空间.md",
-    "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/数字类型/分数类型",
-    "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/数字类型/整数类型",
-    "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/数字类型",
-    "语言哲学/程序语言/Python/面向过程/基础语法/控制语句",
-    "语言哲学/程序语言/Python/面向过程/基础语法/表达式",
-    "语言哲学/程序语言/Python/面向过程/基础语法/运算符",
-    "语言哲学/程序语言/Python/开发环境",
-    "数据科学/数分项目/数据建设/数据建设.md",
-    "数据科学/数据建设/数据指标/数据指标.md",
-    "数据科学/数据建设/Data Accessing.md",
-    "数学哲学/分析/实分析/统计学/统计模型/线性模型/截面线性模型/截面线性模型.md",
-    "数学哲学/分析/实分析/概率论/概率运算/概率收敛/概率收敛.md",
-    "数学哲学/分析/实分析/概率论/概率过程/概率过程的收敛/随机序列的收敛.md",
-    "数据科学/数据推断/理论-因果推断/因果推断概念/因果推断概念.md",
-    "数据科学/数分项目/Flood-It-Analysis/00.DATA_PROFILE/Data Profile.md",
-    "数据科学/数分项目/Flood-It-Analysis/Flood-It.md",
-    "数据科学/数分工具/SQL/DQL/聚合查询/聚合查询.md",
-    "数据科学/数分工具/SQL/DQL/查询函数.md",
+    "计算科学/计算机理论/计算机网络/计算机网络.md",
+    "计算科学/计算机理论/计算机网络/HTTPS Protocol.png",
+    "语言哲学/程序语言/Python/开发环境/网络管理/网络管理.md",
+    "语言哲学/程序语言/Python/Python.md",
+    "数据科学/数分工具/Python/数据获取/Urlib/Urlib.md",
+    "数据科学/数分工具/Python/数据获取/Request/Request.md",
+    "数据科学/数分工具/Python/数据获取/Urlib",
+    "计算科学/计算机理论/计算机网络/Pasted image 20260705211430.png",
+    "数据科学/数分工具/Python/数据获取",
+    "数据科学/数分工具/Python/数据获取/Request",
+    "计算科学/计算机理论/计算机网络/Pasted image 20260705211435.png",
+    "计算科学/计算机理论/计算机网络/Pasted image 20260705211446.png",
+    "金融科学/量化投资/交易策略/交易策略.md",
+    "金融科学/量化投资/回测分析",
+    "金融科学/量化投资/交易策略",
+    "金融科学/量化投资/Figures",
+    "金融科学/量化投资/Figures/均线交叉策略.png",
+    "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/序列类型/列表类型/列表类型.md",
+    "金融科学/量化投资",
+    "金融科学",
+    "计算科学/计算机理论/数据与算法/算法理论/经典算法思维/动态规划/动态规划.md",
+    "语言哲学/程序语言/Python/开发环境/网络管理",
+    "语言哲学/程序语言/Python/基础语法/表达式/正则表达式.md",
+    "计算科学/计算机理论/数据与算法/算法理论/经典算法思维/动态规划",
+    "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/序列类型/字符串类型/字符串类型.md",
+    "语言哲学/程序语言/Python/开发环境/文件管理/文件管理.md",
+    "数据科学/数分工具/Python/Pandas/数据类型/类型定义/类型定义.md",
+    "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/序列类型/字典类型/字典类型.md",
+    "语言哲学/程序语言/Python/开发环境/运算管理/随机模块/随机模块.md",
+    "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/迭代类型/迭代类型.md",
+    "语言哲学/程序语言/Python/基础语法/数据类型/时间类型/时间类型.md",
+    "语言哲学/程序语言/Python/开发环境/时间管理/时间管理.md",
+    "语言哲学/程序语言/Python/基础语法/数据类型/数字类型/数字类型.md",
+    "语言哲学/程序语言/Python/开发环境/文件管理/路径管理/路径管理.md",
+    "语言哲学/程序语言/Python/开发环境/程序管理/线程管理.md",
+    "语言哲学/程序语言/Python/开发环境/程序管理/进程管理.md",
+    "数据科学/数分工具/Python/数据获取/SQLAlchemy/SQLAlchemy.md",
+    "语言哲学/程序语言/Python/基础语法/数据类型/数据类型.md",
+    "语言哲学/程序语言/Python/基础语法/控制语句/过程管理语句/过程管理语句.md",
+    "语言哲学/程序语言/Python/基础语法/控制语句/异常语句/异常语句.md",
+    "语言哲学/程序语言/Python/面向函数编程/Reduce Function.png",
+    "语言哲学/程序语言/Python/面向函数编程/Map Function.png",
+    "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/序列类型/序列类型的结构.png",
     "数据科学/数分项目/Flood-It-Analysis/00.DATA_PROFILE/Pasted image 20260614134334.png",
-    "数据科学/Data Accessing/数据指标/数据指标建设.md",
-    "数据科学/数据科学.md",
-    "数学哲学/分析/实分析/统计学/统计模型/概率模型/二元模型/二元模型.md",
-    "数据科学/数据推断/理论-因果推断/因果推断方法/因果推断方法.md",
-    "数学哲学/分析/实分析/统计学/统计模型/线性模型/正则线性模型.md",
-    "数学哲学/分析/实分析/统计学/统计模型/概率模型/概率模型.md",
-    "数据科学/数分工具/Python/Sklearn/数据建模/线性模型/正则线性模型.md",
-    "数据科学/数据推断/理论-因果推断/因果推断概念/有向的图模型/有向图模型.md",
-    "数学哲学/分析/实分析/概率论/概率概念/概率空间/概率空间.md",
-    "数学哲学/分析/实分析/概率论/概率概念/概率分布/概率分布的概念/连续型分布/T Density.png",
-    "数学哲学/分析/实分析/概率论/概率概念/概率分布/概率分布的概念/连续型分布/F Density.png",
-    "数学哲学/分析/实分析/概率论/概率概念/概率分布/概率分布的概念/连续型分布/Chi Square Density.png",
-    "数据科学/数据推断/理论-因果推断/因果推断概念/有向的图模型/Chain.png",
-    "数据科学/数据推断/理论-因果推断/因果推断概念/有向的图模型/Collide.png",
-    "数据科学/数据推断/理论-因果推断/因果推断概念/有向的图模型/Fork.png",
-    "数据科学/数据理论/统计科学/统计推断/因果推断/因果推断概念/Pasted image 20260521121041.png",
-    "数据科学/数据理论/统计科学/统计推断/因果推断/因果推断概念/Chain-Structure.png",
-    "数据科学/数据理论/统计科学/统计推断/因果推断/因果推断概念/Pasted image 20260521120635.png"
+    "数学哲学/分析/实分析/概率论/概率概念/概率分布/概率分布的概念/连续型分布/T Density.png"
   ]
 }

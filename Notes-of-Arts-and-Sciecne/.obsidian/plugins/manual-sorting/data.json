@@ -8,6 +8,7 @@
         "数据科学",
         "语言哲学",
         "游戏科学",
+        "金融科学",
         "Excalidraw"
       ],
       "sortOrder": "custom"
@@ -67,7 +68,10 @@
       "sortOrder": "custom"
     },
     "计算科学/计算机理论/计算机网络": {
-      "children": [],
+      "children": [
+        "计算科学/计算机理论/计算机网络/计算机网络.md",
+        "计算科学/计算机理论/计算机网络/HTTPS Protocol.png"
+      ],
       "sortOrder": "custom"
     },
     "计算科学/计算机理论/计算机系统": {
@@ -89,13 +93,21 @@
       "children": [
         "计算科学/计算机理论/数据与算法/算法理论/算法理论.md",
         "计算科学/计算机理论/数据与算法/算法理论/算法理论-典例.md",
-        "计算科学/计算机理论/数据与算法/算法理论/算法分析理论",
-        "计算科学/计算机理论/数据与算法/算法理论/Turing_Machine.png"
+        "计算科学/计算机理论/数据与算法/算法理论/Turing_Machine.png",
+        "计算科学/计算机理论/数据与算法/算法理论/经典算法思维"
       ],
       "sortOrder": "custom"
     },
-    "计算科学/计算机理论/数据与算法/算法理论/算法分析理论": {
-      "children": [],
+    "计算科学/计算机理论/数据与算法/算法理论/经典算法思维": {
+      "children": [
+        "计算科学/计算机理论/数据与算法/算法理论/经典算法思维/动态规划"
+      ],
+      "sortOrder": "custom"
+    },
+    "计算科学/计算机理论/数据与算法/算法理论/经典算法思维/动态规划": {
+      "children": [
+        "计算科学/计算机理论/数据与算法/算法理论/经典算法思维/动态规划/动态规划.md"
+      ],
       "sortOrder": "custom"
     },
     "计算科学/计算机历史": {
@@ -134,6 +146,36 @@
       "children": [],
       "sortOrder": "custom"
     },
+    "金融科学": {
+      "children": [
+        "金融科学/量化投资"
+      ],
+      "sortOrder": "custom"
+    },
+    "金融科学/量化投资": {
+      "children": [
+        "金融科学/量化投资/交易策略",
+        "金融科学/量化投资/回测分析",
+        "金融科学/量化投资/Figures"
+      ],
+      "sortOrder": "custom"
+    },
+    "金融科学/量化投资/回测分析": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "金融科学/量化投资/交易策略": {
+      "children": [
+        "金融科学/量化投资/交易策略/交易策略.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "金融科学/量化投资/Figures": {
+      "children": [
+        "金融科学/量化投资/Figures/均线交叉策略.png"
+      ],
+      "sortOrder": "custom"
+    },
     "数据科学": {
       "children": [
         "数据科学/数据科学.md",
@@ -154,6 +196,7 @@
     },
     "数据科学/数分工具/Python": {
       "children": [
+        "数据科学/数分工具/Python/数据获取",
         "数据科学/数分工具/Python/Numpy",
         "数据科学/数分工具/Python/Scienpy",
         "数据科学/数分工具/Python/Pandas",
@@ -161,6 +204,32 @@
         "数据科学/数分工具/Python/Skimage",
         "数据科学/数分工具/Python/Seaborn",
         "数据科学/数分工具/Python/Matplotlib"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/数据获取": {
+      "children": [
+        "数据科学/数分工具/Python/数据获取/Urlib",
+        "数据科学/数分工具/Python/数据获取/Request",
+        "数据科学/数分工具/Python/数据获取/SQLAlchemy"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/数据获取/Request": {
+      "children": [
+        "数据科学/数分工具/Python/数据获取/Request/Request.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/数据获取/SQLAlchemy": {
+      "children": [
+        "数据科学/数分工具/Python/数据获取/SQLAlchemy/SQLAlchemy.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据科学/数分工具/Python/数据获取/Urlib": {
+      "children": [
+        "数据科学/数分工具/Python/数据获取/Urlib/Urlib.md"
       ],
       "sortOrder": "custom"
     },
@@ -622,8 +691,7 @@
         "数学哲学/集合",
         "数学哲学/几何",
         "数学哲学/代数",
-        "数学哲学/分析",
-        "数学哲学/数学工程"
+        "数学哲学/分析"
       ],
       "sortOrder": "custom"
     },
@@ -962,16 +1030,6 @@
       "children": [],
       "sortOrder": "custom"
     },
-    "数学哲学/数学工程": {
-      "children": [
-        "数学哲学/数学工程/代数工程"
-      ],
-      "sortOrder": "custom"
-    },
-    "数学哲学/数学工程/代数工程": {
-      "children": [],
-      "sortOrder": "custom"
-    },
     "游戏科学": {
       "children": [
         "游戏科学/文明系列"
@@ -1180,100 +1238,220 @@
     },
     "语言哲学/程序语言/Python": {
       "children": [
+        "语言哲学/程序语言/Python/Python.md",
         "语言哲学/程序语言/Python/开发环境",
-        "语言哲学/程序语言/Python/面向过程",
-        "语言哲学/程序语言/Python/面向对象"
+        "语言哲学/程序语言/Python/基础语法",
+        "语言哲学/程序语言/Python/面向过程编程",
+        "语言哲学/程序语言/Python/面向函数编程",
+        "语言哲学/程序语言/Python/面向对象编程"
       ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/基础语法": {
+      "children": [
+        "语言哲学/程序语言/Python/基础语法/数据类型",
+        "语言哲学/程序语言/Python/基础语法/运算符",
+        "语言哲学/程序语言/Python/基础语法/表达式",
+        "语言哲学/程序语言/Python/基础语法/控制语句"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/基础语法/表达式": {
+      "children": [
+        "语言哲学/程序语言/Python/基础语法/表达式/正则表达式.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/基础语法/控制语句": {
+      "children": [
+        "语言哲学/程序语言/Python/基础语法/控制语句/循环语句.md",
+        "语言哲学/程序语言/Python/基础语法/控制语句/异常语句",
+        "语言哲学/程序语言/Python/基础语法/控制语句/过程管理语句"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/基础语法/控制语句/过程管理语句": {
+      "children": [
+        "语言哲学/程序语言/Python/基础语法/控制语句/过程管理语句/过程管理语句.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/基础语法/控制语句/异常语句": {
+      "children": [
+        "语言哲学/程序语言/Python/基础语法/控制语句/异常语句/异常语句.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/基础语法/数据类型": {
+      "children": [
+        "语言哲学/程序语言/Python/基础语法/数据类型/数据类型.md",
+        "语言哲学/程序语言/Python/基础语法/数据类型/数字类型",
+        "语言哲学/程序语言/Python/基础语法/数据类型/容器类型",
+        "语言哲学/程序语言/Python/基础语法/数据类型/函数类型",
+        "语言哲学/程序语言/Python/基础语法/数据类型/时间类型"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/基础语法/数据类型/函数类型": {
+      "children": [
+        "语言哲学/程序语言/Python/基础语法/数据类型/函数类型/函数类型.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/基础语法/数据类型/容器类型": {
+      "children": [
+        "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/序列类型",
+        "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/迭代类型",
+        "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/生成类型"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/迭代类型": {
+      "children": [
+        "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/迭代类型/迭代类型.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/生成类型": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/序列类型": {
+      "children": [
+        "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/序列类型/序列类型.md",
+        "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/序列类型/序列类型的结构.png",
+        "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/序列类型/列表类型",
+        "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/序列类型/元组类型",
+        "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/序列类型/字典类型",
+        "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/序列类型/字符串类型"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/序列类型/列表类型": {
+      "children": [
+        "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/序列类型/列表类型/列表类型.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/序列类型/元组类型": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/序列类型/字典类型": {
+      "children": [
+        "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/序列类型/字典类型/字典类型.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/序列类型/字符串类型": {
+      "children": [
+        "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/序列类型/字符串类型/字符串类型.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/基础语法/数据类型/时间类型": {
+      "children": [
+        "语言哲学/程序语言/Python/基础语法/数据类型/时间类型/时间类型.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/基础语法/数据类型/数字类型": {
+      "children": [
+        "语言哲学/程序语言/Python/基础语法/数据类型/数字类型/数字类型.md",
+        "语言哲学/程序语言/Python/基础语法/数据类型/数字类型/整数类型",
+        "语言哲学/程序语言/Python/基础语法/数据类型/数字类型/分数类型"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/基础语法/数据类型/数字类型/分数类型": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/基础语法/数据类型/数字类型/整数类型": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/基础语法/运算符": {
+      "children": [],
       "sortOrder": "custom"
     },
     "语言哲学/程序语言/Python/开发环境": {
       "children": [
-        "语言哲学/程序语言/Python/开发环境/文件管理"
+        "语言哲学/程序语言/Python/开发环境/文件管理",
+        "语言哲学/程序语言/Python/开发环境/程序管理",
+        "语言哲学/程序语言/Python/开发环境/运算管理",
+        "语言哲学/程序语言/Python/开发环境/网络管理"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/开发环境/程序管理": {
+      "children": [
+        "语言哲学/程序语言/Python/开发环境/程序管理/进程管理.md",
+        "语言哲学/程序语言/Python/开发环境/程序管理/线程管理.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/开发环境/网络管理": {
+      "children": [
+        "语言哲学/程序语言/Python/开发环境/网络管理/网络管理.md"
       ],
       "sortOrder": "custom"
     },
     "语言哲学/程序语言/Python/开发环境/文件管理": {
       "children": [
-        "语言哲学/程序语言/Python/开发环境/文件管理/OS"
+        "语言哲学/程序语言/Python/开发环境/文件管理/文件管理.md",
+        "语言哲学/程序语言/Python/开发环境/文件管理/路径管理"
       ],
       "sortOrder": "custom"
     },
-    "语言哲学/程序语言/Python/开发环境/文件管理/OS": {
+    "语言哲学/程序语言/Python/开发环境/文件管理/路径管理": {
+      "children": [
+        "语言哲学/程序语言/Python/开发环境/文件管理/路径管理/路径管理.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/开发环境/运算管理": {
+      "children": [
+        "语言哲学/程序语言/Python/开发环境/运算管理/随机模块"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/开发环境/运算管理/随机模块": {
+      "children": [
+        "语言哲学/程序语言/Python/开发环境/运算管理/随机模块/随机模块.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/面向对象编程": {
+      "children": [
+        "语言哲学/程序语言/Python/面向对象编程/面向对象编程.md",
+        "语言哲学/程序语言/Python/面向对象编程/类与对象的继承",
+        "语言哲学/程序语言/Python/面向对象编程/类与对象的组合"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/面向对象编程/类与对象的继承": {
+      "children": [
+        "语言哲学/程序语言/Python/面向对象编程/类与对象的继承/类与对象的继承.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/面向对象编程/类与对象的组合": {
+      "children": [
+        "语言哲学/程序语言/Python/面向对象编程/类与对象的组合/类与对象的组合.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "语言哲学/程序语言/Python/面向过程编程": {
       "children": [],
       "sortOrder": "custom"
     },
-    "语言哲学/程序语言/Python/面向对象": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "语言哲学/程序语言/Python/面向过程": {
+    "语言哲学/程序语言/Python/面向函数编程": {
       "children": [
-        "语言哲学/程序语言/Python/面向过程/基础语法"
+        "语言哲学/程序语言/Python/面向函数编程/面向函数编程.md",
+        "语言哲学/程序语言/Python/面向函数编程/Map Function.png",
+        "语言哲学/程序语言/Python/面向函数编程/Reduce Function.png"
       ],
-      "sortOrder": "custom"
-    },
-    "语言哲学/程序语言/Python/面向过程/基础语法": {
-      "children": [
-        "语言哲学/程序语言/Python/面向过程/基础语法/数据类型",
-        "语言哲学/程序语言/Python/面向过程/基础语法/运算符",
-        "语言哲学/程序语言/Python/面向过程/基础语法/表达式",
-        "语言哲学/程序语言/Python/面向过程/基础语法/控制语句"
-      ],
-      "sortOrder": "custom"
-    },
-    "语言哲学/程序语言/Python/面向过程/基础语法/表达式": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "语言哲学/程序语言/Python/面向过程/基础语法/控制语句": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "语言哲学/程序语言/Python/面向过程/基础语法/数据类型": {
-      "children": [
-        "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/数字类型",
-        "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/容器类型",
-        "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/迭代类型"
-      ],
-      "sortOrder": "custom"
-    },
-    "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/迭代类型": {
-      "children": [
-        "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/迭代类型/迭代类型.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/容器类型": {
-      "children": [
-        "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/容器类型/序列类型"
-      ],
-      "sortOrder": "custom"
-    },
-    "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/容器类型/序列类型": {
-      "children": [
-        "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/容器类型/序列类型/序列类型.md",
-        "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/容器类型/序列类型/序列类型的结构.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/数字类型": {
-      "children": [
-        "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/数字类型/数字类型.md",
-        "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/数字类型/整数类型",
-        "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/数字类型/分数类型"
-      ],
-      "sortOrder": "custom"
-    },
-    "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/数字类型/分数类型": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "语言哲学/程序语言/Python/面向过程/基础语法/数据类型/数字类型/整数类型": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "语言哲学/程序语言/Python/面向过程/基础语法/运算符": {
-      "children": [],
       "sortOrder": "custom"
     },
     "语言哲学/自然语言": {
