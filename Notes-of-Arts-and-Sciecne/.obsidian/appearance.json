@@ -21,7 +21,8 @@
     "label-mermaid",
     "mermaid-readable",
     "strong-highlight-Anu",
-    "math-scroll"
+    "math-scroll",
+    "video-size"
   ],
   "nativeMenus": false,
   "theme": "obsidian",

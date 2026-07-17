@@ -1,0 +1,51 @@
+/* ==================================================
+   Obsidian 视频尺寸容器
+   ================================================== */
+
+/* 所有自定义视频 Callout 的通用样式 */
+.callout[data-callout^="video-"] {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+/* 隐藏 Callout 标题栏 */
+.callout[data-callout^="video-"] > .callout-title {
+    display: none;
+}
+
+/* 清除内容区域内边距 */
+.callout[data-callout^="video-"] > .callout-content {
+    padding: 0;
+}
+
+/* 视频通用设置 */
+.callout[data-callout^="video-"] video {
+    display: block;
+    max-width: 100% !important;
+    height: auto !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 小尺寸 */
+.callout[data-callout="video-small"] video {
+    width: 520px !important;
+}
+
+/* 中等尺寸 */
+.callout[data-callout="video-medium"] video {
+    width: 800px !important;
+}
+
+/* 大尺寸 */
+.callout[data-callout="video-large"] video {
+    width: 1100px !important;
+}
+
+/* 占满笔记可用宽度 */
+.callout[data-callout="video-full"] video {
+    width: 100% !important;
+}
