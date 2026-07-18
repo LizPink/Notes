@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算科学/计算机理论/数据与算法/向量/具体实现.md",
+                "file": "计算科学/计算机理论/数据与算法/树/抽象类型.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "具体实现"
+              "title": "抽象类型"
             }
           },
           {
@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算科学/计算机理论/数据与算法/算法理论/算法理论_例题.md",
-                "mode": "source",
+                "file": "语言哲学/程序语言/C+/基础语法/数据类型/函数类型/函数类型.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -52,10 +52,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "算法理论_例题"
+              "title": "函数类型"
+            }
+          },
+          {
+            "id": "4a7612daa3c3c488",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语言哲学/程序语言/C+/C+.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "C+"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算科学/计算机理论/数据与算法/向量/具体实现.md",
+                "file": "语言哲学/程序语言/C+/C+.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "具体实现 的大纲"
+              "title": "C+ 的大纲"
             }
           }
         ]
@@ -266,16 +291,24 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "6195fe7989386917",
+  "active": "4a7612daa3c3c488",
   "lastOpenFiles": [
-    "计算科学/计算机理论/数据与算法/向量/MergeSortStable.mp4",
-    "计算科学/计算机理论/数据与算法/向量/BubbleSortC.mp4",
-    "计算科学/计算机理论/数据与算法/算法理论/算法理论_例题.md",
-    "计算科学/计算机理论/数据与算法/算法理论/算法理论.md",
+    "语言哲学/程序语言/C+/基础设施/内存管理/内存管理.md",
+    "计算科学/计算机理论/数据与算法/树/抽象类型.md",
+    "语言哲学/程序语言/C+/基础语法/数据类型/函数类型/函数类型.md",
+    "语言哲学/程序语言/C+/基础语法/数据类型/函数类型/未命名.md",
+    "计算科学/计算机理论/数据与算法/树/具体实现.md",
+    "计算科学/计算机理论/数据与算法/树/未命名.md",
     "计算科学/计算机理论/数据与算法/向量/具体实现.md",
-    "计算科学/计算机理论/数据与算法/向量/VectorBinarySearchB 1.mp4",
-    "计算科学/计算机理论/数据与算法/向量/VectorBinarySearchB.mp4",
     "计算科学/计算机理论/数据与算法/向量/抽象类型.md",
+    "计算科学/计算机理论/数据与算法/算法理论/算法理论_例题.md",
+    "计算科学/计算机理论/数据与算法/图/抽象类型.md",
+    "计算科学/计算机理论/数据与算法/树/Videos",
+    "计算科学/计算机理论/数据与算法/向量/Videos/MergeSortStable.mp4",
+    "计算科学/计算机理论/数据与算法/向量/Videos/BubbleSortC.mp4",
+    "计算科学/计算机理论/数据与算法/算法理论/算法理论.md",
+    "计算科学/计算机理论/数据与算法/向量/Videos/VectorBinarySearchB 1.mp4",
+    "计算科学/计算机理论/数据与算法/向量/Videos/VectorBinarySearchB.mp4",
     "计算科学/计算机理论/数据与算法/算法理论/算法内容/排序算法/排序算法.md",
     "计算科学/计算机理论/数据与算法/算法理论/算法内容/查找算法/二分查找/二分查找.md",
     "计算科学/计算机理论/数据与算法/数据结构/向量/有序向量/有序向量.md",
@@ -292,10 +325,7 @@
     "计算科学/计算机理论/数据与算法/向量/Videos",
     "语言哲学/程序语言/C+/C+.md",
     "语言哲学/程序语言/C+/基础设施/基础设施.md",
-    "语言哲学/程序语言/C+/基础设施/内存管理/内存管理.md",
     "智能科学/生成模型/生成模型.md",
-    "智能科学/生成模型",
-    "智能科学",
     "计算科学/计算机理论/数据与算法/数据结构/向量/无序向量/无序向量区间删除_高清动画.gif",
     "计算科学/计算机理论/数据与算法/数据结构/向量/无序向量/ChatGPT Image 2026年7月13日 22_50_52.png",
     "语言哲学/程序语言/C+/面向模板/面向模板.md",
@@ -304,11 +334,6 @@
     "计算科学/计算机工程/计算机系统/硬件系统/电子计算机/未命名.md",
     "计算科学/计算机工程/计算机系统/硬件系统/电子计算机/Drawing 2026-07-13 16.42.42.excalidraw.md",
     "计算科学/计算机工程/计算机系统/软件系统/软件系统.md",
-    "计算科学/计算机工程/计算机系统/软件系统/汇编.md",
-    "语言哲学/程序语言/C+/面向对象/类的关系/类的继承/类的继承.md",
-    "语言哲学/程序语言/C+/基础设施/异常管理/异常管理.md",
-    "语言哲学/程序语言/C+/面向对象/类的关系/类的继承/类的多态/类的多态.md",
-    "语言哲学/程序语言/C+/基础语法/数据类型/函数类型/函数类型.md",
     "金融科学/量化投资/Figures/均线交叉策略.png",
     "计算科学/计算机理论/数据与算法/算法理论/算法理论/排序算法/Pasted image 20260707134611.png",
     "计算科学/计算机理论/计算机网络/HTTPS Protocol.png",
