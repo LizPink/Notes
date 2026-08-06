@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">前馈神经网络结构示意图</title>
+  <desc id="desc">一个三输入、四节点第一隐藏层、三节点第二隐藏层和双输出的全连接前馈神经网络。</desc>
+
+  <defs>
+    <marker id="flow-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#7C838D"/>
+    </marker>
+  </defs>
+
+  <rect width="1280" height="720" fill="#0B0F14"/>
+
+  <g fill="none" stroke="#2A313A" stroke-width="2" stroke-linecap="round" opacity="0.62">
+    <line x1="145" y1="210" x2="470" y2="210"/>
+    <line x1="145" y1="210" x2="470" y2="337"/>
+    <line x1="145" y1="210" x2="470" y2="463"/>
+    <line x1="145" y1="210" x2="470" y2="590"/>
+    <line x1="145" y1="400" x2="470" y2="210"/>
+    <line x1="145" y1="400" x2="470" y2="337"/>
+    <line x1="145" y1="400" x2="470" y2="463"/>
+    <line x1="145" y1="400" x2="470" y2="590"/>
+    <line x1="145" y1="590" x2="470" y2="210"/>
+    <line x1="145" y1="590" x2="470" y2="337"/>
+    <line x1="145" y1="590" x2="470" y2="463"/>
+    <line x1="145" y1="590" x2="470" y2="590"/>
+
+    <line x1="470" y1="210" x2="810" y2="210"/>
+    <line x1="470" y1="210" x2="810" y2="400"/>
+    <line x1="470" y1="210" x2="810" y2="590"/>
+    <line x1="470" y1="337" x2="810" y2="210"/>
+    <line x1="470" y1="337" x2="810" y2="400"/>
+    <line x1="470" y1="337" x2="810" y2="590"/>
+    <line x1="470" y1="463" x2="810" y2="210"/>
+    <line x1="470" y1="463" x2="810" y2="400"/>
+    <line x1="470" y1="463" x2="810" y2="590"/>
+    <line x1="470" y1="590" x2="810" y2="210"/>
+    <line x1="470" y1="590" x2="810" y2="400"/>
+    <line x1="470" y1="590" x2="810" y2="590"/>
+
+    <line x1="810" y1="210" x2="1135" y2="210"/>
+    <line x1="810" y1="210" x2="1135" y2="590"/>
+    <line x1="810" y1="400" x2="1135" y2="210"/>
+    <line x1="810" y1="400" x2="1135" y2="590"/>
+    <line x1="810" y1="590" x2="1135" y2="210"/>
+    <line x1="810" y1="590" x2="1135" y2="590"/>
+  </g>
+
+  <g text-anchor="middle">
+    <text x="640" y="32" fill="#7C838D" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="16">信息流</text>
+    <line x1="555" y1="50" x2="725" y2="50" stroke="#65707D" stroke-width="2" marker-end="url(#flow-arrow)"/>
+
+    <g fill="#F7F7F7" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="600">
+      <text x="145" y="103">输入层</text>
+      <text x="470" y="103">隐藏层 1</text>
+      <text x="810" y="103">隐藏层 2</text>
+      <text x="1135" y="103">输出层</text>
+    </g>
+
+    <g fill="#7C838D" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="16" font-weight="400">
+      <text x="145" y="138">原始特征</text>
+      <text x="470" y="138">线性变换 + ReLU</text>
+      <text x="810" y="138">线性变换 + ReLU</text>
+      <text x="1135" y="138">Softmax / 预测</text>
+    </g>
+
+    <g stroke="#5B9DFF" stroke-width="2.5" fill="#14233A">
+      <circle cx="145" cy="210" r="30"/>
+      <circle cx="145" cy="400" r="30"/>
+      <circle cx="145" cy="590" r="30"/>
+    </g>
+
+    <g stroke="#FF9B4A" stroke-width="2.5" fill="#3A2618">
+      <circle cx="470" cy="210" r="30"/>
+      <circle cx="470" cy="337" r="30"/>
+      <circle cx="470" cy="463" r="30"/>
+      <circle cx="470" cy="590" r="30"/>
+      <circle cx="810" cy="210" r="30"/>
+      <circle cx="810" cy="400" r="30"/>
+      <circle cx="810" cy="590" r="30"/>
+    </g>
+
+    <g stroke="#7CD992" stroke-width="2.5" fill="#173522">
+      <circle cx="1135" cy="210" r="30"/>
+      <circle cx="1135" cy="590" r="30"/>
+    </g>
+
+    <g fill="#F7F7F7" font-family="STIX Two Text, Cambria Math, Times New Roman, serif" font-size="24" font-style="italic" font-weight="600" dominant-baseline="central">
+      <text x="145" y="210">x₁</text>
+      <text x="145" y="400">x₂</text>
+      <text x="145" y="590">x₃</text>
+      <text x="470" y="210">h₁¹</text>
+      <text x="470" y="337">h₂¹</text>
+      <text x="470" y="463">h₃¹</text>
+      <text x="470" y="590">h₄¹</text>
+      <text x="810" y="210">h₁²</text>
+      <text x="810" y="400">h₂²</text>
+      <text x="810" y="590">h₃²</text>
+      <text x="1135" y="210">ŷ₁</text>
+      <text x="1135" y="590">ŷ₂</text>
+    </g>
+  </g>
+</svg>

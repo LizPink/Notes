@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">单层神经网络</title>
+  <desc id="desc">输入向量 Z0 按 PyTorch 式行向量布局计算 U1 等于 Z0 乘 W1 的转置再加 b1，并经激活函数形成输出 Z1。输入层不计入网络层数，输出层是唯一的网络层。</desc>
+
+  <defs>
+    <style>
+      @font-face {
+        font-family: "Project STIX";
+        src: url("../assets/fonts/STIXTwoText-Regular.otf") format("opentype");
+        font-style: normal;
+        font-weight: 400;
+      }
+      @font-face {
+        font-family: "Project STIX";
+        src: url("../assets/fonts/STIXTwoText-Italic.otf") format("opentype");
+        font-style: italic;
+        font-weight: 400;
+      }
+    </style>
+    <marker id="single-layer-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#7C838D"/>
+    </marker>
+  </defs>
+
+  <rect width="1280" height="720" fill="#0B0F14"/>
+
+  <text x="640" y="62" fill="#F2F4F7"
+        font-family="Microsoft YaHei UI, Microsoft YaHei, DengXian, Noto Sans CJK SC, sans-serif"
+        font-size="20" font-weight="600" text-anchor="middle">信息流</text>
+  <line x1="555" y1="94" x2="725" y2="94"
+        stroke="#65707D" stroke-width="2" marker-end="url(#single-layer-arrow)"/>
+
+  <g text-anchor="middle">
+    <text x="220" y="146" fill="#F2F4F7"
+          font-family="Microsoft YaHei UI, Microsoft YaHei, DengXian, Noto Sans CJK SC, sans-serif"
+          font-size="22" font-weight="600">输入</text>
+    <text x="220" y="188" fill="#F2F4F7"
+          font-family="Project STIX, STIX Two Text, Cambria Math, serif"
+          font-size="34" font-style="italic">Z₀</text>
+
+    <text x="1060" y="146" fill="#F2F4F7"
+          font-family="Microsoft YaHei UI, Microsoft YaHei, DengXian, Noto Sans CJK SC, sans-serif"
+          font-size="22" font-weight="600">输出</text>
+    <text x="1060" y="188" fill="#F2F4F7"
+          font-family="Project STIX, STIX Two Text, Cambria Math, serif"
+          font-size="34" font-style="italic">Z₁</text>
+
+    <text x="640" y="148" fill="#F2F4F7"
+          font-family="Project STIX, STIX Two Text, Cambria Math, serif"
+          font-size="25" font-style="italic">U₁ = Z₀ W₁ᵀ + b₁</text>
+    <text x="640" y="183" fill="#F2F4F7"
+          font-family="Project STIX, STIX Two Text, Cambria Math, serif"
+          font-size="21" font-style="italic">Z₁ = f(U₁)</text>
+  </g>
+
+  <g id="network-connections" fill="none" stroke="#2A313A"
+     stroke-width="2" stroke-linecap="round" opacity="0.70">
+    <line x1="220" y1="250" x2="1060" y2="250"/>
+    <line x1="220" y1="250" x2="1060" y2="590"/>
+    <line x1="220" y1="420" x2="1060" y2="250"/>
+    <line x1="220" y1="420" x2="1060" y2="590"/>
+    <line x1="220" y1="590" x2="1060" y2="250"/>
+    <line x1="220" y1="590" x2="1060" y2="590"/>
+  </g>
+
+  <g>
+    <circle cx="220" cy="250" r="31" fill="#14243A" stroke="#579BFF" stroke-width="3"/>
+    <circle cx="220" cy="420" r="31" fill="#14243A" stroke="#579BFF" stroke-width="3"/>
+    <circle cx="220" cy="590" r="31" fill="#14243A" stroke="#579BFF" stroke-width="3"/>
+
+    <circle cx="1060" cy="250" r="31" fill="#143623" stroke="#70D68C" stroke-width="3"/>
+    <circle cx="1060" cy="590" r="31" fill="#143623" stroke="#70D68C" stroke-width="3"/>
+  </g>
+</svg>
