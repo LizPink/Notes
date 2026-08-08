@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算科学/计算机理论/计算机理论.md",
-                "mode": "preview",
+                "file": "计算科学/计算机工程/计算工程/软件系统/软件配置/JSON.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "计算机理论"
+              "title": "JSON"
             }
           },
           {
@@ -37,7 +37,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语言哲学/程序语言/Python/Python.md",
+                "file": "语言哲学/程序语言/Python/开发框架/项目管理/项目管理.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "项目管理"
+            }
+          },
+          {
+            "id": "361f1ce12e58bb13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语言哲学/程序语言/Python/开发框架/项目管理/测试管理/Pytest.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python"
+              "title": "Pytest"
             }
           },
           {
@@ -61,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语言哲学/程序语言/Python/基础语法/数据类型/函数类型/函数类型.md",
+                "file": "语言哲学/程序语言/Python/开发框架/数值计算/Numpy/类型运算/类型运算.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "函数类型"
+              "title": "类型运算"
             }
           },
           {
@@ -85,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语言哲学/程序语言/C+/基础语法/数据类型/算术类型/整数/整数类型/整数类型.md",
+                "file": "语言哲学/程序语言/Python/开发框架/数值计算/Numpy/类型定义/类型定义.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -100,10 +124,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "整数类型"
+              "title": "类型定义"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -115,7 +140,7 @@
       {
         "id": "f1d4a39c8e9d75ac",
         "type": "tabs",
-        "dimension": 51.53688524590164,
+        "dimension": 59.528688524590166,
         "children": [
           {
             "id": "356fed687db4ec70",
@@ -162,7 +187,7 @@
       {
         "id": "15743879bc1e83fc",
         "type": "tabs",
-        "dimension": 48.46311475409836,
+        "dimension": 40.47131147540984,
         "children": [
           {
             "id": "754cb4eb10e87173",
@@ -170,13 +195,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算科学/计算机理论/计算机理论.md",
+                "file": "语言哲学/程序语言/Python/开发框架/项目管理/测试管理/Pytest.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "计算机理论 的大纲"
+              "title": "Pytest 的大纲"
             }
           }
         ]
@@ -314,44 +339,44 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "6d072ae4be147166",
+  "active": "356fed687db4ec70",
   "lastOpenFiles": [
-    "语言哲学/程序语言/C+/C+.md",
-    "语言哲学/程序语言/Python/Python.md",
-    "语言哲学/程序语言/Python/面向对象编程/面向对象编程.md",
-    "语言哲学/程序语言/Python/基础语法/数据类型/函数类型/函数类型.md",
-    "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/生成类型/生成类型.md",
+    "语言哲学/程序语言/Python/开发框架/项目管理/项目管理.md",
+    "计算科学/计算机工程/计算工程/软件系统/软件配置/JSON.md",
+    "计算科学/计算机工程/计算工程/软件系统/软件配置/YAML.md",
+    "语言哲学/程序语言/Python/开发框架/项目管理/测试管理/Pytest.md",
+    "计算科学/计算机工程/计算工程/软件系统/软件配置",
     "语言哲学/程序语言/Python/基础语法/数据类型/数据类型.md",
+    "语言哲学/程序语言/Python/基础语法/数据类型/函数类型/函数类型.md",
+    "计算科学/计算机工程/计算工程/软件系统/命令系统/Linux/Linux.md",
+    "语言哲学/程序语言/Python/开发框架/数值计算/Numpy/类型运算/类型运算.md",
+    "语言哲学/程序语言/Python/开发框架/数值计算/Numpy/类型操作/类型操作.md",
+    "语言哲学/程序语言/Python/开发框架/数值计算/Numpy/类型定义/类型定义.md",
+    "语言哲学/程序语言/Python/开发框架/数值计算/Pandas/数据类型/类型定义/类型定义.md",
+    "计算科学/计算机理论/网络系统/计算机网络.md",
+    "语言哲学/程序语言/Python/开发框架/数值计算/Pandas/数据类型/_TOC_.md",
     "计算科学/计算机理论/计算机理论.md",
-    "语言哲学/程序语言/C+/基础设施/基础设施.md",
-    "数据科学/数据建设/数据读取/数据读取.md",
-    "语言哲学/程序语言/Python/开发环境/项目管理/文件管理/文件管理.md",
-    "数据科学/数据建设/数据读取",
-    "语言哲学/程序语言/Python/基础语法/数据类型/数字类型/数字类型.md",
-    "语言哲学/程序语言/Python/基础语法/数据类型/数据类型-实践.md",
-    "数学哲学/理论数学/几何/解析几何/解析几何.md",
-    "语言哲学/程序语言/C+/基础语法/数据类型/指针类型/指针类型/指针类型.md",
-    "语言哲学/程序语言/C+/基础设施/内存管理/内存管理.md",
-    "语言哲学/程序语言/Python/基础语法/表达式/推导表达式.md",
+    "语言哲学/程序语言/Python/面向对象编程/面向对象编程.md",
+    "语言哲学/程序语言/Python/Python.md",
+    "语言哲学/程序语言/Python/开发框架/项目管理/测试管理",
     "语言哲学/程序语言/Python/基础语法/控制语句/异常语句/异常语句.md",
-    "语言哲学/程序语言/Python/基础语法/表达式/正则表达式.md",
-    "语言哲学/程序语言/C+/基础语法/表达式/常量表达式.md",
-    "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/基本容器/字符串类型/字符串类型.md",
+    "计算科学/计算机工程/计算工程/软件系统/版本控制/Git/Git.md",
+    "计算科学/计算机工程/计算工程/软件系统/命令系统/Power Shell.md",
+    "数据科学/数据建模/数据建模.md",
+    "计算科学/计算机工程/计算工程/软件系统/命令系统",
+    "计算科学/计算机工程/计算工程/软件系统/计算机系统.md",
+    "语言哲学/程序语言/Python/面向对象编程/类的继承/类与对象的继承.md",
+    "语言哲学/程序语言/Python/面向对象编程/类的组合/类与对象的组合.md",
+    "语言哲学/程序语言/Python/面向对象编程/类的多态/类的多态.md",
+    "语言哲学/程序语言/Python/面向泛型编程/泛型编程.md",
+    "语言哲学/程序语言/Python/面向泛型编程",
     "语言哲学/程序语言/C+/基础语法/数据类型/算术类型/整数/整数类型/整数类型.md",
-    "计算科学/计算机理论/数据与算法/向量/抽象类型.md",
-    "计算科学/计算机理论/图形理论/渲染理论/渲染理论.md",
-    "语言哲学/程序语言/Python/基础语法/控制语句/循环语句.md",
-    "语言哲学/程序语言/Python/基础语法/控制语句/管理语句/过程管理语句.md",
-    "语言哲学/程序语言/Python/开发环境/程序管理/错误管理.md",
+    "语言哲学/程序语言/Python/面向对象编程/类的多态",
+    "数据科学/数据建设/数据读取",
     "语言哲学/程序语言/Python/基础语法/标识符",
     "计算科学/计算机工程/图形工程/光锥渲染器",
     "计算科学/计算机工程/图形工程",
     "数学哲学/应用数学/代数方程/线性方程",
-    "数学哲学/应用数学/代数方程",
-    "数学哲学/理论数学/代数/线性代数/向量代数",
-    "数学哲学/理论数学/几何/解析几何",
-    "计算科学/计算机工程/计算系统/软件系统/图形工程",
-    "计算科学/计算机理论/图形理论/渲染理论",
     "计算科学/计算机理论/网络系统/HTTPS Protocol.png",
     "智能科学/神经网络/single-layer-network.svg",
     "智能科学/神经网络/input.svg",
