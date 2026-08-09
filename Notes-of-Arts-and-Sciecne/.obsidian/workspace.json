@@ -37,31 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语言哲学/程序语言/Python/开发框架/项目管理/项目管理.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "项目管理"
-            }
-          },
-          {
-            "id": "361f1ce12e58bb13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语言哲学/程序语言/Python/开发框架/项目管理/测试管理/Pytest.md",
+                "file": "计算科学/计算机工程/计算工程/软件系统/软件配置/RE.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +52,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Pytest"
+              "title": "RE"
+            }
+          },
+          {
+            "id": "361f1ce12e58bb13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算科学/计算机工程/计算工程/软件系统/软件配置/YAML.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "YAML"
             }
           },
           {
@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,7 +140,7 @@
       {
         "id": "f1d4a39c8e9d75ac",
         "type": "tabs",
-        "dimension": 59.528688524590166,
+        "dimension": 59.52868852459016,
         "children": [
           {
             "id": "356fed687db4ec70",
@@ -161,7 +161,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "正则表达式",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -195,13 +195,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语言哲学/程序语言/Python/开发框架/项目管理/测试管理/Pytest.md",
+                "file": "计算科学/计算机工程/计算工程/软件系统/软件配置/RE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Pytest 的大纲"
+              "title": "RE 的大纲"
             }
           }
         ]
@@ -339,11 +339,15 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "356fed687db4ec70",
+  "active": "6195fe7989386917",
   "lastOpenFiles": [
+    "语言哲学/程序语言/Python/基础语法/表达式/正则表达式.md",
+    "计算科学/计算机工程/计算工程/软件系统/软件配置/RE.md",
     "语言哲学/程序语言/Python/开发框架/项目管理/项目管理.md",
-    "计算科学/计算机工程/计算工程/软件系统/软件配置/JSON.md",
     "计算科学/计算机工程/计算工程/软件系统/软件配置/YAML.md",
+    "计算科学/计算机工程/计算工程/软件系统/软件配置/JSON.md",
+    "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/基本容器/字符串类型/字符串类型.md",
+    "计算科学/计算机工程/计算工程/软件系统/版本控制/Git/Git.md",
     "语言哲学/程序语言/Python/开发框架/项目管理/测试管理/Pytest.md",
     "计算科学/计算机工程/计算工程/软件系统/软件配置",
     "语言哲学/程序语言/Python/基础语法/数据类型/数据类型.md",
@@ -360,17 +364,13 @@
     "语言哲学/程序语言/Python/Python.md",
     "语言哲学/程序语言/Python/开发框架/项目管理/测试管理",
     "语言哲学/程序语言/Python/基础语法/控制语句/异常语句/异常语句.md",
-    "计算科学/计算机工程/计算工程/软件系统/版本控制/Git/Git.md",
     "计算科学/计算机工程/计算工程/软件系统/命令系统/Power Shell.md",
     "数据科学/数据建模/数据建模.md",
     "计算科学/计算机工程/计算工程/软件系统/命令系统",
     "计算科学/计算机工程/计算工程/软件系统/计算机系统.md",
     "语言哲学/程序语言/Python/面向对象编程/类的继承/类与对象的继承.md",
     "语言哲学/程序语言/Python/面向对象编程/类的组合/类与对象的组合.md",
-    "语言哲学/程序语言/Python/面向对象编程/类的多态/类的多态.md",
-    "语言哲学/程序语言/Python/面向泛型编程/泛型编程.md",
     "语言哲学/程序语言/Python/面向泛型编程",
-    "语言哲学/程序语言/C+/基础语法/数据类型/算术类型/整数/整数类型/整数类型.md",
     "语言哲学/程序语言/Python/面向对象编程/类的多态",
     "数据科学/数据建设/数据读取",
     "语言哲学/程序语言/Python/基础语法/标识符",

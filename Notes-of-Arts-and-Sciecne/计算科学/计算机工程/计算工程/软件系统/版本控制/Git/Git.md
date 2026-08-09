@@ -254,3 +254,10 @@ git push						# 后续使用
 
 
 ```
+
+# 配置管理
+支持显示中文文件名
+```sh
+git config core.quotepath false			# 当前仓库范围
+git config --global core.quotepath false	# 全局仓库范围
+```
