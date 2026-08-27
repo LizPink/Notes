@@ -1,10 +1,45 @@
-/* 阅读模式：中英文、中文数字之间自动留白 */
+/* =========================================================
+   CJK / Latin 自动间距
+   ========================================================= */
+
+
+/* =========================================================
+   1. 普通正文
+   ========================================================= */
+
+/* 阅读模式 */
 .markdown-preview-view,
 .markdown-rendered {
-  text-autospace: normal;
+    text-autospace: normal;
 }
 
-/* 编辑模式 / 实时预览模式 */
+/* 编辑模式 */
 .markdown-source-view.mod-cm6 .cm-line {
-  text-autospace: normal;
+    text-autospace: normal;
+}
+
+
+/* =========================================================
+   2. 代码：关闭自动间距
+   ========================================================= */
+
+/* 编辑模式：代码块 */
+.markdown-source-view.mod-cm6 .HyperMD-codeblock {
+    text-autospace: no-autospace !important;
+}
+
+/* 阅读模式：代码块 */
+.markdown-rendered pre,
+.markdown-rendered pre code {
+    text-autospace: no-autospace !important;
+}
+
+/* 编辑模式：行内代码 */
+.markdown-source-view.mod-cm6 .cm-inline-code {
+    text-autospace: no-autospace !important;
+}
+
+/* 阅读模式：行内代码 */
+.markdown-rendered :not(pre) > code {
+    text-autospace: no-autospace !important;
 }

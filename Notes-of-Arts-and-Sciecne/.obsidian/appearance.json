@@ -22,7 +22,11 @@
     "mermaid-readable",
     "strong-highlight-Anu",
     "math-scroll",
-    "video-size"
+    "video-size",
+    "nested-blockquote-spacing",
+    "divider",
+    "math-environments",
+    "code-layout"
   ],
   "nativeMenus": false,
   "theme": "obsidian",

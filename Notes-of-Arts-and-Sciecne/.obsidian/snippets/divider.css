@@ -1,0 +1,392 @@
+/* =========================================================
+   Obsidian — Divider System
+   ---------------------------------------------------------
+   Structure
+   00. Global parameters
+   01. Base component
+   02. Layout variants
+   03. Document hierarchy
+   04. Mathematical environments
+   05. Explanation / practice environments
+   06. Attention environments
+   07. Decorative variants
+   ========================================================= */
+
+
+/* =========================================================
+   00. Global parameters
+   ========================================================= */
+
+body {
+    /* ---------- Default geometry ---------- */
+    --od-gap: 12px;
+    --od-margin-top: 1.8em;
+    --od-margin-bottom: 1.8em;
+    --od-line-height: 1px;
+    --od-line-opacity: 55%;
+
+    /* ---------- Default typography ---------- */
+    --od-font-size: 0.85em;
+    --od-font-weight: 600;
+    --od-letter-spacing: 0.04em;
+
+    /* ---------- Semantic colors ---------- */
+    --od-definition: var(--color-cyan);
+
+    --od-theorem: var(--color-blue);
+    --od-proposition: var(--color-purple);
+    --od-lemma: var(--color-blue);
+    --od-corollary: var(--color-purple);
+    --od-axiom: var(--color-purple);
+    --od-conjecture: var(--color-orange);
+    --od-claim: var(--color-blue);
+
+    --od-proof: var(--text-muted);
+    --od-notation: var(--color-cyan);
+    --od-assumption: var(--color-yellow);
+
+    --od-example: var(--color-green);
+    --od-exercise: var(--color-orange);
+    --od-solution: var(--color-green);
+    --od-remark: var(--color-yellow);
+    --od-note: var(--color-yellow);
+    --od-intuition: var(--color-cyan);
+
+    --od-important: var(--color-red);
+    --od-warning: var(--color-orange);
+}
+
+
+/* =========================================================
+   01. Base component
+   ========================================================= */
+
+.obs-divider {
+    /* ---------- Per-divider defaults ---------- */
+    --divider-accent: var(--text-muted);
+    --divider-line-opacity: var(--od-line-opacity);
+    --divider-line-height: var(--od-line-height);
+
+    --divider-gap: var(--od-gap);
+    --divider-margin-top: var(--od-margin-top);
+    --divider-margin-bottom: var(--od-margin-bottom);
+
+    --divider-font-size: var(--od-font-size);
+    --divider-font-weight: var(--od-font-weight);
+    --divider-letter-spacing: var(--od-letter-spacing);
+
+    /* ---------- Layout ---------- */
+    display: flex;
+    align-items: center;
+    gap: var(--divider-gap);
+
+    width: 100%;
+    margin: var(--divider-margin-top) 0 var(--divider-margin-bottom);
+
+    /* ---------- Typography ---------- */
+    color: var(--divider-accent);
+    font-size: var(--divider-font-size);
+    font-weight: var(--divider-font-weight);
+    letter-spacing: var(--divider-letter-spacing);
+}
+
+.obs-divider::before,
+.obs-divider::after {
+    content: "";
+    flex: 1;
+
+    height: var(--divider-line-height);
+
+    background: color-mix(
+        in srgb,
+        var(--divider-accent) var(--divider-line-opacity),
+        transparent
+    );
+}
+
+
+/* =========================================================
+   02. Layout variants
+   ========================================================= */
+
+/* ---------- One-sided ----------
+   <div class="obs-divider simple">Text</div>
+   Text ───────────────────────────────
+   --------------------------------------------------------- */
+
+.obs-divider.simple {
+    --divider-gap: 10px;
+    --divider-margin-top: 1.3em;
+    --divider-margin-bottom: 1.3em;
+}
+
+.obs-divider.simple::before {
+    display: none;
+}
+
+
+/* ---------- Compact ----------
+   Can be combined with semantic classes:
+   <div class="obs-divider theorem compact">Theorem</div>
+   --------------------------------------------------------- */
+
+.obs-divider.compact {
+    --divider-margin-top: 1.1em;
+    --divider-margin-bottom: 1.1em;
+    --divider-gap: 9px;
+}
+
+
+/* ---------- Spacious ---------- */
+
+.obs-divider.spacious {
+    --divider-margin-top: 2.5em;
+    --divider-margin-bottom: 2.2em;
+}
+
+
+/* =========================================================
+   03. Document hierarchy
+   ========================================================= */
+
+/* ---------- Section ---------- */
+
+.obs-divider.section {
+    --divider-accent: var(--text-muted);
+    --divider-line-opacity: 45%;
+}
+
+
+/* ---------- Chapter ---------- */
+
+.obs-divider.chapter {
+    --divider-accent: var(--text-normal);
+    --divider-line-height: 2px;
+
+    --divider-margin-top: 2.6em;
+    --divider-margin-bottom: 2em;
+
+    --divider-font-size: 0.95em;
+    --divider-font-weight: 700;
+    --divider-letter-spacing: 0.08em;
+}
+
+.obs-divider.chapter::before {
+    background: linear-gradient(
+        to right,
+        transparent,
+        var(--text-muted)
+    );
+}
+
+.obs-divider.chapter::after {
+    background: linear-gradient(
+        to left,
+        transparent,
+        var(--text-muted)
+    );
+}
+
+
+/* =========================================================
+   04. Mathematical environments
+   ========================================================= */
+
+/* ---------- Definition ---------- */
+
+.obs-divider.definition {
+    --divider-accent: var(--od-definition);
+}
+
+
+/* ---------- Theorem ---------- */
+
+.obs-divider.theorem {
+    --divider-accent: var(--od-theorem);
+    --divider-line-opacity: 65%;
+    --divider-line-height: 2px;
+    --divider-font-weight: 700;
+}
+
+
+/* ---------- Proposition ---------- */
+
+.obs-divider.proposition {
+    --divider-accent: var(--od-proposition);
+    --divider-line-opacity: 58%;
+    --divider-font-weight: 650;
+}
+
+
+/* ---------- Lemma ---------- */
+
+.obs-divider.lemma {
+    --divider-accent: var(--od-lemma);
+    --divider-line-opacity: 42%;
+}
+
+
+/* ---------- Corollary ---------- */
+
+.obs-divider.corollary {
+    --divider-accent: var(--od-corollary);
+    --divider-line-opacity: 42%;
+}
+
+
+/* ---------- Axiom ---------- */
+
+.obs-divider.axiom {
+    --divider-accent: var(--od-axiom);
+    --divider-line-opacity: 68%;
+    --divider-line-height: 2px;
+    --divider-font-weight: 700;
+}
+
+
+/* ---------- Conjecture ---------- */
+
+.obs-divider.conjecture {
+    --divider-accent: var(--od-conjecture);
+    --divider-line-opacity: 52%;
+}
+
+
+/* ---------- Claim ---------- */
+
+.obs-divider.claim {
+    --divider-accent: var(--od-claim);
+    --divider-line-opacity: 45%;
+}
+
+
+/* ---------- Proof ---------- */
+
+.obs-divider.proof {
+    --divider-accent: var(--od-proof);
+    --divider-line-opacity: 35%;
+    --divider-font-weight: 500;
+    --divider-letter-spacing: 0.02em;
+
+    font-style: italic;
+}
+
+
+/* ---------- Notation ---------- */
+
+.obs-divider.notation {
+    --divider-accent: var(--od-notation);
+    --divider-line-opacity: 38%;
+    --divider-font-weight: 500;
+}
+
+
+/* ---------- Assumption ---------- */
+
+.obs-divider.assumption {
+    --divider-accent: var(--od-assumption);
+    --divider-line-opacity: 45%;
+}
+
+
+/* =========================================================
+   05. Explanation / practice environments
+   ========================================================= */
+
+/* ---------- Example ---------- */
+
+.obs-divider.example {
+    --divider-accent: var(--od-example);
+}
+
+
+/* ---------- Exercise ---------- */
+
+.obs-divider.exercise {
+    --divider-accent: var(--od-exercise);
+    --divider-line-opacity: 58%;
+    --divider-font-weight: 650;
+}
+
+
+/* ---------- Solution ---------- */
+
+.obs-divider.solution {
+    --divider-accent: var(--od-solution);
+    --divider-line-opacity: 38%;
+    --divider-font-weight: 500;
+}
+
+
+/* ---------- Remark ---------- */
+
+.obs-divider.remark {
+    --divider-accent: var(--od-remark);
+    --divider-line-opacity: 42%;
+}
+
+
+/* ---------- Note ---------- */
+
+.obs-divider.note {
+    --divider-accent: var(--od-note);
+}
+
+
+/* ---------- Intuition ---------- */
+
+.obs-divider.intuition {
+    --divider-accent: var(--od-intuition);
+    --divider-line-opacity: 38%;
+}
+
+
+/* =========================================================
+   06. Attention environments
+   ========================================================= */
+
+/* ---------- Important ---------- */
+
+.obs-divider.important {
+    --divider-accent: var(--od-important);
+    --divider-line-opacity: 65%;
+    --divider-line-height: 2px;
+    --divider-font-weight: 700;
+}
+
+
+/* ---------- Warning ---------- */
+
+.obs-divider.warning {
+    --divider-accent: var(--od-warning);
+    --divider-line-opacity: 68%;
+    --divider-line-height: 2px;
+    --divider-font-weight: 700;
+}
+
+
+/* =========================================================
+   07. Decorative variants
+   ========================================================= */
+
+/* ---------- Minimal short line ----------
+   <div class="obs-divider short"></div>
+   --------------------------------------------------------- */
+
+.obs-divider.short {
+    display: block;
+
+    width: 18%;
+    min-width: 80px;
+    height: 2px;
+
+    margin: 2em auto;
+    border-radius: 999px;
+
+    background: var(--text-faint);
+}
+
+.obs-divider.short::before,
+.obs-divider.short::after {
+    display: none;
+}

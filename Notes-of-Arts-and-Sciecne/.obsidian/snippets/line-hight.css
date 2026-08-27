@@ -1,5 +1,180 @@
-.markdown-preview-view h2,
+/* =========================================================
+   Obsidian 垂直间距设置
+   ========================================================= */
+
+
+/* =========================================================
+   0. 参数区
+   以后主要修改这里
+   ========================================================= */
+
+body {
+
+    /* ---------- H2（二级标题） ---------- */
+
+    /* H2 与上方内容的距离 */
+    --my-h2-top: 0.8em;
+
+    /* H2 与下方内容的距离 */
+    --my-h2-bottom: 0.05em;
+
+
+    /* ---------- 普通列表 ---------- */
+
+    /* 整个列表与上方内容的距离 */
+    --my-list-top: 0.05em;
+
+    /* 整个列表与下方内容的距离 */
+    --my-list-bottom: 0.5em;
+
+    /* 每个 bullet 之间的距离 */
+    --my-list-item-gap: 0em;
+
+
+    /* ---------- Why / How / Result ---------- */
+    /* Why → 第一条 bullet */
+    --my-label-to-list: 0.05em;
+
+    /* 最后一条 bullet → 下一个 How / Result */
+    --my-list-to-label: 0.35em;
+
+
+    /* ---------- Live Preview ---------- */
+    /* H2 后面 Markdown 空行的显示高度 */
+    --my-h2-empty-line: 0.45em;
+}
+
+
+
+/* =========================================================
+   1. H2 二级标题
+   例如：## 历史、## 新能源
+   ========================================================= */
+
+
+/* ---------- Reading View ---------- */
+.markdown-preview-view h2 {
+    margin-top: var(--my-h2-top) !important;
+    margin-bottom: var(--my-h2-bottom) !important;
+}
+
+
+/* ---------- Live Preview ---------- */
 .markdown-source-view.mod-cm6 .HyperMD-header-2 {
-  margin-top: 1em;
-  margin-bottom: 0em;
+    margin-top: var(--my-h2-top) !important;
+    margin-bottom: var(--my-h2-bottom) !important;
+}
+
+
+/* Live Preview：压缩 H2 后面的 Markdown 空白行 */
+
+.markdown-source-view.mod-cm6
+.HyperMD-header-2
++ .cm-line:has(> br:last-child) {
+
+    line-height: var(--my-h2-empty-line) !important;
+    min-height: var(--my-h2-empty-line) !important;
+}
+
+
+
+/* =========================================================
+   2. 普通列表
+   ========================================================= */
+
+
+/* ---------- Reading View ---------- */
+
+.markdown-preview-view ul,
+.markdown-preview-view ol {
+    margin-top: var(--my-list-top) !important;
+    margin-bottom: var(--my-list-bottom) !important;
+}
+
+
+/* bullet 之间不要额外拉开 */
+
+.markdown-preview-view li {
+    margin-top: var(--my-list-item-gap) !important;
+    margin-bottom: var(--my-list-item-gap) !important;
+}
+
+
+
+/* =========================================================
+   3. 粗体小标题
+   例如：
+       **Why**
+       **How**
+       **Result**
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   3.1 Why / How / Result → 下方列表
+   --------------------------------------------------------- */
+
+/* 小标题自身不要产生额外下边距 */
+
+.markdown-reading-view .markdown-rendered
+.el-p:has(> p > strong:last-child) > p {
+    margin-bottom: 0 !important;
+}
+
+
+/* 小标题 → 第一条 bullet */
+
+.markdown-reading-view .markdown-rendered
+.el-p:has(> p > strong:last-child) + .el-ul > ul,
+
+.markdown-reading-view .markdown-rendered
+.el-p:has(> p > strong:last-child) + .el-ol > ol {
+
+    margin-top: var(--my-label-to-list) !important;
+}
+
+
+
+/* ---------------------------------------------------------
+   3.2 列表 → 下一个 Why / How / Result
+   --------------------------------------------------------- */
+
+/* 清除列表自身的底部 margin */
+
+.markdown-reading-view .markdown-rendered
+.el-ul:has(+ .el-p > p > strong:last-child) > ul,
+
+.markdown-reading-view .markdown-rendered
+.el-ol:has(+ .el-p > p > strong:last-child) > ol {
+
+    margin-bottom: 0 !important;
+}
+
+
+/* 最后一条 bullet → How / Result */
+
+.markdown-reading-view .markdown-rendered
+.el-ul + .el-p:has(> p > strong:last-child) > p,
+
+.markdown-reading-view .markdown-rendered
+.el-ol + .el-p:has(> p > strong:last-child) > p {
+
+    margin-top: var(--my-list-to-label) !important;
+}
+
+/* =========================================================
+   H2 → 粗体小标题
+   例如：## 新能源 → **Why**
+   ========================================================= */
+
+/* Reading View */
+.markdown-reading-view .markdown-rendered
+.el-h2 + .el-p:has(> p > strong:last-child) > p {
+    margin-top: var(--my-h2-to-label) !important;
+}
+
+/* 同时清除 H2 下方额外距离 */
+.markdown-reading-view .markdown-rendered
+.el-h2:has(+ .el-p > p > strong:last-child) > h2 {
+    margin-bottom: 0.25em !important;
 }

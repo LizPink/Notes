@@ -1,0 +1,8 @@
+/* 内层引用块与上一段之间的距离 */
+.markdown-rendered blockquote > p:has(+ blockquote) {
+    margin-bottom: 0.15em !important;
+}
+
+.markdown-rendered blockquote > blockquote {
+    margin-top: 0 !important;
+}

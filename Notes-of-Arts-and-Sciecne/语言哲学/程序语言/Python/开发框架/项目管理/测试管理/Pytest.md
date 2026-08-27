@@ -2,14 +2,16 @@
 # 测试规则
 ## 测试发现规则
 递归遍历整个项目文件夹，寻找"test_"或者"\_test"作为开头或者结尾的文件，再遍历所有"Test"开头的函数或者类成员函数。
-
+```sh
+uv run pytest tests/test_file1.py::TestClass::test_func
+```
 # 测试配置
 ## 配置文件
 ```python
 ## Example1
 # root/pyproject.toml:
-[tool.pytest.ini_options]
-testpaths = ["tests"]
+[tool.pytest]
+testpaths = ["tests/"]
 addopts = "--cov=src --cov-report=term-missing"
 ...
 ```

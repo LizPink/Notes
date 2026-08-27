@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6d072ae4be147166",
+            "id": "8151184a8945aada",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算科学/计算机工程/计算工程/软件系统/软件配置/JSON.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "JSON"
-            }
-          },
-          {
-            "id": "b8a222463a591254",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算科学/计算机工程/计算工程/软件系统/软件配置/RE.md",
+                "file": "语言哲学/程序语言/C+/基础语法/数据类型/容器类型/基本类型/数组/向量数组/向量数组.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RE"
+              "title": "向量数组"
             }
           },
           {
-            "id": "361f1ce12e58bb13",
+            "id": "0a540ef83dd06f78",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算科学/计算机工程/计算工程/软件系统/软件配置/YAML.md",
+                "file": "语言哲学/程序语言/C+/基础语法/数据类型/容器类型/基本类型/数组/数组.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "YAML"
+              "title": "数组"
             }
           },
           {
-            "id": "34690deaa9a552af",
+            "id": "59f69208dd1b4ffa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语言哲学/程序语言/Python/开发框架/数值计算/Numpy/类型运算/类型运算.md",
+                "file": "数学哲学/理论数学/分析/实分析/积分理论/逆积分/不定积分-实践练习.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -100,35 +76,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "类型运算"
-            }
-          },
-          {
-            "id": "4a7612daa3c3c488",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语言哲学/程序语言/Python/开发框架/数值计算/Numpy/类型定义/类型定义.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "类型定义"
+              "title": "不定积分-实践练习"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,7 +91,7 @@
       {
         "id": "f1d4a39c8e9d75ac",
         "type": "tabs",
-        "dimension": 59.52868852459016,
+        "dimension": 52.356557377049185,
         "children": [
           {
             "id": "356fed687db4ec70",
@@ -161,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "正则表达式",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -187,7 +138,7 @@
       {
         "id": "15743879bc1e83fc",
         "type": "tabs",
-        "dimension": 40.47131147540984,
+        "dimension": 47.64344262295082,
         "children": [
           {
             "id": "754cb4eb10e87173",
@@ -195,20 +146,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算科学/计算机工程/计算工程/软件系统/软件配置/RE.md",
-                "followCursor": false,
+                "file": "语言哲学/程序语言/C+/基础语法/数据类型/容器类型/基本类型/数组/向量数组/向量数组.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "RE 的大纲"
+              "title": "向量数组 的大纲"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 282.5
   },
   "right": {
     "id": "32ab03ea53cee96c",
@@ -293,33 +244,13 @@
             }
           },
           {
-            "id": "6195fe7989386917",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "笔记复习序列"
-            }
-          },
-          {
-            "id": "e82d3d825a9d1c84",
+            "id": "ab447d085a768204",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
               "state": {},
               "icon": "lucide-ghost",
               "title": "review-queue-list-view"
-            }
-          },
-          {
-            "id": "35d434f6a7cdf938",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "笔记复习序列"
             }
           }
         ],
@@ -335,57 +266,57 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "command-palette:打开命令面板": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-spaced-repetition:复习卡片": false
+      "obsidian-spaced-repetition:复习卡片": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": true
     }
   },
-  "active": "6195fe7989386917",
+  "active": "8151184a8945aada",
   "lastOpenFiles": [
-    "语言哲学/程序语言/Python/基础语法/表达式/正则表达式.md",
-    "计算科学/计算机工程/计算工程/软件系统/软件配置/RE.md",
-    "语言哲学/程序语言/Python/开发框架/项目管理/项目管理.md",
-    "计算科学/计算机工程/计算工程/软件系统/软件配置/YAML.md",
-    "计算科学/计算机工程/计算工程/软件系统/软件配置/JSON.md",
-    "语言哲学/程序语言/Python/基础语法/数据类型/容器类型/基本容器/字符串类型/字符串类型.md",
-    "计算科学/计算机工程/计算工程/软件系统/版本控制/Git/Git.md",
-    "语言哲学/程序语言/Python/开发框架/项目管理/测试管理/Pytest.md",
-    "计算科学/计算机工程/计算工程/软件系统/软件配置",
-    "语言哲学/程序语言/Python/基础语法/数据类型/数据类型.md",
-    "语言哲学/程序语言/Python/基础语法/数据类型/函数类型/函数类型.md",
-    "计算科学/计算机工程/计算工程/软件系统/命令系统/Linux/Linux.md",
-    "语言哲学/程序语言/Python/开发框架/数值计算/Numpy/类型运算/类型运算.md",
-    "语言哲学/程序语言/Python/开发框架/数值计算/Numpy/类型操作/类型操作.md",
-    "语言哲学/程序语言/Python/开发框架/数值计算/Numpy/类型定义/类型定义.md",
-    "语言哲学/程序语言/Python/开发框架/数值计算/Pandas/数据类型/类型定义/类型定义.md",
-    "计算科学/计算机理论/网络系统/计算机网络.md",
-    "语言哲学/程序语言/Python/开发框架/数值计算/Pandas/数据类型/_TOC_.md",
-    "计算科学/计算机理论/计算机理论.md",
-    "语言哲学/程序语言/Python/面向对象编程/面向对象编程.md",
-    "语言哲学/程序语言/Python/Python.md",
-    "语言哲学/程序语言/Python/开发框架/项目管理/测试管理",
-    "语言哲学/程序语言/Python/基础语法/控制语句/异常语句/异常语句.md",
-    "计算科学/计算机工程/计算工程/软件系统/命令系统/Power Shell.md",
-    "数据科学/数据建模/数据建模.md",
-    "计算科学/计算机工程/计算工程/软件系统/命令系统",
-    "计算科学/计算机工程/计算工程/软件系统/计算机系统.md",
-    "语言哲学/程序语言/Python/面向对象编程/类的继承/类与对象的继承.md",
-    "语言哲学/程序语言/Python/面向对象编程/类的组合/类与对象的组合.md",
-    "语言哲学/程序语言/Python/面向泛型编程",
-    "语言哲学/程序语言/Python/面向对象编程/类的多态",
-    "数据科学/数据建设/数据读取",
-    "语言哲学/程序语言/Python/基础语法/标识符",
-    "计算科学/计算机工程/图形工程/光锥渲染器",
-    "计算科学/计算机工程/图形工程",
-    "数学哲学/应用数学/代数方程/线性方程",
-    "计算科学/计算机理论/网络系统/HTTPS Protocol.png",
-    "智能科学/神经网络/single-layer-network.svg",
-    "智能科学/神经网络/input.svg",
-    "计算科学/计算机理论/数据与算法/算法理论/Pictures/Turing_Machine.png",
-    "计算科学/计算机理论/数据与算法/算法理论/ChatGPT Image 2026年7月7日 15_54_32.png",
-    "计算科学/计算机理论/数据与算法/算法理论/算法内容/排序算法/BubbleSort.png",
-    "计算科学/计算机理论/数据与算法/数据结构/向量/无序向量/无序向量区间删除_高清动画.gif",
-    "计算科学/计算机理论/数据与算法/数据结构/向量/无序向量/ChatGPT Image 2026年7月13日 22_50_52.png",
-    "金融科学/量化投资/Figures/均线交叉策略.png",
-    "计算科学/计算机理论/数据与算法/算法理论/算法理论/排序算法/Pasted image 20260707134611.png"
+    "MathJax_macro.sty",
+    "MathJax.sty",
+    "数学哲学/理论数学/分析/实分析/积分理论/逆积分/不定积分-实践练习.md",
+    "语言哲学/程序语言/C+/基础语法/数据类型/容器类型/基本类型/数组/数组.md",
+    "语言哲学/程序语言/C+/基础语法/数据类型/容器类型/基本类型/数组/向量数组/向量数组.md",
+    "语言哲学/程序语言/C+/基础语法/数据类型/容器类型/基本类型/数组/位图数组.md",
+    "语言哲学/程序语言/C+/基础设施/系统调用/系统调用.md",
+    "计算科学/计算机理论/数据算法/数据结构/列表/具体实现.md",
+    "计算科学/计算机理论/数据算法/数据结构/列表/抽象类型.md",
+    "语言哲学/程序语言/C+/基础语法/数据类型/容器类型/基本类型/数组/向量数组",
+    "语言哲学/程序语言/C+/基础语法/数据类型/容器类型/基本类型/数组/数组",
+    "语言哲学/程序语言/C+/基础语法/数据类型/数据类型.md",
+    "计算科学/计算机理论/数据算法/数据结构/列表/抽象类型.md",
+    "计算科学/计算机理论/数据算法/数据结构/列表/ArrayList",
+    "计算科学/计算机理论/数据算法/数据结构/列表/LinkList",
+    "语言哲学/程序语言/C+/基础语法/数据类型/算术类型/整数/字符类型/字符类型.md",
+    "语言哲学/程序语言/C+/基础语法/数据类型/容器类型/基本类型/字符串/字符串.md",
+    "语言哲学/程序语言/C+/基础设施/读写管理/输入输出.md",
+    "语言哲学/程序语言/C+/基础语法/控制语句/条件语句/条件语句.md",
+    "数学哲学/理论数学/分析/实分析/积分理论/线积分/标量积分/实践练习.md",
+    "数学哲学/理论数学/分析/实分析/积分理论/线积分/标量积分/积分的概念/积分的概念.md",
+    "数学哲学/理论数学/分析/实分析/积分理论/积分理论.md",
+    "游戏科学/崩坏宇宙/二向乐园/二向乐园.md",
+    "游戏科学/崩坏宇宙/二向乐园",
+    "语言哲学/程序语言/C+/基础设施/构建管理/预处理.md",
+    "语言哲学/程序语言/C+/基础设施/构建管理",
+    "语言哲学/程序语言/C+/基础设施/内存管理/内存管理.md",
+    "语言哲学/程序语言/C+/基础设施/系统调用",
+    "语言哲学/程序语言/C+/基础语法/表达式/条件表达式.md",
+    "语言哲学/程序语言/C+/基础语法/数据类型/算术类型/整数/枚举类型/枚举类型.md",
+    "语言哲学/程序语言/C+/基础语法/数据类型/函数类型/函数类型.md",
+    "语言哲学/程序语言/C+/基础语法/控制语句/条件语句",
+    "数学哲学/理论数学/分析/实分析/极限理论/实践练习/实践练习.md",
+    "数学哲学/理论数学/分析/实分析/极限理论/极限的概念.md",
+    "数学哲学/理论数学/分析/实分析/极限理论/实践练习",
+    "语言哲学/程序语言/C+/C+.md",
+    "语言哲学/程序语言/C+/基础设施/Excalidraw/Draw-编译流程.png",
+    "语言哲学/程序语言/C+/面向对象/类的关系/类的继承/Pasted image 20260820124953.png",
+    "语言哲学/自然语言/英语/TOEFL/04_Speaking/Cafe.png",
+    "语言哲学/自然语言/英语/TOEFL/04_Speaking/Hotel.png",
+    "语言哲学/自然语言/英语/TOEFL/04_Speaking/Map.png",
+    "语言哲学/自然语言/英语/TOEFL/04_Speaking/Orientation.png",
+    "语言哲学/自然语言/英语/TOEFL/04_Speaking/Kitchen.png",
+    "语言哲学/自然语言/英语/TOEFL/04_Speaking/Parking Lot.png",
+    "语言哲学/自然语言/英语/TOEFL/03_Writing/Pasted image 20260816142245.png",
+    "语言哲学/自然语言/英语/TOEFL/03_Writing/Pasted image 20260816142239.png"
   ]
 }

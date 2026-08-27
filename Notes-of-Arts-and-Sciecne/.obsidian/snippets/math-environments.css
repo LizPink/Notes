@@ -1,0 +1,440 @@
+/* =========================================================
+   Obsidian — Mathematical Environments
+   ---------------------------------------------------------
+   Uses native Obsidian Callouts so Markdown, lists and MathJax
+   continue to render normally in both Live Preview and Reading View.
+
+   Example:
+
+   > [!theorem] Theorem 2.1 — Mean Value Theorem
+   > Let $f$ be continuous on $[a,b]$ and differentiable on $(a,b)$.
+
+   Structure
+   00. Global parameters
+   01. Base mathematical environment
+   02. Core mathematics
+   03. Proof / notation / assumptions
+   04. Examples / practice / explanation
+   05. Attention environments
+   06. Special appearance rules
+   ========================================================= */
+
+
+/* =========================================================
+   00. Global parameters
+   ========================================================= */
+
+body {
+    /* ---------- Geometry ---------- */
+    --me-margin-top: 1.15em;
+    --me-margin-bottom: 1.15em;
+    --me-radius: 6px;
+    --me-border-width: 1px;
+    --me-left-border-width: 3px;
+
+    /* ---------- Color intensity ---------- */
+    --me-background-opacity: 5%;
+    --me-title-background-opacity: 7%;
+    --me-border-opacity: 38%;
+    --me-left-border-opacity: 78%;
+
+    /* ---------- Typography ---------- */
+    --me-title-font-size: 0.95em;
+    --me-title-font-weight: 650;
+    --me-title-letter-spacing: 0.015em;
+
+    /* ---------- Core mathematics ---------- */
+    --me-definition: var(--color-cyan);
+    --me-theorem: var(--color-blue);
+    --me-proposition: var(--color-purple);
+    --me-lemma: var(--color-blue);
+    --me-corollary: var(--color-purple);
+    --me-axiom: var(--color-purple);
+    --me-conjecture: var(--color-orange);
+    --me-claim: var(--color-blue);
+
+    /* ---------- Supporting mathematics ---------- */
+    --me-proof: var(--text-muted);
+    --me-notation: var(--color-cyan);
+    --me-assumption: var(--color-yellow);
+
+    /* ---------- Explanation / practice ---------- */
+    --me-example: var(--color-green);
+    --me-exercise: var(--color-orange);
+    --me-solution: var(--color-green);
+    --me-remark: var(--color-yellow);
+    --me-note: var(--color-yellow);
+    --me-intuition: var(--color-cyan);
+
+    /* ---------- Attention ---------- */
+    --me-important: var(--color-red);
+    --me-warning: var(--color-orange);
+}
+
+
+/* =========================================================
+   01. Base mathematical environment
+   ========================================================= */
+
+.callout:is(
+    [data-callout="definition"],
+    [data-callout="theorem"],
+    [data-callout="proposition"],
+    [data-callout="lemma"],
+    [data-callout="corollary"],
+    [data-callout="axiom"],
+    [data-callout="conjecture"],
+    [data-callout="claim"],
+    [data-callout="proof"],
+    [data-callout="notation"],
+    [data-callout="assumption"],
+    [data-callout="example"],
+    [data-callout="exercise"],
+    [data-callout="solution"],
+    [data-callout="remark"],
+    [data-callout="note"],
+    [data-callout="intuition"],
+    [data-callout="important"],
+    [data-callout="warning"]
+) {
+    --math-env-accent: var(--text-muted);
+
+    margin-top: var(--me-margin-top);
+    margin-bottom: var(--me-margin-bottom);
+
+    border:
+        var(--me-border-width)
+        solid
+        color-mix(
+            in srgb,
+            var(--math-env-accent) var(--me-border-opacity),
+            transparent
+        );
+
+    border-left:
+        var(--me-left-border-width)
+        solid
+        color-mix(
+            in srgb,
+            var(--math-env-accent) var(--me-left-border-opacity),
+            transparent
+        );
+
+    border-radius: var(--me-radius);
+
+    background: color-mix(
+        in srgb,
+        var(--math-env-accent) var(--me-background-opacity),
+        var(--background-primary)
+    );
+
+    box-shadow: none;
+}
+
+
+/* ---------- Title ---------- */
+
+.callout:is(
+    [data-callout="definition"],
+    [data-callout="theorem"],
+    [data-callout="proposition"],
+    [data-callout="lemma"],
+    [data-callout="corollary"],
+    [data-callout="axiom"],
+    [data-callout="conjecture"],
+    [data-callout="claim"],
+    [data-callout="proof"],
+    [data-callout="notation"],
+    [data-callout="assumption"],
+    [data-callout="example"],
+    [data-callout="exercise"],
+    [data-callout="solution"],
+    [data-callout="remark"],
+    [data-callout="note"],
+    [data-callout="intuition"],
+    [data-callout="important"],
+    [data-callout="warning"]
+) > .callout-title {
+    color: var(--math-env-accent);
+    font-size: var(--me-title-font-size);
+    font-weight: var(--me-title-font-weight);
+    letter-spacing: var(--me-title-letter-spacing);
+
+    background: color-mix(
+        in srgb,
+        var(--math-env-accent) var(--me-title-background-opacity),
+        transparent
+    );
+}
+
+
+/* ---------- Remove the default callout icon ----------
+   The environment name itself acts as the visual label.
+   The fold arrow is preserved for collapsible callouts.
+   --------------------------------------------------------- */
+
+.callout:is(
+    [data-callout="definition"],
+    [data-callout="theorem"],
+    [data-callout="proposition"],
+    [data-callout="lemma"],
+    [data-callout="corollary"],
+    [data-callout="axiom"],
+    [data-callout="conjecture"],
+    [data-callout="claim"],
+    [data-callout="proof"],
+    [data-callout="notation"],
+    [data-callout="assumption"],
+    [data-callout="example"],
+    [data-callout="exercise"],
+    [data-callout="solution"],
+    [data-callout="remark"],
+    [data-callout="note"],
+    [data-callout="intuition"],
+    [data-callout="important"],
+    [data-callout="warning"]
+) > .callout-title > .callout-icon {
+    display: none;
+}
+
+
+/* ---------- Content spacing ---------- */
+
+.callout:is(
+    [data-callout="definition"],
+    [data-callout="theorem"],
+    [data-callout="proposition"],
+    [data-callout="lemma"],
+    [data-callout="corollary"],
+    [data-callout="axiom"],
+    [data-callout="conjecture"],
+    [data-callout="claim"],
+    [data-callout="proof"],
+    [data-callout="notation"],
+    [data-callout="assumption"],
+    [data-callout="example"],
+    [data-callout="exercise"],
+    [data-callout="solution"],
+    [data-callout="remark"],
+    [data-callout="note"],
+    [data-callout="intuition"],
+    [data-callout="important"],
+    [data-callout="warning"]
+) > .callout-content > :first-child {
+    margin-top: 0.45em;
+}
+
+.callout:is(
+    [data-callout="definition"],
+    [data-callout="theorem"],
+    [data-callout="proposition"],
+    [data-callout="lemma"],
+    [data-callout="corollary"],
+    [data-callout="axiom"],
+    [data-callout="conjecture"],
+    [data-callout="claim"],
+    [data-callout="proof"],
+    [data-callout="notation"],
+    [data-callout="assumption"],
+    [data-callout="example"],
+    [data-callout="exercise"],
+    [data-callout="solution"],
+    [data-callout="remark"],
+    [data-callout="note"],
+    [data-callout="intuition"],
+    [data-callout="important"],
+    [data-callout="warning"]
+) > .callout-content > :last-child {
+    margin-bottom: 0.45em;
+}
+
+
+/* =========================================================
+   02. Core mathematics
+   ========================================================= */
+
+.callout[data-callout="definition"] {
+    --math-env-accent: var(--me-definition);
+}
+
+.callout[data-callout="theorem"] {
+    --math-env-accent: var(--me-theorem);
+    --me-border-opacity: 48%;
+    --me-left-border-width: 4px;
+    --me-title-font-weight: 700;
+}
+
+.callout[data-callout="proposition"] {
+    --math-env-accent: var(--me-proposition);
+    --me-border-opacity: 44%;
+    --me-title-font-weight: 675;
+}
+
+.callout[data-callout="lemma"] {
+    --math-env-accent: var(--me-lemma);
+    --me-border-opacity: 32%;
+}
+
+.callout[data-callout="corollary"] {
+    --math-env-accent: var(--me-corollary);
+    --me-border-opacity: 32%;
+}
+
+.callout[data-callout="axiom"] {
+    --math-env-accent: var(--me-axiom);
+    --me-border-opacity: 50%;
+    --me-left-border-width: 4px;
+    --me-title-font-weight: 700;
+}
+
+.callout[data-callout="conjecture"] {
+    --math-env-accent: var(--me-conjecture);
+    --me-border-opacity: 42%;
+}
+
+.callout[data-callout="claim"] {
+    --math-env-accent: var(--me-claim);
+    --me-border-opacity: 34%;
+}
+
+
+/* =========================================================
+   03. Proof / notation / assumptions
+   ========================================================= */
+
+.callout[data-callout="proof"] {
+    --math-env-accent: var(--me-proof);
+
+    --me-background-opacity: 0%;
+    --me-title-background-opacity: 0%;
+    --me-border-opacity: 24%;
+    --me-left-border-opacity: 48%;
+    --me-left-border-width: 2px;
+    --me-title-font-weight: 550;
+    --me-title-letter-spacing: 0;
+}
+
+.callout[data-callout="proof"] > .callout-title {
+    font-style: italic;
+}
+
+.callout[data-callout="notation"] {
+    --math-env-accent: var(--me-notation);
+    --me-background-opacity: 3%;
+    --me-border-opacity: 28%;
+    --me-title-font-weight: 550;
+}
+
+.callout[data-callout="assumption"] {
+    --math-env-accent: var(--me-assumption);
+    --me-background-opacity: 4%;
+    --me-border-opacity: 34%;
+}
+
+
+/* =========================================================
+   04. Examples / practice / explanation
+   ========================================================= */
+
+.callout[data-callout="example"] {
+    --math-env-accent: var(--me-example);
+}
+
+.callout[data-callout="exercise"] {
+    --math-env-accent: var(--me-exercise);
+    --me-border-opacity: 44%;
+    --me-title-font-weight: 675;
+}
+
+.callout[data-callout="solution"] {
+    --math-env-accent: var(--me-solution);
+    --me-background-opacity: 3%;
+    --me-border-opacity: 28%;
+    --me-title-font-weight: 550;
+}
+
+.callout[data-callout="remark"] {
+    --math-env-accent: var(--me-remark);
+    --me-background-opacity: 3%;
+    --me-border-opacity: 28%;
+    --me-title-font-weight: 550;
+}
+
+.callout[data-callout="note"] {
+    --math-env-accent: var(--me-note);
+    --me-background-opacity: 3%;
+    --me-border-opacity: 28%;
+    --me-title-font-weight: 550;
+}
+
+.callout[data-callout="intuition"] {
+    --math-env-accent: var(--me-intuition);
+    --me-background-opacity: 3%;
+    --me-border-opacity: 28%;
+    --me-title-font-weight: 550;
+}
+
+
+/* =========================================================
+   05. Attention environments
+   ========================================================= */
+
+.callout[data-callout="important"] {
+    --math-env-accent: var(--me-important);
+    --me-background-opacity: 7%;
+    --me-title-background-opacity: 10%;
+    --me-border-opacity: 52%;
+    --me-left-border-width: 4px;
+    --me-title-font-weight: 700;
+}
+
+.callout[data-callout="warning"] {
+    --math-env-accent: var(--me-warning);
+    --me-background-opacity: 7%;
+    --me-title-background-opacity: 10%;
+    --me-border-opacity: 52%;
+    --me-left-border-width: 4px;
+    --me-title-font-weight: 700;
+}
+
+
+/* =========================================================
+   06. Special appearance rules
+   ========================================================= */
+
+/* ---------- Compact modifier via callout metadata ----------
+   Usage:
+   > [!theorem|compact] Theorem 2.1
+   --------------------------------------------------------- */
+
+.callout[data-callout-metadata~="compact"] {
+    --me-margin-top: 0.75em;
+    --me-margin-bottom: 0.75em;
+    --me-background-opacity: 3%;
+    --me-title-background-opacity: 4%;
+}
+
+
+/* ---------- Strong modifier ----------
+   Usage:
+   > [!theorem|strong] Fundamental Theorem
+   --------------------------------------------------------- */
+
+.callout[data-callout-metadata~="strong"] {
+    --me-border-opacity: 58%;
+    --me-left-border-opacity: 100%;
+    --me-left-border-width: 4px;
+    --me-title-font-weight: 700;
+}
+
+
+/* ---------- Plain modifier ----------
+   Usage:
+   > [!remark|plain] Remark
+   --------------------------------------------------------- */
+
+.callout[data-callout-metadata~="plain"] {
+    --me-background-opacity: 0%;
+    --me-title-background-opacity: 0%;
+    --me-border-opacity: 22%;
+}
